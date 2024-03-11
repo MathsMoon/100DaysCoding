@@ -8,4 +8,6 @@ Ao longo dos dois irei fazer atualizações neste Readme para resumir o que tenh
 
 3 - Não foi um dia produtivo, no terceiro dia pouco revisei os conteúdos e só me dei conta do que deveria ler e estudar, os próximos passos são entender os demais tipos de dados como também estruturas de loops.
 
-4 - No dia de hoje revi alguns conteúdos e entendi um pouco mais o uso dos loops de If e Switch, mas preciso melhor consolidar para poder avançar no domínio da linguagem, para amanhã busco consolidar logo esses conteúdos para terminar os dados primitivos e demais tipos de dados para entrar em tipos de methods e classes.
+4 - No quarto dia revi alguns conteúdos e entendi um pouco mais o uso dos loops de If e Switch, mas preciso melhor consolidar para poder avançar no domínio da linguagem, para amanhã busco consolidar logo esses conteúdos para terminar os dados primitivos e demais tipos de dados para entrar em tipos de methods e classes.
+
+5 - No quinto dia consegui aprender um pouco sobre a biblioteca de Scan e a criação de um objeto, consegui criar um sistema básico sobre média e a situação estudantil para reforçar o que entendi da aula, nesta próxima semana quero encerrar a lista básica da W3Schools e avançar o entendimento em OOP para conseguir criar o sistema do 21.
