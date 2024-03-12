@@ -22,6 +22,9 @@ public class Aula04 {
         System.out.println("Digite a quarta nota: ");
         n4 = scan.nextFloat();
 
+        //Após o uso de uma classe é importante que se feche
+        scan.close();
+
         //Cálculo da média e análise da situação do Aluno
         float media =(n1 + n2 + n3 + n4)/4;
 
