@@ -13,3 +13,5 @@ Ao longo dos dois irei fazer atualizações neste Readme para resumir o que tenh
 5 - No quinto dia consegui aprender um pouco sobre a biblioteca de Scan e a criação de um objeto, consegui criar um sistema básico sobre média e a situação estudantil para reforçar o que entendi da aula, nesta próxima semana quero encerrar a lista básica da W3Schools e avançar o entendimento em OOP para conseguir criar o sistema do 21.
 
 6 - No sexto dia aproveitei o dia comum da faculdade para realizar atividades de ambas as partes, do desafio e da faculdade em um só, além de proucrar melhorar os conceitos já consolidados nos dias anteriores, busquei também melhorar o que já havia aprendido com as atividades do curso.
+
+7 - No sétimo dia foi revisado certos conceitos de métodos e o objetivo agora é aprendenr as funções e usos das Arrays, principalmente de como inserir valores a ela que vem do usuário, desta forma ficará mais fácil a compreensão de como construir o 21. Está cada vez mais perto as ferramentas para criar o jogo.
