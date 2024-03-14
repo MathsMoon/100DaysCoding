@@ -18,8 +18,11 @@ public class Aulasjava {
         System.out.println("\nDigite aqui: ");
         //paises = scan.nextLine();
 
-        //Aprender agora os conceitos de Array e tentar fazer listas de gostos e fazer comparativos entre as arrays multidimensionais
-        //scan.close();
+        /*Aprender agora os conceitos de Array e tentar fazer listas de gostos 
+        e fazer comparativos entre as arrays multidimensionais
+
+        scan.close();
+        */
         
     }
 }
