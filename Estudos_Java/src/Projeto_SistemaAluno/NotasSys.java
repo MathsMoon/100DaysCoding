@@ -1,5 +1,4 @@
-package Projetos_menores;
-
+package Projeto_SistemaAluno;
 import java.util.Scanner;
 
 public class NotasSys {
@@ -98,7 +97,7 @@ public class NotasSys {
         ou esperar até ter um conhecimento mais avançado e resolver o problema em questão.
 
         IREI REFAZER EM BREVE, VOU ASSISTIR MAIS ALGUMAS AULAS PARA MELHOR USAR MÉTODOS E OS TIPOS DE DADOS NÃO PRIMITIVOS E LOGO VOLTAREI.
-        
+
          
         */
     }

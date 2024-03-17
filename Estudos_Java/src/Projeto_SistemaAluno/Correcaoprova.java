@@ -1,4 +1,4 @@
-package Projetos_menores;
+package Projeto_SistemaAluno;
 import java.util.Scanner;
 import java.util.Arrays;
 
