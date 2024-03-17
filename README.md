@@ -22,4 +22,4 @@ Ao longo dos dois irei fazer atualizações neste Readme para resumir o que tenh
 
 10 - No décimo dia o progresso já é bem maior, consegui construir uma ideia conceitual de um projeto que futuramente será grande sistema para meu portifólio, terminei uma funcionalidade básica de correção de provas, aprendendo um pouco sobre mais sobre Arrays e a existência de métodos e parametrôs que podem ser utilizados em conjunto a uma biblioteca Java, os próximos passos serão cada vez mais longos, é necessário aprofundar nos fundamentos para não travar em questões básicas de lógica quanto ao uso de Loops ou condições no If ou While, como também vejo profundamente necessário buscar mais plataformas de atividades online para prática do Java, não apenas construindo algumas funcionalidades, mas buscando fixa-las através de muitas tarefas.
 
-11 - 
+11 - No décimo primeiro dia não me dediquei tanto as aulas, revi pouco sobre arrays e deixei como está, para amnahã devo concentrar mais tempo nos estudos.
