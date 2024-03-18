@@ -1,8 +1,8 @@
-package Topicos_java;
+package Projeto_SistemaAluno;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class ZonaTestes {
+public class correcao2 {
     public static void main(String[] args) {
     
     //Criação de Variáveis e Objetos
@@ -15,17 +15,28 @@ public class ZonaTestes {
     //Introdução do sistema
     System.out.println("Insira em forma sequencial os resultados de seu gabarito.");
 
-    //Inserção dos dados pelo usuário
-    for(int i = 0; i<tam; i++){
+    /*Inserção dos dados pelo usuário (Original)
+        for(int i = 0; i<tam; i++) {
+            System.out.println("Descreva sua nota: ")
+            respostas[i] = scan.nextLine().charAt(0);
+        }
+        */
+
+    /* fiz uma alteração como descrito na aula para deixar como parâmetros. 
+    n:respostas. 
+    Funciona, mas não sei dizer se é a melhor decisão:
+    */
+
+    for(int n:respostas){ 
         System.out.println("Digite sua resposta abaixo: ");
-        respostas[i] = scan.nextLine().charAt(0);
+        n = scan.nextLine().charAt(0);
     }
 
     //Cáluco da nota do Aluno
    if (Arrays.equals(gabarito, respostas)) {
         nota = 10;
    } else {
-    for(int i = 0; i<tam; i++) {
+    for(int i = 0; i<tam ; i++) { 
         if (respostas[i] == gabarito[i]) {
             nota++;
         }
