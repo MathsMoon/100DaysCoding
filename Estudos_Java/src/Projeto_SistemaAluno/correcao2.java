@@ -39,9 +39,9 @@ public class correcao2 {
     for(int i = 0; i<tam ; i++) { 
         if (respostas[i] == gabarito[i]) {
             nota++;
+            }
         }
     }
-   }
 
    //Mostrando resultado final
    System.out.printf("Sua nota final foi: %s", nota);

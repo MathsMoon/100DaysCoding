@@ -1,13 +1,16 @@
 package Topicos_java;
 
-import java.util.Arrays;
+//import java.util.Arrays;
 
 public class arrays {
     public static void main(String[] args) {
         //Vou escrever diferentes formas de utilizar um Array e salvar abaixo para lembrar de usar mais tarde.
-        final int tam = 5;
+        /*final int tam = 5;
         int[] num = {20, 10, 40, 50, 30};
         int[] n = new int[tam];
+        int p = 50; //Caso for usar a Binary Search, cria o valor da posição para usar no ternário
+        int pos = Arrays.binarySearch(num, p);
+        */
 
         //Chamando funcionalidades da biblioteca Arrays.
 
@@ -28,5 +31,15 @@ public class arrays {
         Pode ser usado um comando if para já imprimir a resposta:
         System.out.printf("Os Arrays são iguais? R: %s", Arrays.equals(n,num) ? "Sim" : "Não");
         */ 
+
+        /* Para a utilização da Binary Search é necessário que a array seja ordenada de forma crescente,
+        para que ele encontre dentro do array o valor designidado. por exemplo: vou encontrar o valor 50 na array:
+        
+        Arrays.sort(num);
+        System.out.printf("O valor %d está na array? %s",p, pos > 0 ? "Sim" : "Não"); //Não vai reconhecer a Array sem ser ordenada.
+        
+        */
+        
+        
     }
 }

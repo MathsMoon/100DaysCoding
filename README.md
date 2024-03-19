@@ -25,3 +25,5 @@ Ao longo dos dois irei fazer atualizações neste Readme para resumir o que tenh
 11 - No décimo primeiro dia não me dediquei tanto as aulas, revi pouco sobre arrays e deixei como está, para amnahã devo concentrar mais tempo nos estudos.
 
 12 - No décimo segundo dia novamente deixei para as últimas horas do dia o meu estudo, mas consegui progredir um pouco e construir um pequeno código de Verificação completa de uma Array usando o que aprendi na aula 7 do curso de Java do CFB, logo mais irei testar cada vez mais funcionalidades para aprender de fato como utilizar as estruturas de métodos, arrays e reforçar meus conhecimentos.
+
+13 - No décimo terceiro dia terminei de ver a aula sobre Arrays e logo vou fazer atividades para fixar o conteúdo, na faculdade fiz 3 atividades exercitando alguns conceitos básicos de operações aritiméticas, vou rever os conteúdos no final da noite e tentar terminar a aula de Matrizes ainda hoje.
