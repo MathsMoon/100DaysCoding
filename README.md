@@ -29,3 +29,5 @@ Ao longo dos dois irei fazer atualizações neste Readme para resumir o que tenh
 13 - No décimo terceiro dia terminei de ver a aula sobre Arrays e logo vou fazer atividades para fixar o conteúdo, na faculdade fiz 3 atividades exercitando alguns conceitos básicos de operações aritiméticas, vou rever os conteúdos no final da noite e tentar terminar a aula de Matrizes ainda hoje.
 
 14 - No décimo quarto dia revi pouco a aula de Matrizes e logo planejo rever os códigos que já escrevi para melhor o que posso e tentar desenvolver com o que eu já sei. Preciso me concentrar mais em atividades nas próximas semanas para ter uma boa fundamentação nesse 1 mês de aprendizado no desafio.
+
+15 - No décimo quinto dia terminei a aula de Matrizes e vou revisar alguns outros conteúdos para continuar progredindo no meu estudo diário, fiz uma atualização no Linkedin sobre minha evolução e vou começar a buscar requerimentos mínimos de trabalho com Java. Vou buscar algum trabalho após o desafio ou extender para abrangir o que preciso para começar a trabalhar.

@@ -12,7 +12,7 @@ public class Tests {
         }
     }
 
-    public static void SequeArray(int[] a, int[] b) {
+    public static void SequenciaArray(int[] a, int[] b) {
         Arrays.sort(a);
         Arrays.sort(b);
     }
@@ -21,9 +21,9 @@ public class Tests {
     public static void PreencheArray (int[] a, int[] b) { 
         for (int i = 0; i < 5; i++) {
             if (a[i] == 0) {
-                Arrays.fill(a, 10);
+                Arrays.fill(a[i], 10);
             } else if (b[i] == 0) {
-                Arrays.fill(b, 10);
+                Arrays.fill(b[i], 10);
             }
         }
     }
@@ -61,10 +61,11 @@ public class Tests {
 
         //Funcionalidades da Array
         VeriIgualArray(num1, num2); //Veririca se os Arrays são iguais
-        SequeArray(num1, num2); //Vai colocar em sequência os valores das Arrays (menor para o maior)
+        SequenciaArray(num1, num2); //Vai colocar em sequência os valores das Arrays (menor para o maior)
 
         //funcionalidade para ler se alguma coisa da variável está sem preencher
         //PreencheArray(num1, num2); conferir linha 20
+
         MostrarArray(num1, num2);
 
         scan.close();
