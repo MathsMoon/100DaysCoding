@@ -31,3 +31,5 @@ Ao longo dos dois irei fazer atualizações neste Readme para resumir o que tenh
 14 - No décimo quarto dia revi pouco a aula de Matrizes e logo planejo rever os códigos que já escrevi para melhor o que posso e tentar desenvolver com o que eu já sei. Preciso me concentrar mais em atividades nas próximas semanas para ter uma boa fundamentação nesse 1 mês de aprendizado no desafio.
 
 15 - No décimo quinto dia terminei a aula de Matrizes e vou revisar alguns outros conteúdos para continuar progredindo no meu estudo diário, fiz uma atualização no Linkedin sobre minha evolução e vou começar a buscar requerimentos mínimos de trabalho com Java. Vou buscar algum trabalho após o desafio ou extender para abrangir o que preciso para começar a trabalhar.
+
+16 - No décimo sexto dia revisei o conteúdo de Matrizes e busquei utilizar o que já compreendi para criar um joguinho de números aleatórios. Preciso rever questões de Loop e de condições para melhor utilizar as estruturas que criei, vou buscar estudar mais profundamente e resolver logo os testes que fui criando e que ficaram em aberto por falta de fundamentos ou experiência com os tipos usados.

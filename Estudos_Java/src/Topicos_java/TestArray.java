@@ -2,7 +2,7 @@ package Topicos_java;
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class Tests {
+public class TestArray {
 
     public static void VeriIgualArray(int[] a, int[] b){
         if(Arrays.equals(a, b)) {
