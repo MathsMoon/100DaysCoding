@@ -1,6 +1,6 @@
 package Outros_projetos;
 
-public class App {
+public class BlackJack {
     public static void main(String[] args) {
       /*
 

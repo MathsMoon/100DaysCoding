@@ -44,8 +44,6 @@ public class TestsMatriz {
         obtiver 2 vítorias no total, assim saindo o resultado que seria a vitória da md3 do P1 ou P2.
 
         
-         
-        */
         for(int l = 0; l<3; l++) {
             while (winsp1 !=2 || winsp2 !=2) {
                 if(p1jogadas[l] < p2jogadas[l]) {
@@ -66,5 +64,8 @@ public class TestsMatriz {
                 System.out.printf("%n");
             }
         }
+        */
+
+        
     }
 }
