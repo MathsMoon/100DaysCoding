@@ -5,6 +5,8 @@ public class jogador {
     public int b = 0; // logo quaisquer métodos, variáveis ou afins que tenham modificador public são manipuláveis fora da classe.
     private int num = 10;
     private int vidas;
+    static int pontosjogadores = 0;
+    
 
 
     public jogador (int num) { //Isso é um metódo chamado Constructor, ainda preciso saber sua função
