@@ -1,4 +1,4 @@
-package Topicos_java.Classes_java;
+package conceitos_java.Classes_java;
 
 public class jogador {
     private int a = 10; //Private é um modificador de acesso que proibe a manipulação do atributo fora da classe.

@@ -1,4 +1,4 @@
-package Topicos_java.Herança_java;
+package conceitos_java.Herança_java;
 
 public class Carro_Combate extends Carro { //Método que chama a classe Carro e entrega seus atributos como herança ao Carro_Combate
     private final int MAX_ARMAMENTO = 100; //Bom costume colocar constante em full capslock 
@@ -17,7 +17,7 @@ public class Carro_Combate extends Carro { //Método que chama a classe Carro e 
     }
 
     public void setqtdArmamento(int qtdArmamento) { //Método que define como funciona as munições 
-        this.qtdArmamento = qtdArmamento;
+        this.qtdArmamento += qtdArmamento; //Armamento dentro do método set recebe o valor completo do qtdArmamento.
 
         if (this.qtdArmamento > MAX_ARMAMENTO) {
             this.qtdArmamento = MAX_ARMAMENTO;            
@@ -32,7 +32,7 @@ public class Carro_Combate extends Carro { //Método que chama a classe Carro e 
 
     public void atirar() { //Método que me permite atirar caso tenha munição 
         if(this.qtdArmamento > MIN_ARMAMENTO) {
-            setqtdArmamento(-1);
+            setqtdArmamento(-1); //Pega o valor atual do armamento e subtrai por -1
         } else {
             System.out.println("Sem Munição.");
         }
@@ -40,6 +40,6 @@ public class Carro_Combate extends Carro { //Método que chama a classe Carro e 
 
     public void info() { //Imprime a info da classe Carro + Armamento
         super.info();
-        System.out.printf("Quantidade Arm.........: $d$n", this.qtdArmamento);
+        System.out.printf("Quantidade Arm.........: %d%n", this.qtdArmamento);
     }
 }

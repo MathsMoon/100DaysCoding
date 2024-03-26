@@ -39,3 +39,5 @@ Ao longo dos dois irei fazer atualizações neste Readme para resumir o que tenh
 18 - No décimo oitavo dia continuei estudando sobre classes para aprender a melhor manipular, vou continuar vendo as aulas do CFB para entender melhor como funciona os conceitos e buscar depois melhorar os projetos que vou criar. Tenho que estudar também estrutura de pastas e arquivos para melhorar os projetos e criar uma aplicação útil e bem organizada principalmente.
 
 19 - No décimo nono dia continuei estudando sobre classes e herança, preciso rever conceitos de Get and Set para melhor utilizar dentro da criação de métodos como também realizar exercícios sobre classes em si. Durante essa semana o foco vai ser terminar o estudo das classes e realizar atividades para fixar o conteúdo dos últimos 20 dias.
+
+20 - Vigésimo dia e na aula de hoje na faculdade tive contato com POO, preciso revisar e fazer atividades de métodos e classes para montar as funcionalidades sem problemas, vou focar em realizar atividades por essa semana para não ter problemas com os aprendizados futuros.

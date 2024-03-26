@@ -1,4 +1,4 @@
-package Topicos_java;
+package conceitos_java.testes_java;
 import java.security.SecureRandom;
 import java.util.Scanner;
 
