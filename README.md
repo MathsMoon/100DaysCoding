@@ -41,3 +41,7 @@ Ao longo dos dois irei fazer atualizações neste Readme para resumir o que tenh
 19 - No décimo nono dia continuei estudando sobre classes e herança, preciso rever conceitos de Get and Set para melhor utilizar dentro da criação de métodos como também realizar exercícios sobre classes em si. Durante essa semana o foco vai ser terminar o estudo das classes e realizar atividades para fixar o conteúdo dos últimos 20 dias.
 
 20 - Vigésimo dia e na aula de hoje na faculdade tive contato com POO, preciso revisar e fazer atividades de métodos e classes para montar as funcionalidades sem problemas, vou focar em realizar atividades por essa semana para não ter problemas com os aprendizados futuros.
+
+21 - Vígesimo primeiro dia foi mais produtivo, alterei partes do código do Sistema Aluno e consegui fazer ele funcionar de forma simples, anotei falhas e conceitos importantes para rever sobre a estrutura de software e ir melhorando ao longo do estudo, como também criar um modelo visual do sistema, seja no UML ou outras plataformas. É importante futuramente criar um documento técnico para me acostumar também a parte de desenvolvimento e reporte.
+
+22 - Vígesimo Segundo dia continuei mexendo no Sistema Aluno, adicionei algumas funcionalidades na classe principal, alterei algumas variáveis da classe Dados_Aluno para static, assim consegui utiliza-las para o que estava escrevendo, mas devo antes saber se isso é de fato necessário ou bom para a aplicação. 

@@ -8,7 +8,10 @@ public class App {
     pacotes de armas de determinados países ou Expansão da base.
 
     Funcionalidades:
-    
+    - Armazenar informações de cada Mercenário
+    - Informar a Economia do usuário
+    - Tabela do mercado internacional para compras
+    - Consulta do saldo e de possíveis retiradas do dinheiro
       
-     */
+    */
 }

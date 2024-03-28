@@ -55,7 +55,7 @@ public class TestArray {
 
         //Mostrando as Arrays antes da alteração
         for(int i = 0; i<tam; i++) {
-            System.out.printf("\nMostrando os valores Array 1: %d", num1[i]);
+            System.out.printf("%nMostrando os valores Array 1: %d", num1[i]);
             System.out.printf("\nMostrando os valores Array 2: %d", num2[i]);
         }
 

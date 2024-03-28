@@ -12,6 +12,9 @@ public class MainApp {
         p.Nome = scan.nextLine(); 
         System.out.print("%nEscreva seu Sobrenome: ");
         p.Sobrenome = scan.nextLine();
+
+        //Concatenação do nome e sobrenome:
+        System.out.println("Prazer em te conhecer " + p.Nome + " " + p.Sobrenome);
         
         //Fechando a funcionalidade do Scanner
         scan.close();
