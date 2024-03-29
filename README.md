@@ -45,3 +45,5 @@ Ao longo dos dois irei fazer atualizações neste Readme para resumir o que tenh
 21 - Vígesimo primeiro dia foi mais produtivo, alterei partes do código do Sistema Aluno e consegui fazer ele funcionar de forma simples, anotei falhas e conceitos importantes para rever sobre a estrutura de software e ir melhorando ao longo do estudo, como também criar um modelo visual do sistema, seja no UML ou outras plataformas. É importante futuramente criar um documento técnico para me acostumar também a parte de desenvolvimento e reporte.
 
 22 - Vígesimo Segundo dia continuei mexendo no Sistema Aluno, adicionei algumas funcionalidades na classe principal, alterei algumas variáveis da classe Dados_Aluno para static, assim consegui utiliza-las para o que estava escrevendo, mas devo antes saber se isso é de fato necessário ou bom para a aplicação. 
+
+23 - Vígesimo terceiro dia e hoje consegui fazer uma breve revisão dos conteúdos escolhendo algumas atividades para fazer, como também copiando algumas outras para aprender alguns outros conceitos ainda não citados no curso do CFB que faço.
