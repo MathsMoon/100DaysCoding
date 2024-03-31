@@ -12,6 +12,7 @@ public class numeros {
         System.out.print("Número escolhido: ");
         NumeroRecebido = scan.nextInt();
 
+        //Resultado mostrando o anterior e o sucessor.
         System.out.printf("%nNúmero recebido: %d", NumeroRecebido);
         System.out.printf("%nNúmero anterior: %d", NumeroRecebido - 1);
         System.out.printf("%nNúmero Sucessor: %d", NumeroRecebido + 1);

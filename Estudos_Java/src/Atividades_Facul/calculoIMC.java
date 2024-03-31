@@ -16,6 +16,7 @@ public class calculoIMC {
     //Cálculo IMC
     imc = peso / (float) Math.pow(altura, 2); //Usa o Math.pow para potênciação e o converte para uma variável float.
     
+    //Saída do resultado
     System.out.printf("Seu IMC é de: %.2f", imc);
     scan.close();
     }

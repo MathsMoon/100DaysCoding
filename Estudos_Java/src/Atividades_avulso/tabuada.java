@@ -12,10 +12,10 @@ public class tabuada {
         recebevalor = scan.nextInt();
 
         //Processo da tabuada
-        for(int i = 0; i<=10; i++) {
+        for(int i = 1; i<=10; i++) {
             System.out.printf("%n" + recebevalor + " * " + i + " = " + (recebevalor * i));
         }
-
+        
         scan.close();
     }
 }

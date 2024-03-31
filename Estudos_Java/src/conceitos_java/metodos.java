@@ -25,7 +25,7 @@ public class metodos {
         int a = 0, b = 0, c = 0;
         Scanner scan = new Scanner(System.in);
 
-
+        //Inserção dos dados
         System.out.println("Insira um número");
         a = scan.nextInt();
         System.out.println("Insira um número");
@@ -33,6 +33,7 @@ public class metodos {
         System.out.println("Insira um número");
         c = scan.nextInt();
 
+        //Saída dos resultados
         System.out.println(Soma2(a, b, c));  //Colocando o número após o paranteses posso denotar quantas vezes vai repetir o método.
         scan.close();
     }

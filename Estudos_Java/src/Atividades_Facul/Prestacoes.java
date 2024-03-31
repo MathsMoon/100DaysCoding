@@ -8,7 +8,6 @@ public class Prestacoes {
         float result;
         Scanner scan = new Scanner(System.in);
 
-
         //Inserção dos dados
         System.out.println("Cálculo de prestaçãop, coloque abaixo o valor");
         System.out.println("Insira aqui o valor: ");

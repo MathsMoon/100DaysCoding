@@ -47,3 +47,5 @@ Ao longo dos dois irei fazer atualizações neste Readme para resumir o que tenh
 22 - Vígesimo Segundo dia continuei mexendo no Sistema Aluno, adicionei algumas funcionalidades na classe principal, alterei algumas variáveis da classe Dados_Aluno para static, assim consegui utiliza-las para o que estava escrevendo, mas devo antes saber se isso é de fato necessário ou bom para a aplicação. 
 
 23 - Vígesimo terceiro dia e hoje consegui fazer uma breve revisão dos conteúdos escolhendo algumas atividades para fazer, como também copiando algumas outras para aprender alguns outros conceitos ainda não citados no curso do CFB que faço.
+
+24 - Vigésimo quarto está sendo realizado no 25º dia, ontem deixei de estudar e acabei perdendo um dia. para recuperar o tempo perdido passei hoje estudando e fazendo atividades para ter um bom dia 24/25, vou marcar o dia 30 como 24º dia e continuarei normal o desafio, O importante é não parar.
