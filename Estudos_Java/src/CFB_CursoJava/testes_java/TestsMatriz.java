@@ -1,4 +1,4 @@
-package conceitos_java.testes_java;
+package CFB_CursoJava.testes_java;
 import java.security.SecureRandom;
 import java.util.Scanner;
 

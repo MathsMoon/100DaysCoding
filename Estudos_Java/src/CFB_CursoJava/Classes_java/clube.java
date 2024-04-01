@@ -1,4 +1,4 @@
-package conceitos_java.Classes_java;
+package CFB_CursoJava.Classes_java;
 /*
   
  Para acessar certos arquivos é necessários importa-los, exemplo:
@@ -7,7 +7,15 @@ package conceitos_java.Classes_java;
  import Topicos_java.jogador;
 
  por tanto para melhor organização das pastar preciso ver sobre o comando Package e o import.
+
+ Import: usa o import para buscar de outras packages ou pastas as funções ou classes que você busca para atribuir ao programa atual
+ como o uso do Scanner que importa do java.util.Scanner.
+
+ package: é um conjunto de arquivos que possuem as classes do java, seja criados pelo programada, pela biblioteca ou afins.
+ É importante para definir o conjunto específico de uma aplicação. o protect por exemplo só se torna público e acessável para pastas dentro
+ do mesmo package ou que recebem de Herança a classe que tem permissão ou as possuem.
   
+ 
  */
 
 

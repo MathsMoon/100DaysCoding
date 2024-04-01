@@ -1,4 +1,4 @@
-package conceitos_java;
+package CFB_CursoJava;
 import java.util.Scanner;
 
 public class metodos {

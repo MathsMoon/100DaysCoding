@@ -1,4 +1,4 @@
-package conceitos_java.Classes_java;
+package CFB_CursoJava.Classes_java;
 
 public class jogador {
     private int a = 10; //Private é um modificador de acesso que proibe a manipulação do atributo fora da classe.
@@ -15,7 +15,7 @@ public class jogador {
         System.out.printf("O jogador número %d foi criado.%n", num);
     }
 
-    public int getVidas() {
+    public int getVidas() {//Pega a quantidade de vidas do Jogador
         return this.vidas;
     }
 }

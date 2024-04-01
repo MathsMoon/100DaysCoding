@@ -1,5 +1,5 @@
 package Atividades_Facul;
-import java. util.Scanner;
+import java.util.Scanner;
 
 public class conversorTemp {
     public static void main(String[] args) {

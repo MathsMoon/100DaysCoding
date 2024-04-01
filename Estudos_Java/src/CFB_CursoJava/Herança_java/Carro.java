@@ -1,4 +1,4 @@
-package conceitos_java.Herança_java;
+package CFB_CursoJava.Herança_java;
 
 public class Carro {
     //Criação dos atributos comuns a classe, private por só poder ser alterado e manipulado dentro da classe Carro
@@ -15,34 +15,34 @@ public class Carro {
         this.blindagem = 0;
         this.armamento = false;
     }
-    public String getNome(){ //Método que pega o nome do Carro e insere ele na String Nome 
+    public String getNome(){ //Método que retornar o Nome setado na variável nome.
         return this.nome;
     }
-    public Boolean getLigado(){ //Preencher depois de entender sobre GET and SET
+    public Boolean getLigado(){ //Retorna o valor booleano de ligado respondendo se a condição é True or false.
         return this.ligado;
     }
-    public void setLigado(Boolean ligado){ //Preencher depois de entender sobre GET and SET
+    public void setLigado(Boolean ligado){ //Seta o valor de Ligado com o valor booleano de True or false.
         this.ligado = ligado;
     }
-    public Boolean getDestruido(){//Preencher depois de entender sobre GET and SET
+    public Boolean getDestruido(){//Retorna a condição booleana para saber se o carro está destruido ou não
         return this.destruido;
     }
-    public Boolean getArmamento(){//Preencher depois de entender sobre GET and SET
+    public Boolean getArmamento(){//Retorna a condição booleana para saber se o carro possui armamento ou não
         return this.armamento;
     }
-    public void setArmamento(Boolean armamento){//Preencher depois de entender sobre GET and SET
+    public void setArmamento(Boolean armamento){//Confirmando que a condição de armamento é true, seta o armamento de acordo com o que já está na variável.
         this.armamento = armamento;
     }
-    public int getBlindagem(){//Preencher depois de entender sobre GET and SET
+    public int getBlindagem(){//Retorna o valor da blindagem de acordo com o que foi setado na variável
         return this.blindagem;
     }
-  public void setBlindagem(int blindagem){//Preencher depois de entender sobre GET and SET
+  public void setBlindagem(int blindagem){//Seta o valor da blindagem de acordo com o que o usuário colocou no objeto
         this.blindagem = blindagem;
   }
     public void sofrerDano(int dano){//Método que define como funciona o Dano no carro
         this.blindagem -= dano;
 
-        if(this.blindagem <= 0){
+        if(this.blindagem <= 0){//Para carros sem blindagem a destruição é instantânea
             this.blindagem = 0;
             this.ligado = false;
             this.destruido = true;

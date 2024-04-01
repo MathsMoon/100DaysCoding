@@ -1,4 +1,4 @@
-package conceitos_java.Herança_java;
+package CFB_CursoJava.Herança_java;
 
 public class MainApp {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package conceitos_java.Herança_java;
+package CFB_CursoJava.Herança_java;
 
 public class Carro_Combate extends Carro { //Método que chama a classe Carro e entrega seus atributos como herança ao Carro_Combate
     private final int MAX_ARMAMENTO = 100; //Bom costume colocar constante em full capslock 
