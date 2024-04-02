@@ -10,12 +10,14 @@ public class formasgeo {
         System.out.printf("A área do Hexágono é de: %.2f", res);
     }
 
-    public static void Rectangle(float a, float b) {//Área e perímetro do retângulo
+    public static void Rectangle(float a, float b) {//Área, perímetro e Diagonal do retângulo
         float area = a * b;
         float pter = 2 * (a + b);
+        double diagonal = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
         System.out.println("\n----------------------------------");
         System.out.printf("O perímetro do Retângulo é de: %.2f", pter);
         System.out.printf("\nA Área do Retângulo é de: %.2f", area);
+        System.out.printf("\nA Diagonal do Retângulo é de: %.2f", diagonal);
         System.out.println("\n----------------------------------");
     }
 
