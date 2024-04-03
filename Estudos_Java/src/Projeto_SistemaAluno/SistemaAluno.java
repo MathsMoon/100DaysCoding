@@ -32,7 +32,7 @@ public class SistemaAluno {
     //Definindo o Scanner e o objeto aluno para ser manipulado por toda a classe Sistema Aluno
     public static Scanner scan = new Scanner(System.in);
     public static Dados_do_Aluno aluno1 = new Dados_do_Aluno();
-    public static Dados_do_Aluno aluno2 = new Dados_do_Aluno();
+    //public static Dados_do_Aluno aluno2 = new Dados_do_Aluno();
 
     public static void cadastrandoAluno() {//Método que colhe as informações do Aluno para realizar cadastro.
         //Introdução e inserção dos dados

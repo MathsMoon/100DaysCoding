@@ -1,0 +1,189 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "MaioreMenor",
+            "request": "launch",
+            "mainClass": "Atividades_Facul.MaioreMenor",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "MainApp",
+            "request": "launch",
+            "mainClass": "Atividades_Facul.POO.MainApp",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "MainApp(1)",
+            "request": "launch",
+            "mainClass": "Atividades_Facul.POO_atividade.MainApp",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "PadariaFPB",
+            "request": "launch",
+            "mainClass": "Atividades_Facul.PadariaFPB",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "Prestacoes",
+            "request": "launch",
+            "mainClass": "Atividades_Facul.Prestacoes",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "calculoIMC",
+            "request": "launch",
+            "mainClass": "Atividades_Facul.calculoIMC",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "conversorTemp",
+            "request": "launch",
+            "mainClass": "Atividades_Facul.conversorTemp",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "numeros",
+            "request": "launch",
+            "mainClass": "Atividades_Facul.numeros",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "calculadora",
+            "request": "launch",
+            "mainClass": "Atividades_avulso.calculadora",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "compare_vls",
+            "request": "launch",
+            "mainClass": "Atividades_avulso.compare_vls",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "formasgeo",
+            "request": "launch",
+            "mainClass": "Atividades_avulso.formasgeo",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "tabuada",
+            "request": "launch",
+            "mainClass": "Atividades_avulso.tabuada",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "versãoJv",
+            "request": "launch",
+            "mainClass": "Atividades_avulso.versãoJv",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "Calc",
+            "request": "launch",
+            "mainClass": "CFB_CursoJava.Calculadora_java.Calc",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "clube",
+            "request": "launch",
+            "mainClass": "CFB_CursoJava.Classes_java.clube",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "MainApp(2)",
+            "request": "launch",
+            "mainClass": "CFB_CursoJava.Herança_java.MainApp",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "arrays",
+            "request": "launch",
+            "mainClass": "CFB_CursoJava.arrays",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "matrizes",
+            "request": "launch",
+            "mainClass": "CFB_CursoJava.matrizes",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "metodos",
+            "request": "launch",
+            "mainClass": "CFB_CursoJava.metodos",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "TestArray",
+            "request": "launch",
+            "mainClass": "CFB_CursoJava.testes_java.TestArray",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "TestsMatriz",
+            "request": "launch",
+            "mainClass": "CFB_CursoJava.testes_java.TestsMatriz",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "MainApp(3)",
+            "request": "launch",
+            "mainClass": "MainApp",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "BlackJack",
+            "request": "launch",
+            "mainClass": "Outros_projetos.BlackJack",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "Correcaoprova",
+            "request": "launch",
+            "mainClass": "Projeto_SistemaAluno.Correcaoprova",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "SistemaAluno",
+            "request": "launch",
+            "mainClass": "Projeto_SistemaAluno.SistemaAluno",
+            "projectName": "100DaysCoding_ebc63aae"
+        }
+    ]
+}
