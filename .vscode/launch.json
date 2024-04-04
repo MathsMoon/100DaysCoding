@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ParaEntrevista",
+            "request": "launch",
+            "mainClass": "ParaEntrevista",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
