@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BreakAndContinue",
+            "request": "launch",
+            "mainClass": "CFB_CursoJava.BreakAndContinue",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
             "name": "ParaEntrevista",
             "request": "launch",
             "mainClass": "ParaEntrevista",
