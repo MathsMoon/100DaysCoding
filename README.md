@@ -12,10 +12,26 @@ Por tanto fiquem a vontade para olhar toda a estrutura de pastas que montei divi
 ## Estrutura das Pastas dentro do Repositório
 
 ### 1. SRC
-- Pasta principal que concentra todas as outras pastas do meu estudo, destaco principalmente nesta pasta o Diário de Programação que contém tudo que tenho feito durante os 100 dias. Destaco também o arquivo de Anotações que criei para descrever métodos, ideias, funções e conceitos importantes, tanto para rever como para estudar também. 
+Pasta principal que concentra todas as outras pastas do meu estudo, destaco principalmente nesta pasta o Diário de Programação que contém tudo que tenho feito durante os 100 dias. Destaco também o arquivo de Anotações que criei para descrever métodos, ideias, funções e conceitos importantes, tanto para rever como para estudar também. 
 
 Dentro da Source vulgo src existem as pastas com tópicos separados de acordo com o conteúdo da pasta. eu criei por exemplo as Pastas: Atividades_avulso, Banco_arma3, CFB_cursos e etc. Abaixo eu explico cada pasta separadamente detalhando meu processo de estudo e como fui organizando para ter um bom proveito deste desafio.
 
+
+### 2. Atividades
+Dentro do src existem 2 pastas de Atividades: Avulso e Facul. Como é bem intuitivo essas pastas eu separei para que cada atividade fosse colocada em uma área própria, atividades avulso contém as atividades que eu pego na internet, em outros portifólios ou que eu mesmo penso para praticar o que estou estudando.
+
+Em cada pasta eu especifico o tema que contém a pasta e tento ao máximo organizar o que fiz naquela pasta em específico, caso eu precise rever usos de Arrays, métodos, Classes ou quaisquer conceitos posso facilmente encontrar por conta dessas especificações que quis fazer.
+
+### 3. Banco_arma 3, Projeto_SistemaAluno e Outros_Projetos
+Em várias etapas do meu estudo eu tive ideias de construir e praticar minhas habilidades criando certos sistemas e funcionalidades
+sejam especificadas como o Projeto Sistema Aluno ou o Banco de cada jogador no jogo Arma 3, para esses projetos eu busco ou criar um arquivo próprio para testar ou uma pasta toda para fazer algo mais completo, desta forma posso deixar arquivado Projetos que tive e conclui durante o tempo de estudo da Linguagem. A exemplo de projetos menores temos a pasta "Outros projetos", nesta pasta eu dedico a pequenas ideias como o jogo 21 ou BlackJack que pensei em fazer em Java ou até mesmo o projeto simples de CRUD para vender passagens pela Varig, são projetos importantes devido a capacidade de expansão destas ideias de acordo com a minha curva de aprendizado.
+
+### 4. CFB_Curso
+Até o presente momento (31º dia do desafio) é a pasta mais importante, tenho estudando pelo canal no youtube [CFB] (https://www.youtube.com/@cfbcursos) em sua playlist de Java, com 52 aulas tenho guardado todos os conteúdos vistos dentro desta pasta, organizada em tópicos como tenho feito em outras pastas. Até o fim do curso manterei essa pasta e ao término irei organiza-la bem para que fique de consulta caso eu precise, para os próximos cursos irei criar pastas próprias com as mesmas características de organização.
+
+
+### 5. Cursos_Oracle (futuramente)
+Após o fim do curso do CFB vou organizar para os cursos da Oracle e de outras plataformas.
 
 ---
 
