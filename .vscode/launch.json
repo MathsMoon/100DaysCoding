@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Parametros",
+            "request": "launch",
+            "mainClass": "CFB_CursoJava.Parametros",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "Num_Array",
+            "request": "launch",
+            "mainClass": "CFB_CursoJava.Arrays_java.Num_Array",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
             "name": "desafio",
             "request": "launch",
             "mainClass": "CFB_CursoJava.desafio",

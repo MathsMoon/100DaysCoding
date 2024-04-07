@@ -1,63 +1,61 @@
-# 100DaysCoding
-Este é meu desafio dos cem dias, estou focando em aprender o java e até o dia 14/06/2024 ter domínio da linguagem.
-Ao longo dos dois irei fazer atualizações neste Readme para resumir o que tenho feito diariamente como um breve diário de bordo, espero que com o tempo eu seja capaz de saber utilizar bem o Git, Github, Vs Code e o Java em si.
+# SpaceCoders: #100DiasDeCodigo
 
-1 - Primeiro dia do desafio eu revisei o conteúdo central do W3Schools do Java e tentei relembrar o básico da linguagem que já vi no estudo de C# entre outras.
+***Sejam Bem-Vindos ao meu Desafio!*** 
 
-2 - No segundo dia me concentrei em tentar aprofundar o conhecimento e fazer atividades para assegurar o que havia lido sobre dados primitivos e seus tipos, como também tentar usa-los em um exemplo para fixar na mente. (Neste dia também se abre o projeto do jogo 21 que espero terminar durante o desafio).
+Meu desafio dos cem dias, inspirado no desafio do SpaceCoders da Giulia Bordignon.
+repositório representa tudo que tenho me dedicado a estudar do Java para os próximos 100 dias, tendo começado no dia 05/06/2024 e com data de término para o dia 14/06/2024. Durante este período irei descrever tudo que tenho pensado e feito dentro de cada área respectiva que abaixo estarei explicando melhor, o meu objetivo é aprender a esrutura do Java ao ponto que até esta data eu consiga de forma eficaz está as portas de poder me candidatar a qualquer vaga para desenvolvimento Java, utilizando frameworks BackEnd como Spring como também Bancos de dados como MySQL, Oracle e Microsoft MySQL server. 
 
-3 - O terceiro dia não foi um dia produtivo, pouco revisei os conteúdos e só me dei conta do que deveria ler e estudar, os próximos passos são entender os demais tipos de dados como também estruturas de loops.
+Por tanto fiquem a vontade para olhar toda a estrutura de pastas que montei dividindo cada área, cada tópico e ideia em seu devido lugar.
 
-4 - No quarto dia revi alguns conteúdos e entendi um pouco mais o uso dos loops de If e Switch, mas preciso melhor consolidar para poder avançar no domínio da linguagem, para amanhã busco consolidar logo esses conteúdos para terminar os dados primitivos e demais tipos de dados para entrar em tipos de methods e classes.
+---
 
-5 - No quinto dia consegui aprender um pouco sobre a biblioteca de Scan e a criação de um objeto, consegui criar um sistema básico sobre média e a situação estudantil para reforçar o que entendi da aula, nesta próxima semana quero encerrar a lista básica da W3Schools e avançar o entendimento em OOP para conseguir criar o sistema do 21.
+## Estrutura das Pastas dentro do Repositório
 
-6 - No sexto dia aproveitei o dia comum da faculdade para realizar atividades de ambas as partes, do desafio e da faculdade em um só, além de proucrar melhorar os conceitos já consolidados nos dias anteriores, busquei também melhorar o que já havia aprendido com as atividades do curso.
+### 1. SRC
+- Pasta principal que concentra todas as outras pastas do meu estudo, destaco principalmente nesta pasta o Diário de Programação que contém tudo que tenho feito durante os 100 dias. Destaco também o arquivo de Anotações que criei para descrever métodos, ideias, funções e conceitos importantes, tanto para rever como para estudar também. 
 
-7 - No sétimo dia foi revisado certos conceitos de métodos e o objetivo agora é aprendenr as funções e usos das Arrays, principalmente de como inserir valores a ela que vem do usuário, desta forma ficará mais fácil a compreensão de como construir o 21. Está cada vez mais perto as ferramentas para criar o jogo.
+Dentro da Source vulgo src existem as pastas com tópicos separados de acordo com o conteúdo da pasta. eu criei por exemplo as Pastas: Atividades_avulso, Banco_arma3, CFB_cursos e etc. Abaixo eu explico cada pasta separadamente detalhando meu processo de estudo e como fui organizando para ter um bom proveito deste desafio.
 
-8 - No oitavo dia vendo alguns portifólios no github vi uma calculadora feita com foco em OOP, depois de tentar fazer uma calculadora eu notei algumas incostâncias, como posso escrever vários valores? Como posso fazer com que o usuário escolha um procedimento dentre vários e assim realize o que busca preferencialmente? Questões como essa me fizeram pensar, e desta forma irei começar a construir sistemas de forma padronizada para tentar medir o que tenho de conhecimento e o que quero alcançar com aquilo. Ao longo da noite e madrugada continuei meus estudos de Array entre outros métodos para terminar o estudo básico do Java e me aprofundar em OOP, que será a chave futuramente para construir os sistemas complexos que estou em mente agora.
 
-9 - No nono dia do desafio tive uma aula na faculdade sobre gestão de tempo e isso me fez questionar sobre como tenho controlado meu tempo de estudo como também minha dedicação nesse desafio, então durante este dia tanto revi alguns conceitos de métodos no W3Schools como também busquei organizar um certo cronograma para até o fim do desafio ter uma costância de no mínimo 2 horas de estudo em Java, para construir em cada sistema um bom escopo de documentação como tornar costume certos hábitos de desenvolvimento, para me tornar um bom programador.
+---
 
-10 - No décimo dia o progresso já é bem maior, consegui construir uma ideia conceitual de um projeto que futuramente será grande sistema para meu portifólio, terminei uma funcionalidade básica de correção de provas, aprendendo um pouco sobre mais sobre Arrays e a existência de métodos e parametrôs que podem ser utilizados em conjunto a uma biblioteca Java, os próximos passos serão cada vez mais longos, é necessário aprofundar nos fundamentos para não travar em questões básicas de lógica quanto ao uso de Loops ou condições no If ou While, como também vejo profundamente necessário buscar mais plataformas de atividades online para prática do Java, não apenas construindo algumas funcionalidades, mas buscando fixa-las através de muitas tarefas.
+## 🖖 **Regras do Desafio #100DaysCode**
 
-11 - No décimo primeiro dia não me dediquei tanto as aulas, revi pouco sobre arrays e deixei como está, para amnahã devo concentrar mais tempo nos estudos.
+### 1. Comprometa-se Publicamente
 
-12 - No décimo segundo dia novamente deixei para as últimas horas do dia o meu estudo, mas consegui progredir um pouco e construir um pequeno código de Verificação completa de uma Array usando o que aprendi na aula 7 do curso de Java do CFB, logo mais irei testar cada vez mais funcionalidades para aprender de fato como utilizar as estruturas de métodos, arrays e reforçar meus conhecimentos.
+- **Declare seu desafio:** Anuncie no Twitter, Instagram, LinkedIn, ou qualquer outra rede social usando a hashtag #100DiasDeCodigo. Isso aumenta sua responsabilidade e motivação.
 
-13 - No décimo terceiro dia terminei de ver a aula sobre Arrays e logo vou fazer atividades para fixar o conteúdo, na faculdade fiz 3 atividades exercitando alguns conceitos básicos de operações aritiméticas, vou rever os conteúdos no final da noite e tentar terminar a aula de Matrizes ainda hoje.
+### 2. Dedique Tempo Diariamente
 
-14 - No décimo quarto dia revi pouco a aula de Matrizes e logo planejo rever os códigos que já escrevi para melhor o que posso e tentar desenvolver com o que eu já sei. Preciso me concentrar mais em atividades nas próximas semanas para ter uma boa fundamentação nesse 1 mês de aprendizado no desafio.
+- **Tempo mínimo diário:** Dedique no mínimo 30 minutos todos os dias ao aprendizado ou à prática na sua área escolhida durante os próximos 100 dias.
 
-15 - No décimo quinto dia terminei a aula de Matrizes e vou revisar alguns outros conteúdos para continuar progredindo no meu estudo diário, fiz uma atualização no Linkedin sobre minha evolução e vou começar a buscar requerimentos mínimos de trabalho com Java. Vou buscar algum trabalho após o desafio ou extender para abrangir o que preciso para começar a trabalhar.
+### 3. Compartilhe seu Progresso
 
-16 - No décimo sexto dia revisei o conteúdo de Matrizes e busquei utilizar o que já compreendi para criar um joguinho de números aleatórios. Preciso rever questões de Loop e de condições para melhor utilizar as estruturas que criei, vou buscar estudar mais profundamente e resolver logo os testes que fui criando e que ficaram em aberto por falta de fundamentos ou experiência com os tipos usados.
+- **Atualizações diárias:** Compartilhe seu progresso diariamente nas redes sociais com a hashtag #100DaysOfCode. Isso não apenas documenta sua jornada, mas também inspira e motiva outros.
+- **Documentação:** Mantenha um log diário do seu progresso. Pode ser um diário físico, um blog, um repositório no GitHub ou qualquer plataforma de sua preferência. Isso ajuda a refletir sobre o aprendizado e a manter o foco.
 
-17 - No décimo sétimo dia tive na aula da faculdade algumas aulas sobre UML e isso me deu uma ideia de criação de mais um sistema, um projetinho pequeno que vai vender uma Passagem Áerea da Varig e sua disponibilidade de acordo com o que o cliente pode ver, vou ir construindo aos poucos como os demais projetos e ir brincando com ele ao longo do tempo.
+### 4. Encoraje a Participação Comunitária
 
-18 - No décimo oitavo dia continuei estudando sobre classes para aprender a melhor manipular, vou continuar vendo as aulas do CFB para entender melhor como funciona os conceitos e buscar depois melhorar os projetos que vou criar. Tenho que estudar também estrutura de pastas e arquivos para melhorar os projetos e criar uma aplicação útil e bem organizada principalmente.
+- **Suporte mútuo:** Interaja com outros participantes do desafio. Ofereça encorajamento, compartilhe recursos úteis e celebre os sucessos juntos.
 
-19 - No décimo nono dia continuei estudando sobre classes e herança, preciso rever conceitos de Get and Set para melhor utilizar dentro da criação de métodos como também realizar exercícios sobre classes em si. Durante essa semana o foco vai ser terminar o estudo das classes e realizar atividades para fixar o conteúdo dos últimos 20 dias.
+### 5. Planeje Seus Objetivos
 
-20 - Vigésimo dia e na aula de hoje na faculdade tive contato com POO, preciso revisar e fazer atividades de métodos e classes para montar as funcionalidades sem problemas, vou focar em realizar atividades por essa semana para não ter problemas com os aprendizados futuros.
+- **Definição de metas:** Antes de começar, defina claramente o que você deseja alcançar com esse desafio. Estabeleça metas específicas, mensuráveis, alcançáveis, relevantes e temporais (SMART). Esse conteúdo pode te ajudar: https://www.instagram.com/reel/CzBOpJ1gWid/
 
-21 - Vigésimo primeiro dia foi mais produtivo, alterei partes do código do Sistema Aluno e consegui fazer ele funcionar de forma simples, anotei falhas e conceitos importantes para rever sobre a estrutura de software e ir melhorando ao longo do estudo, como também criar um modelo visual do sistema, seja no UML ou outras plataformas. É importante futuramente criar um documento técnico para me acostumar também a parte de desenvolvimento e reporte.
+### 7. Adapte o Desafio às Suas Necessidades
 
-22 - Vigésimo Segundo dia continuei mexendo no Sistema Aluno, adicionei algumas funcionalidades na classe principal, alterei algumas variáveis da classe Dados_Aluno para static, assim consegui utiliza-las para o que estava escrevendo, mas devo antes saber se isso é de fato necessário ou bom para a aplicação. 
+- **Flexibilidade:** Embora a consistência diária seja crucial, adapte a intensidade e o foco do desafio conforme necessário para atender às suas circunstâncias pessoais e profissionais.
 
-23 - Vigésimo terceiro dia e hoje consegui fazer uma breve revisão dos conteúdos escolhendo algumas atividades para fazer, como também copiando algumas outras para aprender alguns outros conceitos ainda não citados no curso do CFB que faço.
+### 8. Explore e Expanda
 
-24 - Vigésimo quarto está sendo realizado no 25º dia, ontem deixei de estudar e acabei perdendo um dia. para recuperar o tempo perdido passei hoje estudando e fazendo atividades para ter um bom dia 24/25, vou marcar o dia 30 como 24º dia e continuarei normal o desafio, O importante é não parar.
+- **Aprendizado contínuo:** Esteja aberto para explorar novos recursos, ferramentas e metodologias ao longo do desafio. O aprendizado é um processo contínuo e dinâmico.
 
-25 - Vigésimo quinto dia continuei as aulas do CFB Cursos e fui acompanhando estudando alguns novos conteúdos: função super, o nível do modificador de acesso Protect, uma calculadora simples usando OOP e alguns outros conceitos de métodos e o uso do loop While. Próximos dias vou adiantas as aulas para tentar zerar o curso antes do 35º dia, para conseguir ver outros cursos e me aprofundar durante o desafio. Mas atualmente o progresso tem sido interessante, e cada vez mais tenho consolidado certos conceitos no escopo e na minha lógica de programação, preciso estudar mais e reforçar esses aprendizados pelos próximos dias.
+### 9. Celebre Cada Marco
 
-26 - Vigésimo sexto dia, no dia de hoje consegui revisar alguns conteúdos de ontem pela aula da faculdade, preciso revisar conceitos de métodos para não ter dificuldade na construção de classes, métodos e funções de cada parte do escopo. Ao longo da semana vou continuar os planos semanais e ir realizando a cada etapa os objetivos que fui descrevendo nos últimos dias para alcançar, Tópicos para revisar: Classes, métodos, Interfaces, Arrays, Bibliotecas e Polimorfismo.
+- **Reconhecimento:** Celebre seus sucessos e marcos alcançados durante o desafio. Isso serve como motivação para continuar e reconhece o esforço investido.
 
-27 - Vigésimo sétimo dia, continuei as aulas do curso de CFB e aprendi mais alguns conceitos de métodos e apliquei melhor o Set and Get para criar algumas classes de animais que possuem atributos semelhantes, também vi questões como Override e sua capacidade de exceções dentro de uma classe específica, para as demais aulas irei continuar o curso e tentar avançar o mais rápido possível para tentar concluir antes do tempo que determinei para mim mesmo.
+### 10. Reflita e Ajuste
 
-28 - Vigésimo oitavo dia, busquei alguns estágios e trabalhos de desenvolvedor com foco em utilizar o java e pude ter uma breve dimensão do que preciso, os fundamentos do java vão me ajudar muito a me estabilizar nos estudos nas próximas semanas, vejo que aos poucos estou progrendindo e melhorando minha lógica para programar, mas enquanto não concluir os cursos me sinto incapaz de tentar buscar algo, preciso estar preparado. Continação das Aulas do youtube e algumas atividades.
+- **Reflexão:** Regularmente, reserve um tempo para refletir sobre o que está funcionando e o que não está. Ajuste sua abordagem conforme necessário para maximizar o aprendizado e o crescimento.
 
-29 - Vigésimo nono dia, continuei as aulas do CFB agora com foco em Arrays, vou aproveitar a semana mais monótona e calma para buscar ver o máximo de vídeos possíveis e melhorar minhas habilidades e pensamento lógico. Preciso revisar mais os conteúdos, no desafio da aula demorei mais do que deveria para pensar nas soluções e fazer um sistema simples de prova.
-
-30 - No trigésimo dia comecei vendo os links salvos de Githubs que encontrei e fui caçando funções, métodos, técnicas ou exercícios que outros desenvolvedores fizeram nas suas jornadas de aprendizado java para saber onde ir após os cursos bases como também ir realizando os exercícios para praticar meus conhecimentos.
+Com estas regras e princípios, tu estas pronto para começar o desafio. Lembre-se de que a jornada é tão importante quanto o destino, então precisamos celebrar nossos checkpoints:
