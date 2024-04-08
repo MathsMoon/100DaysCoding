@@ -1,4 +1,4 @@
-package CFB_CursoJava;
+package CFB_CursoJava.Arrays_java;
 //import java.util.Scanner;
 
 public class Parametros {

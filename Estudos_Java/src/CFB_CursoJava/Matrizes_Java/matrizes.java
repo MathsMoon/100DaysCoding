@@ -1,4 +1,4 @@
-package CFB_CursoJava;
+package CFB_CursoJava.Matrizes_Java;
 import java.security.SecureRandom;
 
 public class matrizes {

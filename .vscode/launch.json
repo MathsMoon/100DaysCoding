@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Array_Metodos",
+            "request": "launch",
+            "mainClass": "CFB_CursoJava.Arrays_java.Array_Metodos",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
             "name": "Parametros",
             "request": "launch",
             "mainClass": "CFB_CursoJava.Parametros",
