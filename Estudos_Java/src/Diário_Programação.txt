@@ -107,7 +107,7 @@ mas enquanto não concluir os cursos me sinto incapaz de tentar buscar algo, pre
 melhorar minhas habilidades e pensamento lógico. Preciso revisar mais os conteúdos, no desafio da aula demorei mais do que deveria para pensar nas soluções e fazer um 
 sistema simples de prova.
 
-30 - No trigésimo dia, comecei vendo os links salvos de Githubs que encontrei e fui caçando funções, métodos, técnicas ou exercícios que outros desenvolvedores fizeram 
+30 - No trigésimo dia comecei vendo os links salvos de Githubs que encontrei e fui caçando: funções, métodos, técnicas ou exercícios que outros desenvolvedores fizeram 
 nas suas jornadas de aprendizado java para saber onde ir após os cursos bases como também ir realizando os exercícios para praticar meus conhecimentos.
 
 31 - trigésimo primeiro dia, refiz o ReadMe do repositório adicionando informações referentes ao desafio e coloquei o diário de forma separada dentro do repositório. 
@@ -116,3 +116,10 @@ conceitos estudados, por tanto para os próximos dias irei ver mais atividades.
 
 32 - trigésimo segundo dia, continuei vendo as aulas agora revendo os conteúdos de Arrays e de Matrizes no java. Vou revisar os conteúdos das últimas semanas para sentir
 mais confiança com as minhas habilidades e lógica do java.
+
+33 - Trigésimo terceiro dia, Durante as aulas na faculdade eu pude entender mais sobre minhas dificuldades na criação de métodos, vejo 
+que sem experiência de criar um sistema grande eu fico confuso com a função dos métodos e o uso de classes abstratas ou não, portanto
+já alguns dias tenho dito que preciso fazer atividades, mas até agora ainda não tomei ação para começar a fazer. Consegui pegar boas 
+atividades nos portifólios que fui vendo alguns dias atrás, por hora falta apenas me encontrar para concentrar um dia todo de revisão,
+vou já escrever meu plano de aula para amanhã e finalmente tirar grandes dúvidas que eu tenho tido, e se possível chegar já nas últimas 
+aulas do CFB Cursos. 
