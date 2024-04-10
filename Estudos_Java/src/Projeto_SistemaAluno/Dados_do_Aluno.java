@@ -1,65 +1,66 @@
 package Projeto_SistemaAluno;
-
-import java.util.Scanner;
-
 public class Dados_do_Aluno { //Classe Dedicada ao Cadastro de Alunos ou da sua validação
     //Definindo o padrão do Cadastro Aluno para a classe de cadastro.
-    static String NOME_ALUNO;
-    static String CLASSE_ALUNO;
-    static int RA;
-    static int SENHA_ALUNO;
-    static Scanner scan = new Scanner(System.in);
+    private String NOME_ALUNO;
+    private String CLASSE_ALUNO;
+    private int RA;
+    private int SENHA_ALUNO;
+    private String ESCOLA;
 
-    public void cadastrandoAluno(String Nome, String ca, int ra, int senha) {//Criando cadastro de Aluno
-       CLASSE_ALUNO = ca;
-       SENHA_ALUNO = senha;
-       RA = ra;
-       NOME_ALUNO = Nome;
+
+    public void setNome(String nome) {
+        this.NOME_ALUNO = nome;
     }
 
-    public static void getCadastroAluno(int ra, int senha) { //Método de validação das informações do cadastro Aluno.
-        if (ra == RA && senha == SENHA_ALUNO) {
-            System.out.println("-------------------------------");
-            System.out.printf("Seja Bem-Vindo: %s!", NOME_ALUNO);
-            SistemaAluno.funcionalidadesSistema();
-        } else if (ra != RA || senha != SENHA_ALUNO ) {
-            System.out.println("Login ou Senha Incorretos");
-            System.out.println("Por favor Realize novamente seu Login ou faça um cadastro.");
-            System.out.printf("Possui Login?%nResponder 0 para Sim e 1 para não:");
-            int Precisacadastro = scan.nextInt();
-    
-            //Verificação para o Login do Aluno
-            if(Precisacadastro == 1) {
-                SistemaAluno.cadastrandoAluno();//Posso acessar de forma static sem precisar criar um objeto nesta classe
-            } else {
-                SistemaAluno.LoginAluno();
-            }
-        } else {
-            System.out.println("Por favor fazer cadastro.");
-            SistemaAluno.cadastrandoAluno();
-        }
+    public String getNome() {
+        return this.NOME_ALUNO;
     }
 
-    public static void InfoAluno() {
+    public void setClasseAluno(String classeAl) {
+        this.CLASSE_ALUNO = classeAl;
+    }
+
+    public String getClasseAluno() {
+        return this.CLASSE_ALUNO;   
+    }
+
+    public void setRA(int ra) {
+        this.RA = ra;
+    }
+
+    public int getRA() {
+        return this.RA;
+    }
+
+    public void setSenha(int senha) {
+        this.SENHA_ALUNO = senha;
+    }
+
+    public int getSenha() {
+        return this.SENHA_ALUNO;
+    }
+
+    public void setEscola(String escola) {
+        this.ESCOLA = escola;
+    }
+
+    public String getEscola() {
+        return this.ESCOLA;
+    }
+
+    // public void ValidacaoDados() {
+    //     Object[] dados = (Object[]) new Object();
+        
+    // }
+
+
+    public void InfoAluno(){
         System.out.println("-------------------------------");
-        System.out.printf("Dados do Aluno: %s", NOME_ALUNO);
-        System.out.printf("%nSérie.......: %s", CLASSE_ALUNO);
-        System.out.printf("%nRA.......: %d%n", RA);
-        /* Depois acrescento mais info
-        System.out.printf("Série.......: %d", this.CLASSE_ALUNO);
-        System.out.printf("Série.......: %d", this.CLASSE_ALUNO);*/
-
-        System.out.println("Deseja ver algo mais ou sair?");
-        System.out.printf("Para Responder: digite 0 para Sair ou 1 para continuar no sistema:");
-        int verificaaluno = scan.nextInt();
-
-        if (verificaaluno == 0) {
-            System.out.println("-------------------------------");
-            SistemaAluno.funcionalidadesSistema();
-        } else {
-            System.out.println("-------------------------------");
-            System.out.println("Caso deseje sair basta clicar no 0.");
-            InfoAluno();
-        }
+        System.out.printf("%nNome Aluno:%s", this.NOME_ALUNO);
+        System.out.printf("%nClasse Aluno:%s", this.CLASSE_ALUNO);
+        System.out.printf("%nEscola do Aluno:%s", this.ESCOLA);
+        System.out.printf("%nNome Aluno:%s%n", this.NOME_ALUNO);
+        System.out.println("-------------------------------");
     }
+
 }
