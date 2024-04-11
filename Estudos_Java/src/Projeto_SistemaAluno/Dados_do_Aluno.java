@@ -48,19 +48,28 @@ public class Dados_do_Aluno { //Classe Dedicada ao Cadastro de Alunos ou da sua 
         return this.ESCOLA;
     }
 
-    // public void ValidacaoDados() {
-    //     Object[] dados = (Object[]) new Object();
-        
-    // }
+    public void ValidacaoDados(int senha, int ra) {
+        if(senha == getRA() && ra == getSenha()) {
+            SistemaAluno.Sistema(); //Meio de acessar o Método da classe Sistema_Aluno
+        } if (senha != getRA()) {
+            System.out.println("Login está incorreto, por favor reescreva!");
+            int a = 1;
+            SistemaAluno.EscolhendoAcesso(a);
+
+        } else if(ra != getSenha()) {
+            System.out.println("Senha está incorreto, por favor reescreva!");
+            int a = 1;
+            SistemaAluno.EscolhendoAcesso(a);
+        }
+    }
 
 
     public void InfoAluno(){
         System.out.println("-------------------------------");
-        System.out.printf("%nNome Aluno:%s", this.NOME_ALUNO);
-        System.out.printf("%nClasse Aluno:%s", this.CLASSE_ALUNO);
-        System.out.printf("%nEscola do Aluno:%s", this.ESCOLA);
-        System.out.printf("%nNome Aluno:%s%n", this.NOME_ALUNO);
+        System.out.printf("%nNome Aluno:%s", getNome());
+        System.out.printf("%nClasse Aluno:%s", getClasseAluno());
+        System.out.printf("%nEscola do Aluno:%s%n", getEscola());
+        // System.out.printf("%nNome Aluno:%s%n", );
         System.out.println("-------------------------------");
     }
-
 }

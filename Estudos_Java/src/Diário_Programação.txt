@@ -127,3 +127,6 @@ aulas do CFB Cursos.
 34 - Trigésimo quarto dia, comecei a refazer o sistema Aluno e aos poucos estou revendo os conteúdos que tenho estudado, além das 
 mudanças que propus a mudar também vou atrás de reforçar os conceitos estudando as issues que comentei na revisão do projeto que fiz
 algum tempo atrás.
+
+35 - Trigésimo quinto dia, hoje pude encontrar outros cursos que auxiliam o estudo de fundamentos e vão além na área de BackEnd e Banco
+de dados que é justamente a área que busco, além deste achado continuei alterando o Sistema Aluno para praticar. 

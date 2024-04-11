@@ -37,72 +37,102 @@ public class SistemaAluno {
     public static Scanner scan = new Scanner(System.in);
     public static Dados_do_Aluno aluno1 = new Dados_do_Aluno();
 
-    public static void EscolhendoAcesso() {
-        System.out.println("Seja Bem-vindo ao sistema Ânima, para realizar acesso basta entrar com Login e senha ou criar um cadastro agora!");
-
-        //Escolhendo qual metodo ira trabalhar
-        System.out.println("Deseja realizar o Login ou criar um cadastro?\nPara login digite 1, para cadastro digite 2");
-        int op = scan.nextInt();
-
+    public static void EscolhendoAcesso(int op) {
         if (op == 1) {
             System.out.println("-------------------------------");
             System.out.println("Digite seu Login: ");
-
+            int ra = scan.nextInt();
             System.out.println("Digite sua Senha: ");
+            int senha = scan.nextInt();
 
-
+            aluno1.ValidacaoDados(senha, ra);
         } else if (op == 2) {
-            System.out.println("-------------------------------");
-            System.out.println("Indo para o cadastro");
+            CadastroAluno();
         }
     }
 
     public static void CadastroAluno() {
-    //Utilizando o aluno
-
+    
+    //Inserção de dados para o objeto Aluno
     System.out.println("Vamos iniciar seu cadastro, digite abaixo algumas informações!");
     System.out.println("-------------------------------");
-    System.out.println("Digite seu nome: ");
-    aluno1.setNome(scan.nextLine());
-    System.out.println("Digite o Nome da sua escola: ");
-    aluno1.setEscola(scan.nextLine());
-    System.out.println("Digite sua classe: ");
-    aluno1.setClasseAluno(scan.nextLine());
-    System.out.println("Digite seu RA: ");
+    System.out.printf("%nDigite seu nome: ");
+    aluno1.setNome(scan.next());
+    System.out.printf("%nDigite o Nome da sua escola: ");
+    aluno1.setEscola(scan.next());
+    System.out.printf("%nDigite sua classe: ");
+    aluno1.setClasseAluno(scan.next());
+    System.out.printf("%nDigite seu RA: ");
     aluno1.setRA(scan.nextInt());
-    System.out.println("Digite sua nova senha: ");
+    System.out.printf("%nDigite sua nova senha: ");
     aluno1.setSenha(scan.nextInt());
     
+    //Mostrando as informações colocadas pelo usuário
     System.out.println("-------------------------------");
-
     aluno1.InfoAluno();
     System.out.println("-------------------------------");
+
+    //Caso precise alterar o cadastro antes de guardar
     System.out.println("As suas informações estão certas?\nDigite 1 para Sim e 2 Para não");
     int op = scan.nextInt();
-
+    //Condicionamento para 
     if (op == 1) {
         Sistema();
     } else if (op == 2) {
         System.out.println("-------------------------------");
-        System.out.println("O que precisa alterar?\n1 - Nome\n2 - RA\n 3 - Senha\n4 - Classe\n 5 - Nome Escola");
+        System.out.println("O que precisa alterar?\n1 - Nome\n2 - RA\n3 - Senha\n4 - Classe\n5 - Nome Escola");
+        int alterar = scan.nextInt(); 
+        AlterandoCadastro(alterar);
         }
     }
 
+    public static void AlterandoCadastro(int alterar) {
+        switch (alterar) {
+            case 1:
+                System.out.printf("%nDigite seu nome: ");
+                aluno1.setNome(scan.next());
+                break;
+            case 2:
+                System.out.printf("%nDigite seu RA: ");
+                aluno1.setRA(scan.nextInt());
+                break;
+            case 3:
+                System.out.printf("%nDigite sua nova senha: ");
+                aluno1.setSenha(scan.nextInt());
+                break;
+            case 4:
+                System.out.printf("%nDigite sua classe: ");
+                aluno1.setClasseAluno(scan.next());
+                break;
+            case 5:
+                System.out.printf("%nDigite o Nome da sua escola: ");
+                aluno1.setEscola(scan.next());
+                break;
+            default:
+                System.out.printf("%nNúmero invalido, reescreva: ");
+                alterar = scan.nextInt();
+                AlterandoCadastro(alterar);
+                break;
+        }
+
+        System.out.println("-------------------------------");
+
+    }
+
     public static void Sistema() {
-        System.out.println("");
+        aluno1.InfoAluno();
     }
 
     public static void main(String[] args) {
         
     //Início do sistema
-    EscolhendoAcesso();
+    System.out.println("Seja Bem-vindo ao sistema Ânima, para realizar acesso basta entrar com Login e senha ou criar um cadastro agora!");
 
+    //Escolhendo qual metodo ira trabalhar
+    System.out.println("Deseja realizar o Login ou criar um cadastro?\nPara login digite 1, para cadastro digite 2");
+    int op = scan.nextInt();
 
-
-
+    //Método de escolha de Login
+    EscolhendoAcesso(op);
     }
-
-
-
-
 }   
