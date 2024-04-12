@@ -124,9 +124,12 @@ atividades nos portifólios que fui vendo alguns dias atrás, por hora falta ape
 vou já escrever meu plano de aula para amanhã e finalmente tirar grandes dúvidas que eu tenho tido, e se possível chegar já nas últimas 
 aulas do CFB Cursos. 
 
-34 - Trigésimo quarto dia, comecei a refazer o sistema Aluno e aos poucos estou revendo os conteúdos que tenho estudado, além das 
-mudanças que propus a mudar também vou atrás de reforçar os conceitos estudando as issues que comentei na revisão do projeto que fiz
-algum tempo atrás.
+34 - Trigésimo quarto dia, comecei a refazer o sistema Aluno e aos poucos estou revendo os conteúdos que tenho estudado, além das mudanças que propus a mudar também vou
+atrás de reforçar os conceitos estudando as issues que comentei na revisão do projeto que fiz algum tempo atrás.
 
-35 - Trigésimo quinto dia, hoje pude encontrar outros cursos que auxiliam o estudo de fundamentos e vão além na área de BackEnd e Banco
-de dados que é justamente a área que busco, além deste achado continuei alterando o Sistema Aluno para praticar. 
+35 - Trigésimo quinto dia, hoje pude encontrar outros cursos que auxiliam o estudo de fundamentos e vão além na área de BackEnd e Banco de dados que é justamente a área 
+que busco, além deste achado continuei alterando o Sistema Aluno para praticar.
+
+36 - Trigésimo sexto dia, continuei alterando o Sistema Aluno e pude receber bons feedbacks de desenvolvedores com mais experiência de métodos de programação e lógica que
+vão me ajudar a escrever um código melhor, mais organizado e bem escrito. Utilizando o Padrão Strategy como método de construir sistemas. Vou continuar as aulas do CFB 
+para finalizar logo o curso inicial de java e partir para os conceitos mais avançados do java.

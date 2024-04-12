@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Matrizes2",
+            "request": "launch",
+            "mainClass": "CFB_CursoJava.Matrizes_Java.Matrizes2",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
             "name": "Array_Metodos",
             "request": "launch",
             "mainClass": "CFB_CursoJava.Arrays_java.Array_Metodos",
