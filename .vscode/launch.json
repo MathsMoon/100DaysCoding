@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TryAndCatch",
+            "request": "launch",
+            "mainClass": "CFB_CursoJava.Excecoes_java.TryAndCatch",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "Listas",
+            "request": "launch",
+            "mainClass": "CFB_CursoJava.Arrays_java.Listas",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "teste01",
+            "request": "launch",
+            "mainClass": "CFB_CursoJava.Jogo_da_Velha.teste01",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "MainApp",
+            "request": "launch",
+            "mainClass": "CFB_CursoJava.Jogo_da_Velha.MainApp",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
             "name": "Matrizes2",
             "request": "launch",
             "mainClass": "CFB_CursoJava.Matrizes_Java.Matrizes2",

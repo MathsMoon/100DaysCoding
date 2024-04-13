@@ -133,3 +133,6 @@ que busco, além deste achado continuei alterando o Sistema Aluno para praticar.
 36 - Trigésimo sexto dia, continuei alterando o Sistema Aluno e pude receber bons feedbacks de desenvolvedores com mais experiência de métodos de programação e lógica que
 vão me ajudar a escrever um código melhor, mais organizado e bem escrito. Utilizando o Padrão Strategy como método de construir sistemas. Vou continuar as aulas do CFB 
 para finalizar logo o curso inicial de java e partir para os conceitos mais avançados do java.
+
+37 - Trigésimo sétimo dia, consegui progredir mais ainda as aulas para a 37 aula do curso do CFB e após as alterações dei uma parada, irei voltar mais tarde para 
+aproveitar o fim de semana para tentar terminar o curso do CFB.

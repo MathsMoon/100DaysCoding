@@ -66,6 +66,6 @@ public class TestsMatriz {
         }
         */
 
-        
+        scan.close();
     }
 }

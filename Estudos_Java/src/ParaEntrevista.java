@@ -17,13 +17,27 @@ public class ParaEntrevista {
         for (int k = 0; k<indice; k++) {
             soma++;
         }
-        System.out.printf("A soma final ficou: %d", soma);
+        System.out.printf("A soma final ficou: %d%n", soma);
     }
 
-    public static void Fibonnaci(int n) {//2 - Código para Fibonnaci.
+    public static void Fibonnaci(int n1) {//2 - Código para Fibonnaci.
+        //Até a 20 sequência em Fibonnaci
+        int limit = 20;
+
+        long[] series = new long[limit];
+
+        //Series recebem os valores iniciais para dar sequência ao cálculo
+        series[0] = 0;
+        series[1] = 1;
+
+        //Cálculo da Fibonnaci feito com a recepeção de 2 números do usuário
+        for(int i=2; i < limit; i++){
+            series[i] = series[i-1] + series[i-2];
+        }
+
+        //Crie abaixo um verify para saber se n1 pertence a sequência
         
     }
-
     public static void IncrementoNum() {//3 - Lógica de incremento.
 
     }
@@ -39,7 +53,6 @@ public class ParaEntrevista {
     public static void main (String[] args) {
        //Métodos para Mostrar os resultados: 
         ProcessoLoop();
-
-
+        Fibonnaci(0);
     }
 }
