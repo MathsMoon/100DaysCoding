@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "strings",
+            "request": "launch",
+            "mainClass": "CFB_CursoJava.Strings_in_Java.strings",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "Throw_inJava",
+            "request": "launch",
+            "mainClass": "CFB_CursoJava.Excecoes_java.Throw_inJava",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
             "name": "TryAndCatch",
             "request": "launch",
             "mainClass": "CFB_CursoJava.Excecoes_java.TryAndCatch",

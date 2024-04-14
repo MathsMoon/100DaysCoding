@@ -16,27 +16,29 @@ public class TryAndCatch {
         carros.add("Camaro");
         carros.add("Corolla");
         carros.add("Cruze");
-       
+        
+        
         try {
-
+            
             /*o Try é uma função que ao receber um bloco de código pode evitar que o erro trave o sistema ao executar o comando 
             e retornar um erro usando o método Catch. Por isso que muitos sistemas por mais que você erre algo ele não para de funcionar
             ao utilizar esse comando, nós damos a possibilidade de descrever um erro ao usuário do sistema e realizar a operação correta
             do comando, sem que o sistema todo pare de funcionar devido ao erro. */
-
             System.out.println(carros.get(20));
-        } catch (Exception e) {
             
+        } catch (Exception e) {
+
+            //System.out.println("Erro: " + e) Retorna o erro especificando a área que ocorreu e o motivo
+            System.out.println("Erro: " + e.getMessage()); //Retorna o erro em específico
+            System.out.println("---------------------");
+        }finally {//Função que vai aparecer após o Try, tendo ocorrido erro ou não
+            //Mostrando a Lista
+            for(String e:carros) {
+                System.out.println(e);
+            }
         }
-        
 
-
-        //Mostrando a Lista
-        for(String e:carros) {
-            System.out.println(e);
-        }
-
-        //Fechando objeto Scanner
+        //Fechando o Objeto
         scan.close();
     }
 }

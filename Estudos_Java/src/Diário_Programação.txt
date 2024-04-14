@@ -117,12 +117,11 @@ conceitos estudados, por tanto para os próximos dias irei ver mais atividades.
 32 - trigésimo segundo dia, continuei vendo as aulas agora revendo os conteúdos de Arrays e de Matrizes no java. Vou revisar os conteúdos das últimas semanas para sentir
 mais confiança com as minhas habilidades e lógica do java.
 
-33 - Trigésimo terceiro dia, Durante as aulas na faculdade eu pude entender mais sobre minhas dificuldades na criação de métodos, vejo 
-que sem experiência de criar um sistema grande eu fico confuso com a função dos métodos e o uso de classes abstratas ou não, portanto
-já alguns dias tenho dito que preciso fazer atividades, mas até agora ainda não tomei ação para começar a fazer. Consegui pegar boas 
-atividades nos portifólios que fui vendo alguns dias atrás, por hora falta apenas me encontrar para concentrar um dia todo de revisão,
-vou já escrever meu plano de aula para amanhã e finalmente tirar grandes dúvidas que eu tenho tido, e se possível chegar já nas últimas 
-aulas do CFB Cursos. 
+33 - Trigésimo terceiro dia, Durante as aulas na faculdade eu pude entender mais sobre minhas dificuldades na criação de métodos, vejo que sem experiência de criar um 
+sistema grande eu fico confuso com a função dos métodos e o uso de classes abstratas ou não, portanto já alguns dias tenho dito que preciso fazer atividades, 
+mas até agora ainda não tomei ação para começar a fazer. Consegui pegar boas atividades nos portifólios que fui vendo alguns dias atrás, por hora falta apenas me 
+encontrar para concentrar um dia todo de revisão, vou já escrever meu plano de aula para amanhã e finalmente tirar grandes dúvidas que eu tenho tido, e se possível
+chegar já nas últimas aulas do CFB Cursos. 
 
 34 - Trigésimo quarto dia, comecei a refazer o sistema Aluno e aos poucos estou revendo os conteúdos que tenho estudado, além das mudanças que propus a mudar também vou
 atrás de reforçar os conceitos estudando as issues que comentei na revisão do projeto que fiz algum tempo atrás.
@@ -136,3 +135,8 @@ para finalizar logo o curso inicial de java e partir para os conceitos mais avan
 
 37 - Trigésimo sétimo dia, consegui progredir mais ainda as aulas para a 37 aula do curso do CFB e após as alterações dei uma parada, irei voltar mais tarde para 
 aproveitar o fim de semana para tentar terminar o curso do CFB.
+
+38 - Trigésimo oitavo dia, cada vez mais próximo da introdução do java com o CFB busco agora me manter ativo até o fim do curso, depois irei estudar no curso da Loiane
+que além do certificado também vai aprofundar minha compreensão do Java, até a metade do desafio já vou ter consolidado meus fundamentos em java e logo mais poderei criar
+novos projetos e também aprimorar minha compreensão de estruturas maiores, com toda certeza até o fim deste ano já estarei em alto nível como programador, preciso de mais
+estudo e dedicação. 
