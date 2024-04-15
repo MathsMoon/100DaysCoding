@@ -1,9 +1,10 @@
 package CFB_CursoJava.Classes_java;
 
 public class jogador {
-    private int a = 10; //Private é um modificador de acesso que proibe a manipulação do atributo fora da classe.
+    // private int a = 10; //Private é um modificador de acesso que proibe a manipulação do atributo fora da classe.
     public int b = 0; // logo quaisquer métodos, variáveis ou afins que tenham modificador public são manipuláveis fora da classe.
-    private int num = 10;
+    @SuppressWarnings("unused") //Usei só pra n ficar aparecendo no meu terminal
+    private int num;
     private int vidas;
     static int pontosjogadores = 0;
     

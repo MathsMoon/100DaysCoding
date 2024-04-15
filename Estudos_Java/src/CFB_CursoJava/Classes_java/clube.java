@@ -35,10 +35,10 @@ public class clube {
         */
 
         //Criando uma condição Pré-Incremento:
-        int posincre = 0;
-        jogador j1 = new jogador(++posincre);
-        jogador j2 = new jogador(++posincre);
-        jogador j3 = new jogador(++posincre);
+        // int posincre = 0;
+        // jogador j1 = new jogador(++posincre);
+        // jogador j2 = new jogador(++posincre);
+        // jogador j3 = new jogador(++posincre);
         //Resultado: sai a partir do 1 já que ele incrementa antes de mostrar.
 
 
@@ -47,7 +47,7 @@ public class clube {
        
          //j1.b = 10;  Se eu criar um j2.b e colocar qualquer outro valor o resultado são 2 valores, cada instância é independente.
 
-        System.out.printf("O valor da vida do jogador 1 é de: %d", j1.getVidas());
+        // System.out.printf("O valor da vida do jogador 1 é de: %d", j1.getVidas());
         //O getVidas() é uma função que chama dentro da outra classe um paramêtro existente, podendo pegar valores e colocando nesta classe atual.
 
     }

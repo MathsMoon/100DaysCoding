@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "math_in",
+            "request": "launch",
+            "mainClass": "CFB_CursoJava.Math_Java.math_in",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "lambda_in",
+            "request": "launch",
+            "mainClass": "CFB_CursoJava.Math_Java.lambda_in",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "Hash_Set",
+            "request": "launch",
+            "mainClass": "CFB_CursoJava.Colecoes_java.Hash_Set",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "Hash",
+            "request": "launch",
+            "mainClass": "CFB_CursoJava.Colecoes_java.Hash",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "Queue",
+            "request": "launch",
+            "mainClass": "CFB_CursoJava.Stacks_Filas.Queue",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "Copy_Bytes",
+            "request": "launch",
+            "mainClass": "CFB_CursoJava.Arquivos_java.Copy_Bytes",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "teste",
+            "request": "launch",
+            "mainClass": "teste",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "LearnArchv",
+            "request": "launch",
+            "mainClass": "CFB_CursoJava.Arquivos_java.LearnArchv",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
             "name": "strings",
             "request": "launch",
             "mainClass": "CFB_CursoJava.Strings_in_Java.strings",

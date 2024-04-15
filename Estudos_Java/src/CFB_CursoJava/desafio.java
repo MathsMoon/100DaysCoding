@@ -48,6 +48,21 @@ public class desafio {
 
 
     public static void Correcao() {//Método de correção com peso 2
+        int total = getTotal();
+
+        if (total > 6) {
+            System.out.println("\n--------------------------------");
+            System.out.printf("Parabéns %s sua nota foi: %d, você passou.", Nome, total );
+        } else if(total == 6 ) {
+            System.out.println("\n--------------------------------");
+            System.out.printf("%s sua nota foi: %d, você está de recuperação.", Nome, total);
+        } else {
+            System.out.println("\n--------------------------------");
+            System.out.printf("%s sua nota foi de: %d, você foi reprovado", Nome, total);
+        }
+    }
+
+    private static int getTotal() {
         int acertos = 0;
 
         if(Arrays.equals(respostas, gabarito)) {//Se a resposta é igual ao gabarito, acertou tudo
@@ -59,17 +74,9 @@ public class desafio {
                 }
             }
         }
-        
-        //Criando a varíavel que recebe resultado com o peso devido
-        int total = acertos * 2;
 
-        if (total > 6) {
-            System.out.printf("Parabéns %s sua nota foi: %d, você passou.", Nome, total );
-        } else if(total == 6 ) {
-            System.out.printf("%s sua nota foi: %d, você está de recuperação.", Nome, total);
-        } else {
-            System.out.printf("%s sua nota foi de: %d, você foi reprovado", Nome, total);
-        }
+        //retornando o total com os acertos
+        return acertos * 2;
     }
 
     public static void main(String[] args) {

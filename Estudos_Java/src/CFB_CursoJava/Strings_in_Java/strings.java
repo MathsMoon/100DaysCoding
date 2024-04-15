@@ -16,10 +16,10 @@ public class strings {
 
 
         //mostrando os resultados
-        // System.out.println(s1); //Vazio
-        // System.out.println(s2); //Recebe o texto normal
-        // System.out.println(s3); //Recebe a Array de Char
-        // System.out.println(s4); //Recebendo os primeiros 5 valores do Array de char
+        System.out.println(s1); //Vazio
+        System.out.println(s2); //Recebe o texto normal
+        System.out.println(s3); //Recebe a Array de Char
+        System.out.println(s4); //Recebendo os primeiros 5 valores do Array de char
 
         //Métodos do String:
         // System.out.println("Tamanho da String s2: " + s2.length()); //Lengt(Mostra quantidade de caracteres dentro da String)
@@ -101,7 +101,7 @@ public class strings {
         char[] Ch_array = s0.toCharArray();
         System.out.println(Ch_array);
 
-        //Split => divide uma String em caracteres
+        //Split => divide uma String em elementos dentro de um Array.
         String[] split = s5.split(" ");
         
         for(String c:split) {

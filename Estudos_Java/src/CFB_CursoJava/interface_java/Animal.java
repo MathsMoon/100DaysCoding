@@ -1,8 +1,8 @@
 abstract class Animal implements SerVivo{
-    
     //Atributos da Classe animal
     private boolean vivo;
     private int massa;
+    @SuppressWarnings("unused") //Usei só pra n ficar aparecendo no meu terminal
     private int x, y;
     private int forca, vel;
 

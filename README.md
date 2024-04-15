@@ -2,10 +2,11 @@
 
 ***Sejam Bem-Vindos ao meu Desafio!*** 
 
-Meu desafio dos cem dias, inspirado no desafio do SpaceCoders da Giulia Bordignon.
-repositório representa tudo que tenho me dedicado a estudar do Java para os próximos 100 dias, tendo começado no dia 05/06/2024 e com data de término para o dia 14/06/2024. Durante este período irei descrever tudo que tenho pensado e feito dentro de cada área respectiva que abaixo estarei explicando melhor, o meu objetivo é aprender a esrutura do Java ao ponto que até esta data eu consiga de forma eficaz está as portas de poder me candidatar a qualquer vaga para desenvolvimento Java, utilizando frameworks BackEnd como Spring como também Bancos de dados como MySQL, Oracle e Microsoft MySQL server. 
+Meu desafio dos 100 dias, inspirado no desafio do SpaceCoders da Giulia Bordignon.
 
-Por tanto fiquem a vontade para olhar toda a estrutura de pastas que montei dividindo cada área, cada tópico e ideia em seu devido lugar.
+>“O estudioso é aquele que leva aos demais o que ele compreendeu: a Verdade” (Santo Tomás de Aquino).
+
+repositório representa tudo que tenho me dedicado a estudar do Java para os próximos 100 dias, tendo começado no dia 05/03/2024 e com data de término para o dia 14/06/2024. Durante este período de estudo meu foco e objetivo central é aprender a estrutura do java como também lógica da programação em geral, para atuar no mercado de trabalho irei focar no aprendizado do java e seus frameworks BackEnd para até o fim do desafio poder focar em especializar determinadas áreas do java, por tanto caso queira acompanhar esta jornada ou saber como eu a comecei fique a vontade para olhar toda a estrutura de pastas que montei dividindo cada área, cada tópico e ideia em seu devido lugar.
 
 ---
 
@@ -27,11 +28,20 @@ Em várias etapas do meu estudo eu tive ideias de construir e praticar minhas ha
 sejam especificadas como o Projeto Sistema Aluno ou o Banco de cada jogador no jogo Arma 3, para esses projetos eu busco ou criar um arquivo próprio para testar ou uma pasta toda para fazer algo mais completo, desta forma posso deixar arquivado Projetos que tive e conclui durante o tempo de estudo da Linguagem. A exemplo de projetos menores temos a pasta "Outros projetos", nesta pasta eu dedico a pequenas ideias como o jogo 21 ou BlackJack que pensei em fazer em Java ou até mesmo o projeto simples de CRUD para vender passagens pela Varig, são projetos importantes devido a capacidade de expansão destas ideias de acordo com a minha curva de aprendizado.
 
 ### 4. CFB_Curso
-Até o presente momento (31º dia do desafio) é a pasta mais importante, tenho estudando pelo canal no youtube [CFB](https://www.youtube.com/@cfbcursos) em sua playlist de Java, com 52 aulas tenho guardado todos os conteúdos vistos dentro desta pasta, organizada em tópicos como tenho feito em outras pastas. Até o fim do curso manterei essa pasta e ao término irei organiza-la bem para que fique de consulta caso eu precise, para os próximos cursos irei criar pastas próprias com as mesmas características de organização.
+A pasta da introdução ao java, neste curso do professor Bruno do canal: [CFB](https://www.youtube.com/@cfbcursos) uma playlist de Java com 52 aulas, desde a introdução a linguagem e suas variáveis e métodos até conceitos como Files, HashMaps e conceitos básicos de POO. Dentro desta pasta está os conteúdos vistos do curso organizados em tópicos como tenho feito por padrão em outras pastas. Após a conclusão desta etapa eu consegui organiza-la melhor para torna-la mais fácil de compreensão separando os temas para minha própria revisão ou para caso de alguém veja e decida seguir este mesmo caminho que tomo agora.
 
 
-### 5. Cursos_Oracle (futuramente)
-Após o fim do curso do CFB vou organizar para os cursos da Oracle e de outras plataformas.
+### 5. Loiane_Curso
+Após o fim do curso do CFB o próximo curso que comecarei será o da Professora [Loiane](https://loiane.training/cursos), revisando os conteúdos que aprendi na introdução do CFB e indo para assuntos mais avançados do POO, desta forma no presente momento (39º dia do desafio) esta pasta conterá os assuntos que eu irei estudar e revisar aprofundando meus conhecimentos java, como também estudos do Spring e Angular para aprofundar ainda mais meus conhecimentos backEnd java.
+
+
+
+### ?. Curso_Dojo (futuramente)
+Uma das próximas pastas que eu crierei no desafio. Em breve novidades
+
+
+### ?. Cursos_Oracle (futuramente)
+Uma das próximas pastas que eu crierei no desafio. Em breve novidades
 
 ---
 
