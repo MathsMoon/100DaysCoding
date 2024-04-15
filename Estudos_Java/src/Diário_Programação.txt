@@ -141,4 +141,6 @@ que além do certificado também vai aprofundar minha compreensão do Java, até
 novos projetos e também aprimorar minha compreensão de estruturas maiores, com toda certeza até o fim deste ano já estarei em alto nível como programador, preciso de mais
 estudo e dedicação. 
 
-39 - Trigésimo Nono dia, hoje é um dia especial
+39 - Trigésimo Nono dia, hoje é um dia especial afinal hoje eu termino o curso do CFB de Java, e após tanto tempo eu sinto que estou pronto para buscar
+novas coisas, agora vou me dedicar ao curso da Loiane para revisar os conteúdos, realizar exercícios que ela propõem e melhorar minha compreensão lógica
+da programação em si, portanto agora entro em uma nova etapa buscando novamente melhorar cada vez mais minhas habilidades buscando me tornar um desenvolvedor.
