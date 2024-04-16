@@ -144,3 +144,8 @@ estudo e dedicação.
 39 - Trigésimo Nono dia, hoje é um dia especial afinal hoje eu termino o curso do CFB de Java, e após tanto tempo eu sinto que estou pronto para buscar
 novas coisas, agora vou me dedicar ao curso da Loiane para revisar os conteúdos, realizar exercícios que ela propõem e melhorar minha compreensão lógica
 da programação em si, portanto agora entro em uma nova etapa buscando novamente melhorar cada vez mais minhas habilidades buscando me tornar um desenvolvedor.
+
+40 - Quadragésimo dia, hoje foi um dia bastante produtivo, apesar de não ter começado de fato as aulas da Prof Loiane eu tenho buscado compreender meu nível de
+conhecimento através de atividades, aproveitando que hoje é aula de Java na faculdade pude reforçar conceitos de encapsulamento como também de estrutura de funções
+desta forma comecei a organizar dois projetos: Banco Arma 3 como também um pequeno sistema de login e cadastro no atividades Avulso, com o tempo irei realizando as 
+atividades para reforçar o que já aprendi como também saber o que preciso estudar/revisar e seguir estudando conceitos avançados no Java, como também os seus frameworks.

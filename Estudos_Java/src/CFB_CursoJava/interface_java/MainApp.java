@@ -1,5 +1,4 @@
-public class MainApp {
-    
+public class MainApp { 
     public static void main(String[] args) {
         //Definindo Objetos
         Aranha AraAra = new Aranha(20, 5, 3, 10);

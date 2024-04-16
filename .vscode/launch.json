@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MainPessoa",
+            "request": "launch",
+            "mainClass": "Atividades_Facul.Encapsulamento_Java.MainPessoa",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "CadastSenha",
+            "request": "launch",
+            "mainClass": "Atividades_avulso.CadastSenha",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "IMC",
+            "request": "launch",
+            "mainClass": "Atividades_avulso.IMC",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "a",
+            "request": "launch",
+            "mainClass": "a",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
+            "name": "Exerc19",
+            "request": "launch",
+            "mainClass": "Loiane_CursoJava.Exercicios.Exerc19",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
             "name": "math_in",
             "request": "launch",
             "mainClass": "CFB_CursoJava.Math_Java.math_in",
