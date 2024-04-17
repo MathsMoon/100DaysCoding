@@ -149,3 +149,9 @@ da programação em si, portanto agora entro em uma nova etapa buscando novament
 conhecimento através de atividades, aproveitando que hoje é aula de Java na faculdade pude reforçar conceitos de encapsulamento como também de estrutura de funções
 desta forma comecei a organizar dois projetos: Banco Arma 3 como também um pequeno sistema de login e cadastro no atividades Avulso, com o tempo irei realizando as 
 atividades para reforçar o que já aprendi como também saber o que preciso estudar/revisar e seguir estudando conceitos avançados no Java, como também os seus frameworks.
+
+41 - Quadragésimo primeiro dia, hoje foi menos movimentado por ter prova na faculdade, não me dediquei o suficiente e isso me mostra como tenho que lidar com os estudos
+daqui para frente, apesar deste incoveniente provocado por mim mesmo pude aproveitar uma boa leitura do livro Java for Dummies 8th edition que está me ensinando bastante 
+coisa sobre POO como também a estrutura do java no conceito teórico e de desenvolvimento histórico da linguagem, é um bom livro de introdução para começar a ter mais 
+interesse em ler sobre estes conceitos mais teóricos e também o uso da lingugam no mundo de hoje em dia, portanto para os próximos dias irei detalhar mais sobre o que 
+aprendi com o livro.
