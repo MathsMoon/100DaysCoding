@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Exerc17",
+            "request": "launch",
+            "mainClass": "Loiane_CursoJava.Exercicios.Exerc17",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
             "name": "MainPessoa",
             "request": "launch",
             "mainClass": "Atividades_Facul.Encapsulamento_Java.MainPessoa",
