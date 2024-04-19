@@ -3,48 +3,43 @@ import java.util.Scanner;
 
 public class Exerc17 {
     public static void main(String[] args) {
-        //3. Programa de validação
+        //4. Cálculo populacional
         Scanner scan = new Scanner(System.in);
-        String nome = "";
-        int idade, salario;
-        char sexo, Estado_Civil;
+        String CityAName = "";
+        String CityBName = "";
+        float cA, cB;
+        int cityApop;
+        int cityBpop;
+        float anos = 0;
 
-        //Início do sistema
-        System.out.println("Preencha as informações abaixo");
-        System.out.println("-------------------------");
 
-        //Inserção de valores
-        System.out.println("Nome:");
-        nome = scan.next();
-        System.out.println("Idade: ");
-        idade = scan.nextInt();
-        System.out.println("Salário: ");
-        salario = scan.nextInt();
-        System.out.println("Sexo (Apenas F ou M): ");
-        sexo = scan.next().charAt(0);
-        System.out.println("Estado Civil(Apenas S, C, V ou D):");
-        Estado_Civil = scan.next().charAt(0);
+        //Inserção dos valores:
+        System.out.println("Insira abaixo os valores pedidos");
+        System.out.println("Nome da cidade A(Maior População): ");
+        CityAName = scan.nextLine(); 
+        System.out.println("Nome da cidade B(Menor População): ");
+        CityBName = scan.nextLine(); 
+        System.out.println("Insira o valor da população da cidade A: ");
+        cityApop = Integer.parseInt(scan.nextLine());
+        System.out.println("Insira o valor da população da cidade B: ");
+        cityBpop = Integer.parseInt(scan.nextLine());
+        System.out.println("Insira o valor da taxa de aumento da população da cidade A: ");
+        cA = Float.parseFloat(scan.nextLine());
+        System.out.println("Insira o valor da taxa de aumento da população da cidade B: ");
+        cB = Float.parseFloat(scan.nextLine());
 
-        //Classe do char que ajuda a ter funcionalidades parecidas com String
-        sexo = Character.toUpperCase(sexo);
-        Estado_Civil = Character.toUpperCase(Estado_Civil);
+        //OBS: O USO DO (TIPO).parse(tipo) soluciona o problema de pular a linha que o nextInt ou nextFloat possuia na leitura de várias strings
 
-        System.out.println(Estado_Civil);
 
-        //Validação
-        if(nome.length() < 3) {
-            System.out.println("Nome inválido");
-        } else if (idade > 150 || idade < 0) {
-            System.out.println("Idade inválida");
-        } else if (salario < 0) {
-            System.out.println("POBRE KKKKKKKKKKKKKKKKKKKKKKKKKKK");
-        } else if (sexo != 'F' && sexo != 'M') {
-            System.out.println("Sexualidade inválida");
-        } else if (Estado_Civil != 'S' && Estado_Civil != 'C' && Estado_Civil != 'V' && Estado_Civil != 'D') {
-            System.out.println("Estado Civil inválido");
+        //Loop para o cálculo
+        while(cityApop > cityBpop) { //Rever cálculo de crescimento pela taxa:
+            cityApop = (int) ((int) cityApop + (cityApop * cA/100));
+            cityBpop = (int) ((int) cityBpop + (cityBpop * cB/100));
+            anos += 1;
         }
 
-        System.out.printf("%n %s %d %d %c %c", nome, idade, salario, sexo, Estado_Civil);
+        //Mostrando o resultado
+        System.out.printf("São necessários %d anos para a cidade %s superar a cidade %s", anos, CityAName, CityBName);
         scan.close();
     }
 }

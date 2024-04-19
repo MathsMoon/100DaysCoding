@@ -160,3 +160,6 @@ aprendi com o livro.
 o curso para chegar no tópico de POO, e assim revisar os conteúdos que já havia estudado e ter mais segurança nas minhas habilidades e também poder praticar com mais 
 exercícios, por tanto como já planejado anteriormente até o dia 60 tentar terminar tanto o curso básico como o intermediário. Para isso vou focar mais tempo para finalizar
 o curso, assim deixando os 40 dias finais do desafio para o aprendizado de Spring.
+
+43 - Quadragésimo terceiro dia, continuação das atividades que tenho feito da professora Loiane, preciso dedicar mais tempo para conseguir ter um bom tempo para finalizar
+o desafio com vários conteúdos estudados, irei continuar o projeto do Banco em Arma feito no puro java e logo mais estarei continuando o curso da professora.
