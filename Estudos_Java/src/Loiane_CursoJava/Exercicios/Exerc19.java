@@ -95,10 +95,12 @@ public class Exerc19 {
         }
 
         //12. Somando todos os elementos da Array:
-        // System.out.println("-------11--------");
-        // for(int i = 0; i<TAM; i++) {
-        //     int c =  A[i] 
-        // }
+        System.out.println("-------11--------");
+        int soma = 0;
+        for(int i = 0; i<TAM; i++) {
+            soma +=  A[i]; 
+        }
+        System.out.println(soma);
 
         //13. 
         System.out.println("-------12--------");

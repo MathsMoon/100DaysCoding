@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "Banco_arma3.App",
+            "projectName": "100DaysCoding_ebc63aae"
+        },
+        {
+            "type": "java",
             "name": "Exerc17",
             "request": "launch",
             "mainClass": "Loiane_CursoJava.Exercicios.Exerc17",
