@@ -1,5 +1,7 @@
+package CFB_CursoJava.SuperClasse;
+
 public class Aviao extends Veiculo {
-    private int categoria;
+    private final int categoria;
 
     public Aviao(String nome, int categoria) {
         super(nome, 10); //uma referência a Super classe Veiculo

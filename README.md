@@ -36,8 +36,9 @@ Após o fim do curso do CFB o próximo curso que comecarei será o da Professora
 
 
 
-### ?. Curso_Dojo (futuramente)
-Uma das próximas pastas que eu crierei no desafio. Em breve novidades
+### 6. Curso_Dojo
+Em paralelo ao curso da Loiane no 45º dia de desafio eu abro também as aulas do Curso de java do Dojo para complementar as aulas da professora Loiane, neste curso em específico vou continuar temas que não foram tão aprofundados pela professora como também continuar os meus estudos de acordo com o seguimento do curso do Maratona em si. 
+Desta forma faço 2 cursos em 1, economizando o tempo do desafio e buscando aprender ainda mais sobre os conteúdos que preciso ir reforçando nesta caminhada.
 
 
 ### ?. Cursos_Oracle (futuramente)

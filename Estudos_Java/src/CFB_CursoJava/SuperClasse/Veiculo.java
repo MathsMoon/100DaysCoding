@@ -1,6 +1,8 @@
+package CFB_CursoJava.SuperClasse;
+
 public class Veiculo { //Super classe dos Veículos
-    private String Nome;
-    private int tipo;
+    private final String Nome;
+    private final int tipo;
     
     public Veiculo(String Nome, int tipo) {//Método construtor parâmetro
         this.tipo = tipo;

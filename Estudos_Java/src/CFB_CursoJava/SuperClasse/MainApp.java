@@ -1,3 +1,5 @@
+package CFB_CursoJava.SuperClasse;
+
 public class MainApp {
     public static void main(String[] args) {
         //Definindo os dados de cada classe

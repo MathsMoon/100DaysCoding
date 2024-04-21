@@ -1,0 +1,18 @@
+Vou escrever aqui alguns tópicos para estudar e também conteúdos que vi de outros Repositórios no GitHub.
+
+Funções:
+scan.skip() => é uma função usada durante a leitura do scan em diversas variáveis diferentes, ele utiliza um parâmetro para pular o mesmo
+tornando mais fácil a leitura correta das informações quando se tem diversas variáveis ao mesmo tempo.
+
+Tópicos:
+- Pesquisar sobre Pós e Pré incremento.
+- Pesquisar sobre Try e Catch.
+- Pesquisar sobre Listas no Java.
+- Reforçar  conceito de Classe Abstrata.
+- Pesquisar sobre ForEach interable
+- Pesquisar sobre HashCode e HashSet
+
+Coisas para fazer:
+- Terminar o TestsMatriz.Java
+- Terminar o TestsArray.Java
+- Refazer o Break and Continue
