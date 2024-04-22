@@ -167,4 +167,8 @@ o desafio com vários conteúdos estudados, irei continuar o projeto do Banco em
 44 - Quadragésimo quarto dia, mais um dia que passei arrumando Banco do Arma e realizando algumas atividades para práticar, a partir de amanhã vou focar no curso apenas
 preciso revisar muitos conceitos e buscar os certificados para preencher mais meu LinkedIn.
 
-45 - 
+45 - Quadragésimo quinto dia, continuando os estudos busquei estudar mais pelo Dojo enquanto migro para usar o Intellij para aprender uma IDE focada em java, assim para amanhã
+vou buscar estudar mais os conteúdos e reforçar os fundamentos até o dia 55 para ter tempo para estudar a fundo o Spring sem pausas.
+
+46 - Quadragésimo sexto dia, hoje fiz mais atividades referentes a matéria de Loops, preciso me concentrar no aprendizado da função while, vou continuar focando em atividades
+para ter um avanço real nos fundamentos da linguagem, para avançar no conhecimento das minhas habilidades.
