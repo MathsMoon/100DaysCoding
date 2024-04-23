@@ -31,9 +31,9 @@ public class Pessoa {
         return this.idade;
     }
 
-    public void info() {//Método que mostra as informações
-        System.out.printf("%nNome: %s", this.Nome);
-        System.out.printf("%nidade: %d", this.idade);
+    public void info() {//Método que mostra as informações Cadastradas
+        System.out.printf("%nNome: %s", getNome());
+        System.out.printf("%nidade: %d", getIdade());
         System.out.printf("%nidade: " + getSenha());
     }
 }

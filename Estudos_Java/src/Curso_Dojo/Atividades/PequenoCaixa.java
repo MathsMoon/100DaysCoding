@@ -1,10 +1,10 @@
-package Curso_Dojo;
+package Curso_Dojo.Atividades;
 import java.util.Scanner;
 
 /* REVER O CÓDIGO PARA PROSSEGUIR APENAS COM NÚMERO DE PRODUTOS ACEITO NO SISTEMA*/
 
 
-public class Testes {
+public class PequenoCaixa {
     public static void main(String[] args) {
         //Sistema de caixa:
         int qtdProduto;

@@ -30,8 +30,17 @@ public class Exerc17 {
         int n = scan.nextInt();
 
         //criando o Array para o fatorial
-        int[] num1 = new int[n];
-        int result = 1;
+        long[] num1 = new long[n];
+        long result = 1;
+
+        if(n > 63) {
+            System.out.println("Número maior que o permitido (63), por favor escolha outro: ");
+            n = scan.nextInt();
+            if(n > 63) {
+                System.out.println("Novamente número maior que o permitido, seguiremos com 62");
+                n = 62;
+            }
+        }
 
         //Loop que vai fatorando os elementos do Array
         for (int i = n; i > 0; i--) {

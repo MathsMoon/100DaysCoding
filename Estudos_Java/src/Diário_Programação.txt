@@ -172,3 +172,6 @@ vou buscar estudar mais os conteúdos e reforçar os fundamentos até o dia 55 p
 
 46 - Quadragésimo sexto dia, hoje fiz mais atividades referentes a matéria de Loops, preciso me concentrar no aprendizado da função while, vou continuar focando em atividades
 para ter um avanço real nos fundamentos da linguagem, para avançar no conhecimento das minhas habilidades.
+
+47 - Quadragésimo sétimo dia, fiz mais atividades de Loop e alterei alguns conceitos que tinha criado no Banco do Arma 3, vou rever as Aulas de Array e estudar afundo esses
+conceitos para melhor implementar o uso neste projeto como também nos demais projetos que tenho guardado.

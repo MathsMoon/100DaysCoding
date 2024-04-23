@@ -18,7 +18,7 @@ public class App extends Functionality{
     */
     
     //Criando um objeto que vai receber e guardar as informações do Usuário
-    private static Scanner scan = new Scanner(System.in);
+    private static final Scanner scan = new Scanner(System.in);
     // private static Functionality systemfunctions = new Functionality();
 
     public static void UserFunctions() {

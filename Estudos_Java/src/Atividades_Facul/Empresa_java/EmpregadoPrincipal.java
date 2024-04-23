@@ -8,7 +8,7 @@ public class EmpregadoPrincipal{
 
 
         //Inserção de dados
-        System.out.printf("Digite seu nome: ");
+        System.out.print("Digite seu nome: ");
         String nome = scan.next();
         System.out.printf("%nDigite seu Salário bruto atual: ");
         int salariobruto = scan.nextInt();

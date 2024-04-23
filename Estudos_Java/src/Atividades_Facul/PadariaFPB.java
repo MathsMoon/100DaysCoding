@@ -16,7 +16,7 @@ public class PadariaFPB {
 
         //Cálculos
         float GanhoPao = (float) (VendasPao * 0.12);
-        Float GanhoBroa = (float) (VendasBroa * 1.50);
+        float GanhoBroa = (float) (VendasBroa * 1.50);
         float ValorVenda = (GanhoPao + GanhoBroa);
         float ValorPoupa = (float) (ValorVenda * 0.10);
 

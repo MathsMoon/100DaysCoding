@@ -6,8 +6,8 @@ import java.util.Scanner;
 
 public class Functionality {
 
-    private static SQL_Connections BankUser = new SQL_Connections();
-    private static Scanner scan = new Scanner(System.in);
+    private static final SQL_Connections BankUser = new SQL_Connections();
+    private static final Scanner scan = new Scanner(System.in);
 
     public static void Login() { //Método de login
         System.out.println("Login: ");
@@ -23,9 +23,9 @@ public class Functionality {
 
         //inserção das informações de acesso e verificação
         System.out.println("Crie um nome de Login válido (Mais de 5 letras, contenha números e 1 caractere especial):");
-        BankUser.VerifyUserLoginRegister((scan.nextLine()));
+        String VerifyUserLoginRegister = scan.nextLine();
         System.out.println("Crie uma senha (Precisa ter no mínimo 8 caracteres):");
-        BankUser.VerifyUserPassWordRegister(scan.nextLine());
+        String VerifyUserPassWordRegister = scan.nextLine();
         
         //Limpando o CMD pós verificação
         CleaningCMD();
@@ -33,11 +33,14 @@ public class Functionality {
         //Cadastrando informações de Player.
         System.out.println("Muito bem, agora queremos saber um pouco mais sobre você!");
         System.out.println("Seu nickname no jogo:");
-        BankUser.setUserName(scan.nextLine());
+        String setUserName = scan.nextLine();
         System.out.println("Se possui algum saldo escreva abaixo a quantidade (Disponível no servidor do Reino Sinopense): ");
-        BankUser.setUserActualBalance(Integer.parseInt(scan.nextLine())); //verificar como barra qualquer valor além de um Int
+        int setUserActualBalance = Integer.parseInt(scan.nextLine()); //verificar como barra qualquer valor além de um Int
         System.out.println("Quantas DogTags você já pegou?");
-        BankUser.setUserNumDogTags(Integer.parseInt(scan.nextLine())); //verificar como barra qualquer valor além de um Int
+        int setUserNumDogTags = Integer.parseInt(scan.nextLine()); //verificar como barra qualquer valor além de um Int
+
+        //Criando um Novo Usuário:
+        BankUser.SQL_Connections(VerifyUserLoginRegister, VerifyUserPassWordRegister, setUserName, setUserNumDogTags, setUserActualBalance);
 
         //Finalização
         CleaningCMD();

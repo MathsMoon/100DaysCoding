@@ -172,3 +172,5 @@ vou buscar estudar mais os conteúdos e reforçar os fundamentos até o dia 55 p
 
 46 - Quadragésimo sexto dia, hoje fiz mais atividades referentes a matéria de Loops, preciso me concentrar no aprendizado da função while, vou continuar focando em atividades
 para ter um avanço real nos fundamentos da linguagem, para avançar no conhecimento das minhas habilidades.
+
+47 -

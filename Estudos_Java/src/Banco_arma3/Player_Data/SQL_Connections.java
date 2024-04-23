@@ -18,76 +18,44 @@ public class SQL_Connections {
     private String PlayerName = "";
     private String PlayerLogin = "";
     private String PlayerPassWord = "";
-    private int PlayerBalance = 0;
-    private int PlayerCollectedDogTags = 0;
+    private int PlayerBalance;
+    private int PlayerCollectedDogTags;
     Players_Register Database = new Players_Register();
 
+    public void SQL_Connections(String Login, String PassWord, String Nickname, int Dogtag, int ActualBalance) {
+        this.PlayerName = Nickname;
+        this.PlayerLogin = Login;
+        this.PlayerPassWord = PassWord;
+        this.PlayerBalance = ActualBalance;
+        this.PlayerCollectedDogTags = Dogtag;
 
-    public void CreatingNewRegisterInBank() {
-        String[] PlayersInfo = {getUserName(), String.valueOf(getUserActualBalance()), getUserLogin(), getUserPassWord(), String.valueOf(getUserNumDogTags())};
-        
-        Players_Register.DATABASE(PlayersInfo);
+        //Crie a Condição para essas informações irem para o Banco de dados
+
     }
 
-    public void setUserActualBalance(int balance) {
-        this.PlayerBalance = balance;
+
+    public void VerifyUserLoginRegister(String s) {
+        /*
+            Função irá realizar dois testes, o primeiro é a regra que estabeleci para criar um Usuário
+            (Mais de 5 letras, contenha números e 1 caractere especial) Ao mesmo tempo que realiza um
+            teste de Leitura das infomrações já guardadas no Register para confirmar que o Login é disponível para este usuário
+        */
     }
 
-    public int getUserActualBalance() {
-        return this.PlayerBalance;
+    public void VerifyUserPassWordRegister(String s) {
+        //A função irá realizar um teste para que a Senha contenha no mínimo 8 Caracteres (espaço n incluso)
     }
 
-    public void setUserName(String nome) {
-        this.PlayerName = nome;
+    public void setUserName(String s) {
     }
 
-    public String getUserName() {//Retorna o nome do Player (NickName)
+    public void setUserActualBalance(int i) {
+    }
+
+    public void setUserNumDogTags(int i) {
+    }
+
+    public String getUserName() {
         return this.PlayerName;
     }
-
-
-    public boolean getVerifyUserCredentials(String[] credentials) {
-        
-        return true;
-    }
-
-    public void VerifyUserLoginRegister(String string) {
-        //Realizar uma leitura da variável e retornar se é maior que 5 e se contém número e um caracterer especial.
-    }
-
-    public String getUserLogin() {
-        return this.PlayerLogin;
-    }
-
-    public String getUserPassWord() {
-        return this.PlayerPassWord;
-    }
-
-
-
-    public void VerifyUserPassWordRegister(String nextLine) {
-        //Realizar teste de variável para saber se contém no mínimo 8 caracteres.
-    }
-
-    public void setUserNumDogTags(int dogtags) {
-        if(dogtags < 0 || dogtags > 100) {
-            System.out.println("Insira um valor correto");
-            try {
-                App.Register();
-            } catch (IOException e) {
-                // TODO Auto-generated catch block
-                e.printStackTrace();
-            } catch (InterruptedException e) {
-                // TODO Auto-generated catch block
-                e.printStackTrace();
-            }
-        } else {
-            this.PlayerCollectedDogTags = dogtags;
-        } 
-    }   
-
-    public int getUserNumDogTags() {
-        return this.PlayerCollectedDogTags;
-    }
-
 }
