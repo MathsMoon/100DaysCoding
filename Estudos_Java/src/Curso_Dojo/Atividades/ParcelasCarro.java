@@ -15,7 +15,7 @@ public class ParcelasCarro {
         for (int parcela = 1; parcela < ValorTotal; parcela++) {
             float valorparcela = ValorTotal/parcela;
             if(valorparcela < 1000) {
-                break; //Quebrando a sequência após a satisfação do If
+                break; //quebrando a sequência Loop
             }
         }
         //Fechando o Objeto Scan

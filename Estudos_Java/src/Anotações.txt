@@ -9,8 +9,10 @@ Tópicos:
 - Pesquisar sobre Try e Catch.
 - Pesquisar sobre Listas no Java.
 - Reforçar  conceito de Classe Abstrata.
-- Pesquisar sobre ForEach interable
-- Pesquisar sobre HashCode e HashSet
+- Pesquisar sobre ForEach interable.
+- Pesquisar sobre HashCode e HashSet.
+- Pesquisar sobre Garbage Collector.
+
 
 Coisas para fazer:
 - Terminar o TestsMatriz.Java
