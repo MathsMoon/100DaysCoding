@@ -16,7 +16,7 @@ public class Players_Register {
     */
 
     //Criando a Lista:
-    static List<String> Players_Lists = new ArrayList<String>(Arrays.asList());
+    static List<String> Players_Lists = new ArrayList<String>(List.of());
 
 
     // SQL_Connections pObj = new SQL_Connections();

@@ -2,7 +2,7 @@ package CFB_CursoJava.Herança_java;
 
 public class Carro {
     //Criação dos atributos comuns a classe, private por só poder ser alterado e manipulado dentro da classe Carro
-    private String nome;
+    private final String nome;
     private Boolean ligado;
     private Boolean destruido;
     private int blindagem;

@@ -28,7 +28,7 @@ public class Calc {
         System.out.printf("O resultado da soma de %.1f + %.1f é: %.1f", n1Numero.getValor(), n2Numero.getValor(), res.getValor());
         
         //Inserção do atributo que vai Loopar ou não a função while.
-        System.out.printf("\nDeseja somar outro valor? ");
+        System.out.print("\nDeseja somar outro valor? ");
         opc = scan.next();
     }
     

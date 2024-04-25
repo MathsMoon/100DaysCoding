@@ -13,7 +13,7 @@ public class MainApp {
 
     public static void LimpandoLayout() {//Limpando o Game para reinício
         for(int c = 0; c <200; c++) {
-            System.out.println("");
+            System.out.println();
         }
     }
 
@@ -45,7 +45,7 @@ public class MainApp {
 
 
     public static int[] Jogar(Scanner scan, char sa) {//Método do jogo em si, recebe os valores do jogador e vai fazer a verificação da jogada com o outro método
-        int p[] = new int[2];
+        int[] p = new int[2];
         // int[] p = new int[2]; As duas formas estão certas
         
         System.out.printf("%s %c%n", "Quem joga: ", sa);
@@ -105,6 +105,6 @@ public class MainApp {
                 System.out.print("ERRO durante a execução do jogo!\nErro:"+e); //Diz o erro e mostra onde foi com o e.
             }
         }
-        System.out.printf("Fim do jogo");
+        System.out.print("Fim do jogo");
     }   
 }

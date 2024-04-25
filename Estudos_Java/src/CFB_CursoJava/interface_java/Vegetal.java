@@ -1,7 +1,7 @@
 public class Vegetal {
 
     private boolean vivo;
-    private int massa;
+    private final int massa;
     
     public Vegetal(int massa) { //método construtor da classe Vegetal
         this.vivo = true;
@@ -21,7 +21,7 @@ public class Vegetal {
 
     public void info() {//Informações do vegetal
         System.out.println("--------------------------");
-        System.out.printf("Tipo: %s%n", getClass().toString());
+        System.out.printf("Tipo: %s%n", getClass());
         System.out.printf("Vivo: %s%n", this.getVivo() ? "Sim" : "Não");
         System.out.printf("Massa: %d%n", this.massa);
         System.out.println("--------------------------");

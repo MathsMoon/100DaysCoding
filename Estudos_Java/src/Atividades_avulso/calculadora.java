@@ -35,7 +35,7 @@ public class calculadora {
         System.out.printf("Primeiro valor:%n");
         v1 = scan.nextFloat();
         System.out.println("Segundo valor:");
-        v2 = scan.nextFloat();;
+        v2 = scan.nextFloat();
 
         //Escolha do método para os cálculos
         System.out.println("O que deseja fazer?");

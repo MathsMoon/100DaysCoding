@@ -4,12 +4,12 @@ public class strings {
     public static void main(String[] args) {
         //A String além de uma classe serve também como um array de char
         char[] texto_c = {'c', 'u', 'r', 's', 'o', ' ', 'd', 'e', ' ', 'J', 'a', 'v', 'a'};
-        String texto_s = new String("CFB Cursos");
+        String texto_s = "CFB Cursos";
 
         //Manipulando os objetos s1 e s2.
         String s0 = "CFB";
-        String s1 = new String("cUrso CFB");
-        String s2 = new String(texto_s); //recebe o texto_s
+        String s1 = "cUrso CFB";
+        String s2 = texto_s; //recebe o texto_s
         String s3 = new String(texto_c); //Não precisa de conversão afinal a String além de ser uma classe ela também recebe chars em sequência como um Array
         String s4 = new String(texto_c, 0, 5); //recebe "curso" do texto_c
         String s5 = " curso de Java";

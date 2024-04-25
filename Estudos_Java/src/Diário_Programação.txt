@@ -176,6 +176,9 @@ para ter um avanço real nos fundamentos da linguagem, para avançar no conhecim
 47 - Quadragésimo sétimo dia, fiz mais atividades de Loop e alterei alguns conceitos que tinha criado no Banco do Arma 3, vou rever as Aulas de Array e estudar afundo esses
 conceitos para melhor implementar o uso neste projeto como também nos demais projetos que tenho guardado.
 
-48 - Quadragéismo oitavo dia, realizei mais atividades e avancei as aulas para a revisão de Arrays e Matrizes, irei organizar uma rotina para terminar a Maratona Java até o 70º
+48 - Quadragésimo oitavo dia, realizei mais atividades e avancei as aulas para a revisão de Arrays e Matrizes, irei organizar uma rotina para terminar a Maratona Java até o 70º
 dia do desafio, por tanto as próximas semanas serão mais movimentadas, irei ver 5/6 vídeos por dia além de realizar atividades para consolidar assuntos aprendidos. até o fim do
 desafio estarei a passos largos de dominar grande parte dos conceitos comuns do Java e aplicações avançadas, assim posso estar livre para fazer mais projetos de grande escala.
+
+49 - Quadragésimo nono dia, grandes avanços e a revisão segue agora no tópico de Classes, irei continuar de onde parei e ir revisando até chegar nos novos conteúdos, o importante
+agora é manter o ritmo para conseguir avançar na maratona durante os próximos 20 dias.

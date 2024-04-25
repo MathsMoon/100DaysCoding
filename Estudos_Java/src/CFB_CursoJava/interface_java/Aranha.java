@@ -1,6 +1,6 @@
 public class Aranha extends Animal{
 
-    private int veneno;
+    private final int veneno;
 
     public Aranha(int vel, int massa, int forca, int veneno) {
         super(vel, massa, forca);

@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Sistema_Div {
 
     //Definindo padrão para a Classe de cadastro
-    private static Scanner scan = new Scanner(System.in);
+    private static final Scanner scan = new Scanner(System.in);
     private static String NomeUsuario = "";
     private static String SenhaUsuario = "";
 

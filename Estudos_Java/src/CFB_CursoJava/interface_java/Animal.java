@@ -4,7 +4,8 @@ abstract class Animal implements SerVivo{
     private int massa;
     @SuppressWarnings("unused") //Usei só pra n ficar aparecendo no meu terminal
     private int x, y;
-    private int forca, vel;
+    private int forca;
+    private final int vel;
 
 
     public Animal(int vel, int massa, int forca) { //Método Construtor que define como será o Animal
@@ -79,7 +80,7 @@ abstract class Animal implements SerVivo{
     
     public void info() { //Método das informações do Animal.
         System.out.println("--------------------------");
-        System.out.printf("Tipo: %s%n", getClass().toString());
+        System.out.printf("Tipo: %s%n", getClass());
         System.out.printf("Vivo: %s%n", this.getVivo() ? "Sim" : "Não");
         System.out.printf("Massa: %d%n", this.massa);
         System.out.printf("Força: %d%n", this.forca);

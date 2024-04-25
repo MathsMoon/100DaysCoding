@@ -2,9 +2,9 @@ package Atividades_Facul.Empresa_java;
 
 public class Empregado {
 
-    private String nome;
-    private double Salario_Bruto;
-    private double Tax;
+    private final String nome;
+    private final double Salario_Bruto;
+    private final double Tax;
     private double NovoSalario;
 
    public Empregado (String n, int sb, double tax) {

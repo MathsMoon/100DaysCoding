@@ -14,7 +14,7 @@ public class RevArrays {
 
 //        System.out.println(idade[0]); //resultado: 0
 
-        //Meses e dias do ano
+        //Definindo a Matriz
         int[][] dias = new int[03][03];
 
         //Inserindo valores a dias:
@@ -40,11 +40,5 @@ public class RevArrays {
                 System.out.println(num);
             }
         }
-
-
-
-
-
-
     }
 }
