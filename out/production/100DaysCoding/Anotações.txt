@@ -12,6 +12,7 @@ Tópicos:
 - Pesquisar sobre ForEach interable.
 - Pesquisar sobre HashCode e HashSet.
 - Pesquisar sobre Garbage Collector.
+- Pesquisar sobre Halting Condition.
 
 
 Coisas para fazer:

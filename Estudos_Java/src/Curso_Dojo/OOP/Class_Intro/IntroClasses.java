@@ -8,14 +8,14 @@ public class IntroClasses {
         Estudante estudObj = new Estudante();
         //a variável de referência é importante para realizar o link do acesso a memória das informações e para manipular esses dados
 
-        //Inserindo atributos a Classe Estudante
+        //Inserindo atributos a Classe EstudanteParametros
         estudObj.nome = "Abc";
         estudObj.idade = 10;
         estudObj.sexo = 'M';
 
 //        System.out.println(estudObj.nome);
 //        System.out.println(estudObj.idade);
-//        System.out.println(estudObj); //Resultado: endereço de memória do Objeto: Curso_Dojo.OOP.Class_Intro.Dominio.Estudante@5f184fc6
+//        System.out.println(estudObj); //Resultado: endereço de memória do Objeto: Curso_Dojo.OOP.Class_Intro.Dominio.EstudanteParametros@5f184fc6
 
         /*  Manipulando a classe Professor */
         Professor prof1 = new Professor();
