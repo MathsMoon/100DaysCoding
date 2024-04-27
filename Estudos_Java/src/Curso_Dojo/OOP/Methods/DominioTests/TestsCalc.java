@@ -1,5 +1,5 @@
 package Curso_Dojo.OOP.Methods.DominioTests;
-import Curso_Dojo.OOP.Methods.Dominio.Calculadora;
+import Curso_Dojo.OOP.Methods.Dominio.Functions.Calculadora;
 
 public class TestsCalc {
     public static void main(String[] args) {

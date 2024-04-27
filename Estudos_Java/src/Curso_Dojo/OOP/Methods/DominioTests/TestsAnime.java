@@ -1,6 +1,6 @@
 package Curso_Dojo.OOP.Methods.DominioTests;
 
-import Curso_Dojo.OOP.Methods.Dominio.Animes;
+import Curso_Dojo.OOP.Methods.Dominio.Construtores.Animes;
 
 public class TestsAnime {
     public static void main(String[] args) {

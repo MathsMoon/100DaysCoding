@@ -1,4 +1,4 @@
-package Curso_Dojo.OOP.Methods.Dominio;
+package Curso_Dojo.OOP.Methods.Dominio.Functions;
 
 public class EstudanteParametros {
     private String Nome;

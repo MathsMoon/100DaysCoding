@@ -89,7 +89,7 @@ public class MainApp {
         Vitoria = VerifyVitoria(Jogo_Velha);  
     
             if(Vitoria!=(' ')) {
-                System.out.printf("Jogador %s venceu%n", Vitoria );
+                System.out.printf("PersonagemGenshin %s venceu%n", Vitoria );
                 game = false;
                 break;
             } 

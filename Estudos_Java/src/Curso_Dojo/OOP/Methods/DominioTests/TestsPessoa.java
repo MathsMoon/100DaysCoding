@@ -1,5 +1,5 @@
 package Curso_Dojo.OOP.Methods.DominioTests;
-import Curso_Dojo.OOP.Methods.Dominio.Pessoa;
+import Curso_Dojo.OOP.Methods.Dominio.Functions.Pessoa;
 
 public class TestsPessoa {
     public static void main(String[] args) {

@@ -16,7 +16,7 @@ public class jogador {
         System.out.printf("O jogador número %d foi criado.%n", num);
     }
 
-    public int getVidas() {//Pega a quantidade de vidas do Jogador
+    public int getVidas() {//Pega a quantidade de vidas do PersonagemGenshin
         return this.vidas;
     }
 }

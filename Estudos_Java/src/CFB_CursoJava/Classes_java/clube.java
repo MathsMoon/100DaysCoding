@@ -26,7 +26,7 @@ public class clube {
         /*Criando uma condição de Pós Incremento:
         int posincre = 0;
 
-        Igual a criação de um objeto, pq o j1 é um objeto independente que "herda" tudo da classe Jogador.java
+        Igual a criação de um objeto, pq o j1 é um objeto independente que "herda" tudo da classe PersonagemGenshin.java
         jogador j1 = new jogador(posincre++);
         jogador j2 = new jogador(posincre++);
         jogador j3 = new jogador(posincre++); 

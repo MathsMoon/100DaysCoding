@@ -1,6 +1,6 @@
 package Curso_Dojo.OOP.Methods.DominioTests;
-import Curso_Dojo.OOP.Methods.Dominio.EstudanteParametros;
-import Curso_Dojo.OOP.Methods.Dominio.ImpressoraEstudante;
+import Curso_Dojo.OOP.Methods.Dominio.Functions.EstudanteParametros;
+import Curso_Dojo.OOP.Methods.Dominio.Functions.ImpressoraEstudante;
 
 public class TestsParametros {
     public static void main(String[] args) {

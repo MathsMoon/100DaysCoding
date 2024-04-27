@@ -1,4 +1,4 @@
-package Curso_Dojo.OOP.Methods.Dominio;
+package Curso_Dojo.OOP.Methods.Dominio.Construtores;
 
 public class Animes {
     private String nome;
@@ -42,11 +42,11 @@ public class Animes {
 
 ----------------------------------------------------------------------------------------------------
 
-    public String getNome() {
+    public String getFabricante() {
         return nome;
     }
 
-    public void setNome(String nome) {
+    public void setFabricante(String nome) {
         this.nome = nome;
     }
 
