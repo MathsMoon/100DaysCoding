@@ -4,6 +4,18 @@ Funções:
 scan.skip() => é uma função usada durante a leitura do scan em diversas variáveis diferentes, ele utiliza um parâmetro para pular o mesmo
 tornando mais fácil a leitura correta das informações quando se tem diversas variáveis ao mesmo tempo.
 
+JVM:
+A ordem de execução do código pela JVM
+1 - Bloco de inicialização estático da Super Classe é executado quando a JVM carrega a Classe pai
+2 - Bloco de inicialização estático da subclasse é executado quando a JVM carrega a Classe filho
+3 - Aloca o espaço em memória pro Objeto da Super Classe
+4 - Cada atributo de classe é criado e inicializado com valores default ou o que fora passado a Super Classe
+5 - Construtor da Super Classe é executado
+6 - Alocado o espaço em memória para o objeto da subclasse
+7 - Cada atributo de classe é criado e inicializado com valores default ou o que fora passado a subclasse
+8 - Inicializadores são executados na ordem que aparecem na subclasse
+9 - Construtor da subclasse é executado
+
 Tópicos:
 - Pesquisar sobre Pós e Pré incremento.
 - Pesquisar sobre Try e Catch.
@@ -20,3 +32,5 @@ Coisas para fazer:
 - Terminar o TestsMatriz.Java
 - Terminar o TestsArray.Java
 - Refazer o Break and Continue
+- Terminar o GenshinList
+- Terminar o exercício do Gerencia estudo
