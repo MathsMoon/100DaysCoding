@@ -16,6 +16,13 @@ A ordem de execução do código pela JVM
 8 - Inicializadores são executados na ordem que aparecem na subclasse
 9 - Construtor da subclasse é executado
 
+Cada classe não pode herdar mais de 2 classes, uma ela herda por padrão que é Object.
+Afinal para o java cada classe é um objeto, a segunda classe é nós que definimos
+
+Modificadores de Acesso do mais restritivo ao menos
+Private -> Default/Package -> Protected -> Public
+
+
 Tópicos:
 - Pesquisar sobre Pós e Pré incremento.
 - Pesquisar sobre Try e Catch.
@@ -26,6 +33,8 @@ Tópicos:
 - Pesquisar sobre Garbage Collector.
 - Pesquisar sobre Halting Condition.
 - Pesquisar sobre Bloco de Inicialização
+- Pesquisar sobre Enums no Java
+- Pesquisar Whitening Cast
 
 
 Coisas para fazer:

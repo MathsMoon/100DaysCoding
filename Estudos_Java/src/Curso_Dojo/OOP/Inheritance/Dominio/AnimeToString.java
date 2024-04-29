@@ -13,9 +13,9 @@ public class AnimeToString {
         Nome = nome;
     }
 
-    public void Imprime() {
-
-    }
+//    public void Imprime() {
+//
+//    }
 
     public String getNome() {
         return Nome;
