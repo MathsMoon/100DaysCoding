@@ -43,3 +43,4 @@ Coisas para fazer:
 - Refazer o Break and Continue
 - Terminar o GenshinList
 - Terminar o exercício do Gerencia estudo
+- Terminar o desafio de fazer um validador de cadastro

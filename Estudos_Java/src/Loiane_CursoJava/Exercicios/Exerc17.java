@@ -29,8 +29,7 @@ public class Exerc17 {
         System.out.println("Digite o Número para fatorial:");
         int n = scan.nextInt();
 
-        //criando o Array para o fatorial
-        long[] num1 = new long[n];
+        //criando o atributo que guardará o fatorial
         long result = 1;
 
         if(n > 63) {
