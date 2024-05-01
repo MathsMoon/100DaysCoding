@@ -1,5 +1,5 @@
 package Projeto_SistemaAluno;
 
-public enum dados {
+public interface dados {
 
 }

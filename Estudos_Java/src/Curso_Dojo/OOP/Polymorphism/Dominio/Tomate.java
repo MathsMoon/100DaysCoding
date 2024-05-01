@@ -8,6 +8,10 @@ public class Tomate extends Produto{
         super(nome, valor);
     }
 
+    public Tomate(String nome, double valor, String dataValidade) {
+        super(nome, valor);
+        DataValidade = dataValidade;
+    }
 
     public String getDataValidade() {
         return DataValidade;

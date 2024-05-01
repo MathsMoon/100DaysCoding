@@ -13,6 +13,8 @@ public class GuessNumbGame {
     static Players player2 = new Players();
     static Scanner scan = new Scanner(System.in);
 
+
+
     public static void Game() {
         boolean GameOver = true;
 
@@ -22,7 +24,7 @@ public class GuessNumbGame {
     }
 
     public static void main(String[] args) {
-        System.out.println("Welcome to guess number game, to play write down the numbers of players and their names.");
+        System.out.println("Bem vindo ao jogo de Adivinhação, ");
 
     }
 }

@@ -21,12 +21,13 @@ public class TestsProduto02 {
 
         System.out.println("----------------------------------------");
 
-        Produto produto2 = new Tomate("a", 7);
+        //Alterei para classe tomate para adicionar o set data validade
+        Tomate produto2 = new Tomate("a", 7);
+        //setando a data de validade para o cast manual
+        produto2.setDataValidade("11/12/2025");
 
         System.out.println(produto2.getNome());
         System.out.println(produto2.getValor());
-        //Irei adicionar depois mais um parâmetro que não existe em produto (Mostrando a Validade do Tomate):
-
         System.out.println(produto2.CalculoImposto());
 
     }

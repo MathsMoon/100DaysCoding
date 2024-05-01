@@ -34,7 +34,9 @@ Tópicos:
 - Pesquisar sobre Halting Condition.
 - Pesquisar sobre Bloco de Inicialização
 - Pesquisar sobre Enums no Java
-- Pesquisar Whitening Cast
+- Pesquisar sobre Widening Casting
+- Pesquisar sobre narrowing casting
+- Pesquisar sobre Checked e Unchecked exceptions
 
 
 Coisas para fazer:
@@ -43,3 +45,4 @@ Coisas para fazer:
 - Refazer o Break and Continue
 - Terminar o GenshinList
 - Terminar o exercício do Gerencia estudo
+- Terminar o desafio de fazer um validador de cadastro
