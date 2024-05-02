@@ -15,8 +15,10 @@ public class ParcelasCarro_Continue {
         for (int parcela = (int) ValorTotal; parcela >= 1; parcela--) {
             double valor_parcela = ValorTotal / parcela;
             if(valor_parcela < 1000) {
-                continue; //O continue nesse caso mantém o funcionamento do For e só permite o caso posterior do If a menos de 1000
-                //desta forma o continue serve para dar prosseguimento a uma operação e satisfazendo a condição permitir o avanço do código
+                continue;
+                //O continue nesse caso mantém o funcionamento do For e só permite o caso posterior do If a menos de 1000
+                //desta forma o continue serve para dar prosseguimento a uma operação e satisfazendo a condição permitir
+                // o avanço do código.
             }
             System.out.println("Parcela " + parcela + " R$ " + valor_parcela);
         }

@@ -3,12 +3,14 @@ package Curso_Dojo.Atividades.ExercPOO.Domain;
 public class CadastroUsuario {
     private String Nome;
     private String Senha;
-    private int idade;
+    private int Idade;
+
+    public CadastroUsuario(){}
 
     public CadastroUsuario(String nome, String senha, int idade) {
         Nome = nome;
         Senha = senha;
-        this.idade = idade;
+        Idade = idade;
     }
 
     public String getNome() {
@@ -54,10 +56,10 @@ public class CadastroUsuario {
     }
 
     public int getIdade() {
-        return idade;
+        return Idade;
     }
 
     public void setIdade(int idade) {
-        this.idade = idade;
+        Idade = idade;
     }
 }

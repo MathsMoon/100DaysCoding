@@ -1,20 +1,18 @@
 package Curso_Dojo.Atividades.ExercPOO.MainClasses;
-
 import Curso_Dojo.Atividades.ExercPOO.Domain.CadastroUsuario;
 
 import java.util.Scanner;
 
 public class TestsCdUsuario {
+    //Atributos da Classe
+    static Scanner scan = new Scanner(System.in);
+    static CadastroUsuario CdUser = new CadastroUsuario();
 
-    public static void CadastroUsuario() {
-        System.out.println();
-    }
-
+    public static void CadastroUsuario() {}
 
     public static void main(String[] args) {
         //Criando atributos básicos do sistema
         boolean TermsCondition = false;
-        Scanner scan = new Scanner(System.in);
 
         while (!TermsCondition) {
             System.out.println("Cadastro de Usuário, por favor siga as Regras Abaixo:");
@@ -29,7 +27,7 @@ public class TestsCdUsuario {
                 CadastroUsuario();
             } else {
                 System.out.println("Só podemos Prosseguir com uma resposta positiva: ");
-                option = String.valueOf(scan.next().charAt(0));
+                System.out.println("-------------------------");
             }
         }
     }

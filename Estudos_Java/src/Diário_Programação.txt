@@ -203,3 +203,6 @@ esta semana, assim garanto que vou ter tempo e capacidade de realizar muito mais
 55 - Quinquagésimo quinto dia, no dia de hoje continuei a ver as aulas do Maratona java e cheguei ao 102, com o ritmo normal conseguirei a meta semanal, mas preciso rever mais
 conteúdos como também focar mais no aprendizado, a matéria de errors vou precisar rever mais tarde para melhor saber implementar, de resto terminar os desafios e praticar com um
 banco de dados simples Monousuário para tentar praticar de uma só vez diversos conceitos, como também se possível revisar conteúdo de interface e Enum.
+
+56 - Quinquagéismo sexto dia, hoje fiz algumas atividades e fui completando os desafios que tinha anotado no whatsapp, de resto vou recuperar amanhã o pace para terminar essa semana
+com 170 aulas no mínimo, este vai ser o foco para não perder essa semana.

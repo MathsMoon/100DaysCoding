@@ -1,16 +1,17 @@
 package Curso_Dojo.Atividades.ExercPOO.Domain;
 
+/*
+    Possíveis melhorias do Código:
+    -
+
+
+
+*/
+
+
 public class Players {
     private String Name;
-    private int Lifes;
-
-    //Para eu criar no início do código
-    public Players() {}
-
-    public Players(String name) {
-        Name = name;
-        Lifes = 3;
-    }
+    public int Lifes = 3;
 
     public String getName() {
         return Name;

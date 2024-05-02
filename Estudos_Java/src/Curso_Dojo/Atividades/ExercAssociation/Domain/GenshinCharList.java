@@ -4,15 +4,12 @@ public class GenshinCharList {
     private String Nome;
     private String Regiao;
 
-    public GenshinCharList(String nome, String regiao) {
-        Nome = nome;
-        Regiao = regiao;
-    }
+    public GenshinCharList() {}
 
     public void Imprime() {
         System.out.println(Nome);
         if(Regiao == null) {
-            return;
+            System.out.println("Região não preenchida");
         }
         else {
             System.out.println(getRegiao());

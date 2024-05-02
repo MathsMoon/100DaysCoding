@@ -2,10 +2,11 @@ package Curso_Dojo;
 import java.util.Scanner;
 
 public class tests {
-
-    //Métodos podem ter o mesmo número contanto que recebem diferentes valores ou tipos de variáveis, assim não entram em conflito
-
-    //Método chamado Recursion: ele chama a si próprio dentro da função para realizar alguma atividade, nesse caso ele serve como segundo valor de um fatorial
+    /*
+        Métodos podem ter o mesmo número contanto que recebem diferentes valores ou tipos de variáveis, assim não entram em conflito
+        Método chamado Recursion: ele chama a si próprio dentro da função para realizar alguma atividade, nesse caso ele serve como
+        segundo valor de um fatorial
+    */
     public static int sum(int k) {//Função que Soma o valor de K com todos números abaixo dele até 0
         if (k > 0) {
             return k + sum(k - 1);

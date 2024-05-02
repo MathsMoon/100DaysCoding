@@ -1,8 +1,8 @@
 package Curso_Dojo.OOP.Trowables.RunTimeTest;
 
 /*
-    O finally é utilizado quando é necessário mesmo pegando algum erro
-    finalizar o bloco de código, este comando continua o bloco de código
+    O finally é utilizado quando é necessário finalizar um bloco códi
+    -go mesmo que tenha erro, este comando continua o bloco de código
     mesmo após capturar algum erro, ajudando em caso de precisar fechar
     conexões (como foi imaginado no exemplo abaixo) ou demais funcionali
     -dades usadas, por tanto pode-se usar tanto com ou sem o Catch, por
