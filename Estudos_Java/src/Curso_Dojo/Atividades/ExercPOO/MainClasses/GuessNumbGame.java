@@ -55,14 +55,7 @@ public class GuessNumbGame {
 
     private static void PlayersLifeVerify() {
         if(player1.getLifes() == 0 || player2.getLifes() == 0) {
-
-
-            if(player1)
-
-            System.out.printf("%n%s perdeu sua última vida o player %s Ganhou!", player1.getName(), player2.getName());
-            System.out.printf("%n%s perdeu sua última vida o player %s Ganhou!", player2.getName(), player1.getName());
-
-            System.exit(0);
+            PlayersLastChance();
         }
     }
 
@@ -75,8 +68,20 @@ public class GuessNumbGame {
         int p1Num = scan.nextInt();
         System.out.println("Lance do Player2, vidas: " + player2.getLifes());
         int p2Num = scan.nextInt();
-    }
 
+        //Cálculo para saber o número mais próximo:
+        int resultadop1 = p1Num - SecretNumber;
+        int resultadop2 = p2Num - SecretNumber;
+
+
+        if(p1Num > p2Num) {
+            System.out.printf("%s seu valor foi de: %d enquanto o número correto era: %d.\nVitória do %s",
+                    player1.getName(), p1Num, SecretNumber ,player2.getName());
+        } else {
+            System.out.printf("%s seu valor foi de: %d enquanto o número correto era: %d.\nVitória do %s",
+                    player2.getName(), p2Num, SecretNumber ,player1.getName());
+        }
+    }
 
     public static void Game() {
         while (!GameOver) {
