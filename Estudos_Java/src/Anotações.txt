@@ -46,3 +46,9 @@ Coisas para fazer:
 - Terminar o GenshinList
 - Terminar o exercício do Gerencia estudo
 - Terminar o desafio de fazer um validador de cadastro
+
+
+Projetos:
+- Criar o sistema do Jogo de Xadrez
+- Criar o sistema de venda de passagens aéreas da Varig
+- Criar o sistema do Jogo BlackJack (21)

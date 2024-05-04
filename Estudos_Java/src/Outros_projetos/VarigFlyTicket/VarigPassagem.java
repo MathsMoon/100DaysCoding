@@ -1,4 +1,4 @@
-package Outros_projetos;
+package Outros_projetos.VarigFlyTicket;
 //import java.util.Scanner;
 
 public class VarigPassagem {

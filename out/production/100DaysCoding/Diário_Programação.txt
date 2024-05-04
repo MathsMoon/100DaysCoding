@@ -204,4 +204,12 @@ esta semana, assim garanto que vou ter tempo e capacidade de realizar muito mais
 conteúdos como também focar mais no aprendizado, a matéria de errors vou precisar rever mais tarde para melhor saber implementar, de resto terminar os desafios e praticar com um
 banco de dados simples Monousuário para tentar praticar de uma só vez diversos conceitos, como também se possível revisar conteúdo de interface e Enum.
 
-56 - Quinquagéismo sexto dia,
+56 - Quinquagéismo sexto dia, hoje fiz algumas atividades e fui completando os desafios que tinha anotado no whatsapp, de resto vou recuperar amanhã o pace para terminar essa semana
+com 170 aulas no mínimo, este vai ser o foco para não perder essa semana.
+
+57 - Quinquagésimo sétimo dia, hoje foi mais um dia abaixo de produtividade, não me dediquei como deveria e continuei preso ao 103 aula, preciso terminar o pequeno desafio do jogo
+de adivinhação e partir para outras atividades para revisar mais áreas, vou tentar pegar leve pra assimilar o contéudo, até o dia 70 acredito que estarei perto do fim da Maratona
+Java, então não preciso correr agora, por mais que o tempo me auxílie para focar em outras questões além dos fundamentos, eu preciso assimilar todos os conteúdos e por fim aprender
+realmente a programar.
+
+58 -

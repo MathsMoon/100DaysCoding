@@ -70,8 +70,8 @@ public class GuessNumbGame {
         int p2Num = scan.nextInt();
 
         //Cálculo para saber o número mais próximo:
-        int resultadop1 = p1Num - SecretNumber;
-        int resultadop2 = p2Num - SecretNumber;
+        p1Num = p1Num - SecretNumber;
+        p2Num = p2Num - SecretNumber;
 
 
         if(p1Num > p2Num) {
