@@ -5,7 +5,7 @@ public class BreakAndContinue {
         
         int cont = 100;
 
-        for (int i = 0; i<cont; i++) {
+        for (int i = 0; i<=cont; i++) {
             if(i >= 10 && i<=60) {
                 continue; 
                 //O código ira do 0 ao 9 e depois voltará no 61, já que essas condições são false
@@ -22,7 +22,5 @@ public class BreakAndContinue {
         O conceito do Continue é: apenas as condições false são executadas enquanto o código roda por completo.
         
         */
-
-
     }    
 }

@@ -1,6 +1,6 @@
 package CFB_CursoJava.testes_java;
 // import java.security.SecureRandom;
-// import java.util.Scanner;
+ import java.util.Scanner;
 
 public class TestsMatriz {
     public static void main(String[] args) {

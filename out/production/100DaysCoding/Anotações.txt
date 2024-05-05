@@ -37,12 +37,12 @@ Tópicos:
 - Pesquisar sobre Widening Casting
 - Pesquisar sobre narrowing casting
 - Pesquisar sobre Checked e Unchecked exceptions
+- Pesquisar sobre Unboxing e Autoboxing
+- Pesquisar String constant Pools e String Interning
 
 
 Coisas para fazer:
 - Terminar o TestsMatriz.Java
-- Terminar o TestsArray.Java
-- Refazer o Break and Continue
 - Terminar o GenshinList
 - Terminar o exercício do Gerencia estudo
 - Terminar o desafio de fazer um validador de cadastro

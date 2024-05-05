@@ -17,17 +17,19 @@ public class TestArray {
         Arrays.sort(b);
     }
     
-    /*Rever essa parte do código para saber preencher os buracos da Array com um número
-    public static void PreencheArray (int[] a, int[] b) { 
+    //Preenche a Array com um número aleatório de 1 a 10
+    public static void PreencheArray (int[] a, int[] b) {
         for (int i = 0; i < 5; i++) {
             if (a[i] == 0) {
-                Arrays.fill(a[i], 10);
-            } else if (b[i] == 0) {
-                Arrays.fill(b[i], 10);
+                a[i] = (int) (Math.random()*11);
+            }
+
+            if (b[i] == 0) {
+                b[i] = (int) (Math.random()*11);
             }
         }
     }
-    */
+
 
     public static void MostrarArray(int[] a, int[] b) {
         for(int i = 0; i<5; i++){
@@ -64,8 +66,9 @@ public class TestArray {
         SequenciaArray(num1, num2); //Vai colocar em sequência os valores das Arrays (menor para o maior)
 
         //funcionalidade para ler se alguma coisa da variável está sem preencher
-        //PreencheArray(num1, num2); conferir linha 20
+        PreencheArray(num1, num2);
 
+        //Mostrando o resultado final
         MostrarArray(num1, num2);
 
         scan.close();
