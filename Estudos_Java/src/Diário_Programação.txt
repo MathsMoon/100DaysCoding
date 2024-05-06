@@ -221,3 +221,7 @@ teóricos e praticar mais com os conceitos apresentados, alguns projetos foram a
 o que temos por essa semana que virá e tentar alcançar o episódio 200 até o dia 70 e ter mais m mês para chegar ao estudo de frameworks. o Próximo desafio será focado em Fullstack
 vou utilizar tanto os conhecimentos do backEnd com Spring quando aprender o frontEnd, no meio tempo pegar os certificados necessários para por no currículo e praticar com diversos
 projetos.
+
+60 - Sextagésimo dia, hoje não foi produtivo e mal mexi com código em geral, vi poucos conteúdos da área e parei por ai mesmo. A constância é um problema gravíssimo que se eu não
+resolver posso perder novamente mais uma semana, o prazo que quis estipular para o dia 70 fica em risco caso eu não seja produtivo e continue a postergar essas atividades, como
+também afetará meu desenpenho em todo o desafio.

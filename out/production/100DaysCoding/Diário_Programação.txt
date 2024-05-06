@@ -216,4 +216,10 @@ realmente a programar.
 de criadores de conteúdo voltado a programação e compreender mais sobre o mercado, agora preciso revisar quais cursos posso comprar para ter um certificado e ao mesmo tempo um
 tutor para me guiar neste estudo, assim posso facilmente já conseguir um bom desenvolvimento profissional e trabalho com pouco tempo.
 
-59 -
+59 - Quinquagésimo nono dia, hoje dando continuidade aos estudos não retornei a ter a rotina dos 10 vídeos mas aos poucos volto a me dedica mais, preciso ver logo os temas mais
+teóricos e praticar mais com os conceitos apresentados, alguns projetos foram anotados e estão prontos para utilização quando for necessário praticar os conceitos do java. Portanto
+o que temos por essa semana que virá e tentar alcançar o episódio 200 até o dia 70 e ter mais m mês para chegar ao estudo de frameworks. o Próximo desafio será focado em Fullstack
+vou utilizar tanto os conhecimentos do backEnd com Spring quando aprender o frontEnd, no meio tempo pegar os certificados necessários para por no currículo e praticar com diversos
+projetos.
+
+60 - Sextagésimo dia,
