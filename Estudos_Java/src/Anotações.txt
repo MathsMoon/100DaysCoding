@@ -39,14 +39,14 @@ Tópicos:
 - Pesquisar sobre Checked e Unchecked exceptions
 - Pesquisar sobre Unboxing e Autoboxing
 - Pesquisar String constant Pools e String Interning
-
+- Pesquisar sobre JavaOptionPane
 
 Coisas para fazer:
 - Terminar o TestsMatriz.Java
 - Terminar o GenshinList
 - Terminar o exercício do Gerencia estudo
 - Terminar o desafio de fazer um validador de cadastro
-
+- Terminar o exercício da Empresa arrumando o bônus do salário
 
 Projetos:
 - Criar o sistema do Jogo de Xadrez

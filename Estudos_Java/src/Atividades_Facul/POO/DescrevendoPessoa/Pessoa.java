@@ -1,4 +1,4 @@
-package Atividades_Facul.POO_atividade;
+package Atividades_Facul.POO.DescrevendoPessoa;
 
 public class Pessoa {
     //Definindo os atributos da classe Pessoa

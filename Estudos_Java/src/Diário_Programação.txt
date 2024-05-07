@@ -225,3 +225,9 @@ projetos.
 60 - Sextagésimo dia, hoje não foi produtivo e mal mexi com código em geral, vi poucos conteúdos da área e parei por ai mesmo. A constância é um problema gravíssimo que se eu não
 resolver posso perder novamente mais uma semana, o prazo que quis estipular para o dia 70 fica em risco caso eu não seja produtivo e continue a postergar essas atividades, como
 também afetará meu desenpenho em todo o desafio.
+
+61 - Sextagésimo primeiro dia, dando continuidade aos estudos do Maratona consegui avançar 6 aulas, apesar do rendimento bem abaixo estou voltando aos trilhos e a programação normal
+então me sinto mais aliviado após vários dias embaixa de poder sair dos primeiros 10 episódios pós 100, as próximas 50 aulas serão de aprendizado relativo a classes utilitárias
+portanto é necessário ver seus usos de acordo com os sistemas vigentes como também sua função nos meus projetos futuros. Fiz mais uma limpa no código do Sistema Aluno e vou ver se
+consigo utilizar o Option pane para realizar uma pequena interface no sistema, vai ajudar a testar e avançar com o projeto.
+

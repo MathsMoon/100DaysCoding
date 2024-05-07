@@ -1,4 +1,4 @@
-package Atividades_Facul.POO_atividade;
+package Atividades_Facul.POO.DescrevendoPessoa;
 import java.util.Scanner;
 
 public class MainApp {
