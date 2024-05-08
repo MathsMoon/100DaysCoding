@@ -231,3 +231,7 @@ então me sinto mais aliviado após vários dias embaixa de poder sair dos prime
 portanto é necessário ver seus usos de acordo com os sistemas vigentes como também sua função nos meus projetos futuros. Fiz mais uma limpa no código do Sistema Aluno e vou ver se
 consigo utilizar o Option pane para realizar uma pequena interface no sistema, vai ajudar a testar e avançar com o projeto.
 
+62 - Sextagésimo segundo dia, continuei assistindo as aulas do maratona java, não estou batendo a meta das 10 aulas, mas com algum esforço a mais consigo alcançar a meta e continuar
+com força máxima, preciso organizar melhor meu horário de estudos para não obrigar a estudar mais de um conteúdo durante o horário da faculdade, apesar desta situação tenho avançado
+na matéria de classes utilitárias, são aulas curtas que só introduzem as mecânicas e utilização das classes pela necessidade do sistema, provalvemente só as verei novamente quando
+começar a construir algo mais robusto, até lá preciso só manter em mente a documentação do java para revisar e as classes para utiliza-las em momento oportuno.

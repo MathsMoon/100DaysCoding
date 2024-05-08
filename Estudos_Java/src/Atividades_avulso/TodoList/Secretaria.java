@@ -1,7 +1,8 @@
-package Atividades_avulso;
+package Atividades_avulso.TodoList;
 
 public class Secretaria {
-    /*Você foi contratado para desenvolver um programa que irá gerenciar uma lista
+    /*
+    Você foi contratado para desenvolver um programa que irá gerenciar uma lista
     de tarefas diárias de um usuário. O programa deve permitir ao usuário adicionar novas tarefas,
     remover tarefas existentes, listar todas as tarefas pendentes.
 

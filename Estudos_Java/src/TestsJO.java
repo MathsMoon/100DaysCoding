@@ -7,6 +7,8 @@ public class TestsJO {
         do JavaFX
      */
     public static void main(String[] args) {
-        JOptionPane.showInputDialog("Informe Seu nome: ");
+        String nome = JOptionPane.showInputDialog("Informe Seu nome: ");
+
+        System.out.println(nome);
     }
 }

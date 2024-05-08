@@ -1,4 +1,4 @@
-package Curso_Dojo.OOP.UtilityClasses.Dominio;
+package Curso_Dojo.OOP.UtilityClasses.Dominio.StringClasses;
 
 public class UtilizingStringBuilder {
     public static void main(String[] args) {

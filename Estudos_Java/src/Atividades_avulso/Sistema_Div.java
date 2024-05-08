@@ -3,6 +3,15 @@ import java.util.Scanner;
 
 public class Sistema_Div {
 
+    /*
+        Possíveis melhorias do Sistema:
+        - Utilizar Try e Catch para evitar inserção de dados não válidos
+        - Utilizar Loops para garantir que o avanço só ocorra com as informações certas
+        - Utilizar o comando de Clear do Terminal para limpar o sistema no cmd.
+        - Limpar o código para torna-lo mais legível.
+     */
+
+
     //Definindo padrão para a Classe de cadastro
     private static final Scanner scan = new Scanner(System.in);
     private static String NomeUsuario = "";
@@ -41,7 +50,7 @@ public class Sistema_Div {
             setNomeUsuario(scan.nextLine());
         } else {
             System.out.println("-------------------------");
-            System.out.println("Escreva seu novo nome de Usuário: ");
+            System.out.println("Escreva sua nova Senha: ");
             setSenhaUsuario(scan.nextLine());
         }
 

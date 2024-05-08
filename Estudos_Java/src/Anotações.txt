@@ -40,6 +40,9 @@ Tópicos:
 - Pesquisar sobre Unboxing e Autoboxing
 - Pesquisar String constant Pools e String Interning
 - Pesquisar sobre JavaOptionPane
+- Pesquisar a Documentação do Java
+- Pesquisar sobre a ChronoField das classes de Tempo
+
 
 Coisas para fazer:
 - Terminar o TestsMatriz.Java

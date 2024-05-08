@@ -1,4 +1,4 @@
-package Curso_Dojo.OOP.UtilityClasses.Dominio;
+package Curso_Dojo.OOP.UtilityClasses.Dominio.TimeClasses;
 
 import java.util.Calendar;
 import java.util.Date;

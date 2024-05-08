@@ -33,6 +33,5 @@ public class compare_vls {
         */
 
         scan.close();
-
     }
 }
