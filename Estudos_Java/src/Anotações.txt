@@ -42,7 +42,7 @@ Tópicos:
 - Pesquisar sobre JavaOptionPane
 - Pesquisar a Documentação do Java
 - Pesquisar sobre a ChronoField das classes de Tempo
-
+- Pesquisar sobre as classes de tempo e suas formatações
 
 Coisas para fazer:
 - Terminar o TestsMatriz.Java
@@ -50,6 +50,7 @@ Coisas para fazer:
 - Terminar o exercício do Gerencia estudo
 - Terminar o desafio de fazer um validador de cadastro
 - Terminar o exercício da Empresa arrumando o bônus do salário
+- Terminar o exercício da Aula 127 sobre TemporalAdjusters
 
 Projetos:
 - Criar o sistema do Jogo de Xadrez

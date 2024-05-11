@@ -244,3 +244,8 @@ foco, é o que eu preciso.
 
 64 - Sextagésimo quarto dia, hoje tentei me concentrar em estudar para algumas provas na faculdade e avancei pouco no maratona java, preciso usar agora o tempo livre que tenho para correr
 atrás dos prejuízos dos últimos 10 dias e alcançar as metas de estudo para o septagésimo dia.
+
+65 - Sextagésimo quinto dia, hoje finalmente terminei as Aulas das classes de tempo, preciso revisa-las mais pra frente quando for necessário na utilização do TODO List como parte da organi-
+zação do tempo, entretanto apesar deste avanço hoje mais uma vez não assisti tantas aulas quanto poderia e acabei me distânciando do java, preciso voltar a praticar para revisar os conteúdos
+da maratona java e continuar estudando para terminar mais esta etapa, acredito que vou ter que prorrogar por mais 10 dias o fim da Maratona devido as falhas recentes das últimas 2 semanas, que
+diminuiram minha performance de estudos.
