@@ -249,3 +249,9 @@ atrás dos prejuízos dos últimos 10 dias e alcançar as metas de estudo para o
 zação do tempo, entretanto apesar deste avanço hoje mais uma vez não assisti tantas aulas quanto poderia e acabei me distânciando do java, preciso voltar a praticar para revisar os conteúdos
 da maratona java e continuar estudando para terminar mais esta etapa, acredito que vou ter que prorrogar por mais 10 dias o fim da Maratona devido as falhas recentes das últimas 2 semanas, que
 diminuiram minha performance de estudos.
+
+66 - Sextagésimo sexto dia, Hoje o avanço foi bem maior que os dos últimos dias e por mais que a meta de 10 aulas não tenha sido batida, pude aprender mais e melhor outros tipos de classe úteis
+como Regex e começar a ver Scanner e IO, por tanto o avanço será muito maior para este fim de semana, espero que até o fim da semana que virá eu possa já estar perto da meta de chegar a 200 aulas
+antes do septagésimo 75 dia, vou buscar agilizar para garantir as últimas 3/4 semanas um estudo mais voltado para a prática como também a finalização dos cursos anteriormente iniciados que eu acabei
+ao longo deste trajeto não concluindo ou começando, como o da professora Loiane e os cursos da Oracle.
+

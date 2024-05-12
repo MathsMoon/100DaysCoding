@@ -51,6 +51,7 @@ Coisas para fazer:
 - Terminar o desafio de fazer um validador de cadastro
 - Terminar o exercício da Empresa arrumando o bônus do salário
 - Terminar o exercício da Aula 127 sobre TemporalAdjusters
+- Colocar nos projetos a possibilidade de trocar o idioma da interface pelo ResourceBundle
 
 Projetos:
 - Criar o sistema do Jogo de Xadrez
