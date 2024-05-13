@@ -1,0 +1,3 @@
+Outro texto aleatório para escrever
+Escrevendo mais uma linha apenas para cumprir tabela e ter mais coisas
+Desta forma meu BufferedReader mais facilmente lerá tudo do que o reader comum

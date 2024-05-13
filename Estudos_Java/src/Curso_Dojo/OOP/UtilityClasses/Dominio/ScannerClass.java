@@ -13,7 +13,6 @@ public class ScannerClass {
             if(scan.hasNextInt()){
                 int num = scan.nextInt();
                 System.out.println("Int: "+ num);
-
             } else if(scan.hasNextBoolean()){
                 boolean bool = scan.nextBoolean();
                 System.out.println("Boolean: "+bool);

@@ -25,24 +25,24 @@ Private -> Default/Package -> Protected -> Public
 
 Tópicos:
 - Pesquisar sobre Pós e Pré incremento.
-- Pesquisar sobre Try e Catch.
+- Pesquisar sobre Try e Catch, principalmente o Try with resources.
 - Pesquisar sobre Listas no Java.
 - Reforçar  conceito de Classe Abstrata.
 - Pesquisar sobre ForEach interable.
 - Pesquisar sobre HashCode e HashSet.
 - Pesquisar sobre Garbage Collector.
 - Pesquisar sobre Halting Condition.
-- Pesquisar sobre Bloco de Inicialização
-- Pesquisar sobre Enums no Java
-- Pesquisar sobre Widening Casting
-- Pesquisar sobre narrowing casting
-- Pesquisar sobre Checked e Unchecked exceptions
-- Pesquisar sobre Unboxing e Autoboxing
-- Pesquisar String constant Pools e String Interning
-- Pesquisar sobre JavaOptionPane
-- Pesquisar a Documentação do Java
-- Pesquisar sobre a ChronoField das classes de Tempo
-- Pesquisar sobre as classes de tempo e suas formatações
+- Pesquisar sobre Bloco de Inicialização.
+- Pesquisar sobre Enums no Java.
+- Pesquisar sobre Widening Casting.
+- Pesquisar sobre narrowing casting.
+- Pesquisar sobre Checked e Unchecked exceptions.
+- Pesquisar sobre Unboxing e Autoboxing.
+- Pesquisar String constant Pools e String Interning.
+- Pesquisar sobre JavaOptionPane.
+- Pesquisar a Documentação do Java.
+- Pesquisar sobre a ChronoField das classes de Tempo.
+- Pesquisar sobre as classes de tempo e suas formatações.
 
 Coisas para fazer:
 - Terminar o TestsMatriz.Java
@@ -51,7 +51,10 @@ Coisas para fazer:
 - Terminar o desafio de fazer um validador de cadastro
 - Terminar o exercício da Empresa arrumando o bônus do salário
 - Terminar o exercício da Aula 127 sobre TemporalAdjusters
+- Terminar o código do FileManagement para praticar IO de arquivos.
 - Colocar nos projetos a possibilidade de trocar o idioma da interface pelo ResourceBundle
+
+
 
 Projetos:
 - Criar o sistema do Jogo de Xadrez
