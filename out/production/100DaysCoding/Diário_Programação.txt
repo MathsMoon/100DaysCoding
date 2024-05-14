@@ -255,4 +255,11 @@ como Regex e começar a ver Scanner e IO, por tanto o avanço será muito maior 
 antes do septagésimo 75 dia, vou buscar agilizar para garantir as últimas 3/4 semanas um estudo mais voltado para a prática como também a finalização dos cursos anteriormente iniciados que eu acabei
 ao longo deste trajeto não concluindo ou começando, como o da professora Loiane e os cursos da Oracle.
 
-67 - Sextagésimo sétimo dia, Hoje
+67 - Sextagésimo sétimo dia, Hoje o foco foi na continuação das aulas para buscar a meta mínima das 170 aulas, terminei estando a 27 aulas do fim, por mais que esteja bem perto é muito conteúdo para
+ser "digerido" em poucos dias, não quero que demore tanto mas acredito que realmente vou precisar utilizar mais 10 dias para finalizar toda a maratona java e com isso poder usar os últimos 20 dias
+me organizando para as próximas etapas de estudo.
+
+68 - Sextagésimo oitavo dia, dando continuidade hoje revisei alguns conteúdos com a atividade em sala e pude organizar meus projetos de estudos futuros após o fim deste desafio, por mais que não tenha
+avançado hoje, vou buscar pra pelo menos estar próximo a meta dos 170 quando chegar o septagésimo dia.  De resto preciso buscar maneiras eficazes de tornar mais produtivo meus dias e minha rotina para
+concluir os cursos que tenho pendente e saber utilizar os conhecimentos adquiridos ao longo do tempo, para as próximas etapas vou rever as minhas prioridades e táticas para tirar melhor proveito dos
+estudos.

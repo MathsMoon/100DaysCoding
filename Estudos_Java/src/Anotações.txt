@@ -45,18 +45,20 @@ Tópicos:
 - Pesquisar sobre as classes de tempo e suas formatações.
 
 Coisas para fazer:
-- Terminar o TestsMatriz.Java
-- Terminar o GenshinList
-- Terminar o exercício do Gerencia estudo
-- Terminar o desafio de fazer um validador de cadastro
-- Terminar o exercício da Empresa arrumando o bônus do salário
-- Terminar o exercício da Aula 127 sobre TemporalAdjusters
+- Terminar o TestsMatriz.Java.
+- Terminar o GenshinList.
+- Terminar o exercício do Gerencia estudo.
+- Terminar o desafio de fazer um validador de cadastro.
+- Terminar o exercício da Empresa arrumando o bônus do salário.
+- Terminar o exercício da Aula 127 sobre TemporalAdjusters.
 - Terminar o código do FileManagement para praticar IO de arquivos.
-- Colocar nos projetos a possibilidade de trocar o idioma da interface pelo ResourceBundle
+- Colocar nos projetos a possibilidade de trocar o idioma da interface pelo ResourceBundle.
+- Refazer o código do BankAccount da Aula da faculdade.
 
 
 
 Projetos:
-- Criar o sistema do Jogo de Xadrez
-- Criar o sistema de venda de passagens aéreas da Varig
-- Criar o sistema do Jogo BlackJack (21)
+- Criar o sistema do Jogo de Xadrez.
+- Criar o sistema de venda de passagens aéreas da Varig.
+- Criar o sistema do Jogo BlackJack (21).
+- Criar um sistema Simples de gerenciamento de Arquivos.
