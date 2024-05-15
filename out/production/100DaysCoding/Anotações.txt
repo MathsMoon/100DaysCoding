@@ -43,6 +43,8 @@ Tópicos:
 - Pesquisar a Documentação do Java.
 - Pesquisar sobre a ChronoField das classes de Tempo.
 - Pesquisar sobre as classes de tempo e suas formatações.
+- Pesquisar sobre o controle de Arquivos e Diretórios pelos Paths e Files.
+
 
 Coisas para fazer:
 - Terminar o TestsMatriz.Java.
@@ -54,7 +56,6 @@ Coisas para fazer:
 - Terminar o código do FileManagement para praticar IO de arquivos.
 - Colocar nos projetos a possibilidade de trocar o idioma da interface pelo ResourceBundle.
 - Refazer o código do BankAccount da Aula da faculdade.
-
 
 
 Projetos:
