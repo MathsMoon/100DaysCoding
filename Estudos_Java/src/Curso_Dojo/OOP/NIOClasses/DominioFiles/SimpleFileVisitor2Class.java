@@ -24,7 +24,8 @@ class ListAllFiles extends SimpleFileVisitor<Path>{
 
     @Override
     public FileVisitResult postVisitDirectory(Path dir, IOException exc) throws IOException {
-        return super.postVisitDirectory(dir, exc);
+        System.out.println("Post-visit: " + dir.getFileName());
+        return FileVisitResult.CONTINUE;
     }
 }
 

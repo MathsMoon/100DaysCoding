@@ -1,4 +1,4 @@
-package Curso_Dojo.OOP.IOClasses.DominioFiles;
+package Curso_Dojo.OOP.IOClasses;
 
 public class FileManagementSys {
 

@@ -1,4 +1,4 @@
-package Curso_Dojo.OOP.IOClasses.DominioFiles;
+package Curso_Dojo.OOP.IOClasses;
 
 import java.io.File;
 import java.io.FileReader;
