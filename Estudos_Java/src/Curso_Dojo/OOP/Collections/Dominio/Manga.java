@@ -6,6 +6,7 @@ public class Manga implements Comparable<Manga>{
     private Long ID;
     private String Nome;
     private String Genero;
+    private int Quantidade;
 
     public Manga(Long id, String nome, String genero) {
         //Declara que ao receber as informações deste Objeto, valores ID e Nome não podem ser Nulos
@@ -17,11 +18,21 @@ public class Manga implements Comparable<Manga>{
         Genero = genero;
     }
 
+    public Manga(Long ID, String nome, String genero, int quantidade) {
+        //Outra forma de chamar e sobrecarregar o construtor:
+        //this(id, nome, genero);
+
+        this.ID = ID;
+        Nome = nome;
+        Genero = genero;
+        Quantidade = quantidade;
+    }
+
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Manga manga = (Manga) o;
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
+        Manga manga = (Manga) obj;
         return Objects.equals(ID, manga.ID) && Objects.equals(Nome, manga.Nome) && Objects.equals(Genero, manga.Genero);
     }
 
@@ -36,18 +47,20 @@ public class Manga implements Comparable<Manga>{
                 "ID=" + ID +
                 ", Nome='" + Nome + '\'' +
                 ", Genero='" + Genero + '\'' +
+                ", Quantidade=" + Quantidade +
                 '}';
     }
-    /*
-        Para Ordenar uma Lista personalizada como a que criamos com o manga
-        é necessário implementar o método de Comparação que irá interar
-        cada elemento organizando da forma que definirmos através do comando
-        CompareTo. Para as regras de implementação faça:
 
-        - Negativo se o this (Objeto do Manga) < outroManga
-        - Se this == outroManga, retorna 0
-        - Positivo se o this > outroManga
-     */
+    /*
+            Para Ordenar uma Lista personalizada como a que criamos com o manga
+            é necessário implementar o método de Comparação que irá interar
+            cada elemento organizando da forma que definirmos através do comando
+            CompareTo. Para as regras de implementação faça:
+
+            - Negativo se o this (Objeto do Manga) < outroManga
+            - Se this == outroManga, retorna 0
+            - Positivo se o this > outroManga
+         */
     @Override
     public int compareTo(Manga OutroManga) {
         /* Maneira manual de fazer a Comparação através da Lógica do -1, 0 e 1.
@@ -66,6 +79,14 @@ public class Manga implements Comparable<Manga>{
             Para organizar a lista usando compare basta usar:
             this.(variavel).compare/to.(variavelreferenciada.valorquevcbusca());
          */
+    }
+
+    public int getQuantidade() {
+        return Quantidade;
+    }
+
+    public void setQuantidade(int quantidade) {
+        Quantidade = quantidade;
     }
 
     public Long getID() {

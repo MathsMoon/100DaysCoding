@@ -2,11 +2,10 @@ package Curso_Dojo.OOP.Collections.DominioTests;
 
 import Curso_Dojo.OOP.Collections.Dominio.Manga;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-class SortMangaByName implements Comparator<Manga>{
+class SortMangaByGenre implements Comparator<Manga>{
 /*
     Para melhor utilizar o Comparator, substuindo o Comparable em algumas partes do projeto
     podemos através de uma classe declarar o Comparator usando o Implements e da mesma forma
@@ -35,7 +34,9 @@ public class TestsSortingListComparator {
         }
 
         System.out.println("----- COM SORT -----");
-        Collections.sort(mangas, new SortMangaByName());
+        //Ambos abaixo funcionam da mesma forma, já que o sort do mangas aceita o Comparator.
+        //Collections.sort(mangas, new SortMangaByGenre());
+        mangas.sort(new SortMangaByGenre());
         for (Manga manga : mangas) {
             System.out.println(manga);
         }
