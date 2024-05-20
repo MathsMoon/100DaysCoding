@@ -66,3 +66,4 @@ Projetos:
 - Criar o sistema de venda de passagens aéreas da Varig.
 - Criar o sistema do Jogo BlackJack (21).
 - Criar um sistema Simples de gerenciamento de Arquivos.
+- Criar um sistema de venda de livros.
