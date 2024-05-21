@@ -28,7 +28,6 @@ Tópicos:
 - Pesquisar sobre Pós e Pré incremento.
 - Pesquisar sobre Try e Catch, principalmente o Try with resources.
 - Pesquisar sobre Listas no Java.
-- Reforçar  conceito de Classe Abstrata.
 - Pesquisar sobre ForEach interable.
 - Pesquisar sobre HashCode e HashSet.
 - Pesquisar sobre Garbage Collector.
@@ -47,6 +46,10 @@ Tópicos:
 - Pesquisar sobre a manipulação de atributos dos arquivos para diferentes OS.
 - Pesquisar sobre PathMatcher.
 - Pesquisar sobre Serialization.
+- Pesquisar sobre Comparable e Comparator.
+- Reforçar  conceito de Classe Abstrata.
+- Revisar os conceitos de Coleção.
+
 
 Coisas para fazer:
 - Terminar o TestsMatriz.Java.
