@@ -287,4 +287,16 @@ tive durante a alta do dia 72.
 
 74 - Septagésimo quarto dia, mais um dia abaixo.
 
-75 - Septagésimo quinto dia,
+75 - Septagésimo quinto dia, hoje está um dia mais produtivo apesar de não ter colcado tanto tempo para os estudos, pelo menos pude instalar o Maven no computador para tentar usar o JDBC (que não consegui
+devido ao Docker, queria usar o docker como o DevDojo usa, mas ainda não consegui reparar a engine para roda-lo), agora vou buscar chegar a aula 200 antes de terminar o 76 ou 77, e garantir pelo menos o fim
+do Curso da Maratona Java antes do dia 80, o mês está para virar e agora nesta etapa final quero apenas me concentrar em sair com força máxima para continuar estudando o Java e progredindo para até o final
+deste ano já ter pelo menos um estágio na área, tenho um longo caminho a percorrer, por isso estes próximos 2 anos serão de muito esforço, muitas conversas internas que serão expostas em escritos diários assim
+para mostrar a mim mesmo e aos demais que acompanharem estes escritos que é possível, eu falhei essas últimas 2 semanas, por pura preguiça, má vontade profunda de realmente fazer algo e isso preende qualquer um
+e pior, pode afundar o mental de qualquer pessoal, mas eu sei dos meus limites como das minhas responsabilidades, por isso me reerguerei, independente de quanto tempo precise eu não vou parar até conseguir. Por
+isso hoje estou aonde estou, no começo de uma caminhada que se Deus quiser, me levará ao sonho de ser um desenvolvedor de softwares e acima de tudo, um profissional excepcional que possui profundo conhecimento
+em tudo que toca e faz. Este desafio é o primeiro passo para minha vitória, e não será o último enquanto eu viver.
+
+76 - Septagésimo sexto dia, vou finalizar chegando em 200 aulas até amanhã faltando apenas mais 80 aulas de conteúdo para o fim da maratona java, eu preciso focar em realizar projetos nesses últimos dias para
+rever todos os conteúdos centrais como também para estabelecer de vez quais são minhas falhas e minhas interpretações erronêas para corrigir durante os próximos estudos, portanto para as próximas etapas tenho
+que terminar mais alguns cursos e formar mais projetos, vou buscar cursos que foquem em mostrar métodos e padrões para criar projetos assim fica mais fácil eu já ir instituindo a minha lógica a forma limpa de
+usar uma linguagem de programação e de solução de problemas.
