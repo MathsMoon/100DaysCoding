@@ -47,6 +47,7 @@ Tópicos:
 - Pesquisar sobre PathMatcher.
 - Pesquisar sobre Serialization.
 - Pesquisar sobre Comparable e Comparator.
+- Pesquisar sobre Lambda.
 - Reforçar  conceito de Classe Abstrata.
 - Revisar os conceitos de Coleção.
 

@@ -13,4 +13,8 @@ public class Barco {
                 "Nome='" + Nome + '\'' +
                 '}';
     }
+
+    public String getNome() {
+        return Nome;
+    }
 }

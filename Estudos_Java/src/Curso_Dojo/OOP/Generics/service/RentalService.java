@@ -13,7 +13,9 @@ import java.util.List;
 
     reformulando tudo para o T, estamos generalizando o Tipo para que ele encontre durante
     a pesquisa, afinal quando passarmos o objeto também identificamos seu tipo e fazemos
-    uso de suas funcionalidades.
+    uso de suas funcionalidades. Para usar classes que extedem elementos como o Comparable
+    ou Comparator basta usar o extends ao T para aplicar também a generalização, mas cuidando
+    para que não afete as classes que não usem este princípio.
 */
 
 public class RentalService<T> {

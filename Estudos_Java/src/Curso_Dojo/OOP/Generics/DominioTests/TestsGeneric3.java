@@ -18,7 +18,7 @@ public class TestsGeneric3 {
         RentalService<Carro> rentalServiceCar = new RentalService<>(carrosDisponiveis);
         RentalService<Barco> rentalServiceBoat = new RentalService<>(BarcosDisponiveis);
 
-        //Mostrando a lista antes da maniupalção
+        //Mostrando a lista antes da manipulação
         System.out.println("-------------------------");
         System.out.println("Veículos Disponíveis: ");
         System.out.println(carrosDisponiveis);
