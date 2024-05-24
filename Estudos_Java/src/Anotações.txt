@@ -48,6 +48,7 @@ Tópicos:
 - Pesquisar sobre Serialization.
 - Pesquisar sobre Comparable e Comparator.
 - Pesquisar sobre Lambda.
+- Pesquisar sobre o Optional.
 - Reforçar  conceito de Classe Abstrata.
 - Revisar os conceitos de Coleção.
 

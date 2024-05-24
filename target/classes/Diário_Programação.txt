@@ -269,25 +269,25 @@ dia 71, 230 até o 73 e 280 até o 76. Logo para a próxima semana a meta mínim
 contrário posso ter perdido muito tempo valioso que poderia estar utilizando para terminar cursos menores para encher meu perfil. Quero terminar este desafio pelo menos com 2/3 certificados para não
 começar de forma tão fraca meus primeiros 100 dias de curso, pelo menos os desafios e problemas são claros e eu devo priorizar a resolução destas dificuldades para avançar.
 
-70 - Septagésimo dia, dando continuidade aos estudos vou buscar cumprir a meta do dia anterior e buscar finalizar por esta semana a Maratona java, preciso focar nesta semana para não perder os conteú-
+70 - Septuagésimo dia, dando continuidade aos estudos vou buscar cumprir a meta do dia anterior e buscar finalizar por esta semana a Maratona java, preciso focar nesta semana para não perder os conteú-
 dos estudados e principalmente não perder mais tempo, faltando apenas 1 mês para o fim do desafio tenho que me concentrar em terminar vários cursos, o que me custará uma boa organização, preciso me
 sobressair para que tudo dê certo.
 
-71 - Septagésimo primeiro dia, Preciso emplacar pelo menos 10 aulas por dia pra garantir até o ocatgésimo dia as metas que estabeleci, está ficando complicado devido aos temas a serem revistos, mas
+71 - Septuagésimo primeiro dia, Preciso emplacar pelo menos 10 aulas por dia pra garantir até o ocatgésimo dia as metas que estabeleci, está ficando complicado devido aos temas a serem revistos, mas
 acredito que ver outros conteúdos além também irá auxiliar a pegar o conteúdo e terminar com o pé direito este desafio, preciso revisar e aproveitar os projetos para prática.
 
-72 - Septagésimo segundo dia, avancei 12 aulas hoje e estou buscando chegar a 190 antes de bater o dia 18, poderia estar avançando mais como eu estipulei como meta anteriormente, mas no fim o trabalho
+72 - Septuagésimo segundo dia, avancei 12 aulas hoje e estou buscando chegar a 190 antes de bater o dia 18, poderia estar avançando mais como eu estipulei como meta anteriormente, mas no fim o trabalho
 colossal que seria iria me consumir mais do que me ajudar a aprender o conteúdo, eu preciso reforçar as bases do meu conhecimento para não precisar voltar a rever conteúdos toda vez que precisar buscar
 caminhos em um projeto, desta forma vou tentar realmente estar próximo de termianr durante esta semana, rever a forma que eu estudo é crucial para dar certo os próximos passos então vou precisar ter
 certeza das decisões que tenho tomado, tenho que controlar meu gasto desnecessário de tempo como também minha eficiência para me manter constante, assim me formarei mais que apenas um programador, mas
 também uma pessoa resiliente.
 
-73 - Septagésimo terceiro dia, não foi um dia produtivo e realmente só deixei de lado a parte do estudo depois de alguns avanços pela madrugada, por conta disso enviei apenas as anotações e os avanços que
+73 - Septuagésimo terceiro dia, não foi um dia produtivo e realmente só deixei de lado a parte do estudo depois de alguns avanços pela madrugada, por conta disso enviei apenas as anotações e os avanços que
 tive durante a alta do dia 72.
 
-74 - Septagésimo quarto dia, mais um dia abaixo.
+74 - Septuagésimo quarto dia, mais um dia abaixo.
 
-75 - Septagésimo quinto dia, hoje está um dia mais produtivo apesar de não ter colcado tanto tempo para os estudos, pelo menos pude instalar o Maven no computador para tentar usar o JDBC (que não consegui
+75 - Septuagésimo quinto dia, hoje está um dia mais produtivo apesar de não ter colcado tanto tempo para os estudos, pelo menos pude instalar o Maven no computador para tentar usar o JDBC (que não consegui
 devido ao Docker, queria usar o docker como o DevDojo usa, mas ainda não consegui reparar a engine para roda-lo), agora vou buscar chegar a aula 200 antes de terminar o 76 ou 77, e garantir pelo menos o fim
 do Curso da Maratona Java antes do dia 80, o mês está para virar e agora nesta etapa final quero apenas me concentrar em sair com força máxima para continuar estudando o Java e progredindo para até o final
 deste ano já ter pelo menos um estágio na área, tenho um longo caminho a percorrer, por isso estes próximos 2 anos serão de muito esforço, muitas conversas internas que serão expostas em escritos diários assim
@@ -296,9 +296,15 @@ e pior, pode afundar o mental de qualquer pessoal, mas eu sei dos meus limites c
 isso hoje estou aonde estou, no começo de uma caminhada que se Deus quiser, me levará ao sonho de ser um desenvolvedor de softwares e acima de tudo, um profissional excepcional que possui profundo conhecimento
 em tudo que toca e faz. Este desafio é o primeiro passo para minha vitória, e não será o último enquanto eu viver.
 
-76 - Septagésimo sexto dia, vou finalizar chegando em 200 aulas até amanhã faltando apenas mais 80 aulas de conteúdo para o fim da maratona java, eu preciso focar em realizar projetos nesses últimos dias para
+76 - Septuagésimo sexto dia, vou finalizar chegando em 200 aulas até amanhã faltando apenas mais 80 aulas de conteúdo para o fim da maratona java, eu preciso focar em realizar projetos nesses últimos dias para
 rever todos os conteúdos centrais como também para estabelecer de vez quais são minhas falhas e minhas interpretações erronêas para corrigir durante os próximos estudos, portanto para as próximas etapas tenho
 que terminar mais alguns cursos e formar mais projetos, vou buscar cursos que foquem em mostrar métodos e padrões para criar projetos assim fica mais fácil eu já ir instituindo a minha lógica a forma limpa de
 usar uma linguagem de programação e de solução de problemas.
 
-77 - Septagésimo sétimo dia,
+77 - Septuagésimo sétimo dia, estou perto das 200 aulas e no momento que escrevo isso estou a 5 aulas de chegar lá, preciso focar mais para chegar ao fim do maratona dentro dos próximos 5 dias no máximo, quero
+destacar o quanto consegui aprender apesar de tudo, como qualquer outra linguagem aprender consiste em um processo de assimilação da maneira que os desenvolvedores pensaram o java e isso eu preciso revisar,
+para que minha curva de aprendizado continue subindo de forma contínua, sem que algo me trave ou me impeça, vou buscar fazer exercícios e revisar alguns conteúdos enquanto exploro os diversos projetos que deixei
+em aberto para ver o que realmente falta para eu continuar avançando, mas até lá preciso focar no que tenho agora e não perder o ritmo para entrar consciente e focado neste mercado, preciso pensar melhor em formas
+de tornar mais frutuoso estes períodos de estudo enquanto não trabalho, para não ficar preso quando perder o tempo que tenho livre hoje.
+
+78 - Septuagésimo oitavo dia,
