@@ -310,3 +310,8 @@ de tornar mais frutuoso estes períodos de estudo enquanto não trabalho, para n
 78 - Septuagésimo oitavo dia, finalmente alcancei o episódio 200 e cada vez mais caminho em direção ao fim do Maratona Java, aproveitando os últimos dias que tenho vou participar de um BootCamp da Dio para praticar
 conceitos avançados e estudar pelo Dio também, por mais que mexa com muitos conceitos que ainda se quer tive contato, é muito bom eu dar uma olhada para já anota-los e saber o que preciso estabelecer de conhecimento
 quando começar a criar projetos mais profissionais.
+
+79 - Septuagésimo nono dia, fiquei afastado hoje do computador então não me cuidei para avançar nas aulas do Maratona Java, mas apesar desta falta que cometi, pelo menos puder rever muito conteúdo realizando uma lei-
+tura do livro "Desbravando o Java e Orientação a Objetos", preciso reforçar princípios do POO para não travar em métodos e processos comuns que ocorrem em frameworks e no dia a dia do programador no mundo do trabalho,
+e revendo muito deste conteúdo me tira dúvidas que tinha de alguns processos ou pensamentos que tinha em relação ao uso da Orientação a Objetos, vou buscar nos meus projetos estruturar de forma correta o código para
+melhor desenvolver perante esses paradigmas, portanto é algo que tenho que ter em foco.

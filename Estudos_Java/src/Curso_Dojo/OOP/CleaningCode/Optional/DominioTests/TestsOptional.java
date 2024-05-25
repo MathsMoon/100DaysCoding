@@ -1,4 +1,4 @@
-package Curso_Dojo.OOP.CleaningCode.Optional;
+package Curso_Dojo.OOP.CleaningCode.Optional.DominioTests;
 
 import java.util.List;
 import java.util.Optional;
@@ -51,5 +51,4 @@ public class TestsOptional {
         }
         return Optional.empty();
     }
-
 }
