@@ -315,3 +315,7 @@ quando começar a criar projetos mais profissionais.
 tura do livro "Desbravando o Java e Orientação a Objetos", preciso reforçar princípios do POO para não travar em métodos e processos comuns que ocorrem em frameworks e no dia a dia do programador no mundo do trabalho,
 e revendo muito deste conteúdo me tira dúvidas que tinha de alguns processos ou pensamentos que tinha em relação ao uso da Orientação a Objetos, vou buscar nos meus projetos estruturar de forma correta o código para
 melhor desenvolver perante esses paradigmas, portanto é algo que tenho que ter em foco.
+
+80 - Octagésimo dia, preciso organizar melhor os meus projetos para práticar POO corretamente, revisando os conteúdos posso concluir de forma mais prática os projetos que estão parados dentro do maratona, vou procurar
+ler também alguns conceitos para não ficar tão perdido na hora que for trabalhar com código puro, assim posso aprender eu mesmo a buscar soluções e resolver problemas que acontecem no meu código, preciso dar um tempo
+ao tempo e práticar esses projetos, mas por hora devo me concentrar em rever os conteúdos e estudar o que tenho disponível.

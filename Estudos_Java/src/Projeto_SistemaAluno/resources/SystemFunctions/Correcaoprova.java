@@ -1,4 +1,4 @@
-package Projeto_SistemaAluno.resources.StudentFunctions;
+package Projeto_SistemaAluno.resources.SystemFunctions;
 import java.util.Scanner;
 import java.util.Arrays;
 
