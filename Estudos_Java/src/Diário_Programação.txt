@@ -319,3 +319,5 @@ melhor desenvolver perante esses paradigmas, portanto é algo que tenho que ter 
 80 - Octagésimo dia, preciso organizar melhor os meus projetos para práticar POO corretamente, revisando os conteúdos posso concluir de forma mais prática os projetos que estão parados dentro do maratona, vou procurar
 ler também alguns conceitos para não ficar tão perdido na hora que for trabalhar com código puro, assim posso aprender eu mesmo a buscar soluções e resolver problemas que acontecem no meu código, preciso dar um tempo
 ao tempo e práticar esses projetos, mas por hora devo me concentrar em rever os conteúdos e estudar o que tenho disponível.
+
+81 - Octagésimo primeiro dia, mais um dia abaixo.
