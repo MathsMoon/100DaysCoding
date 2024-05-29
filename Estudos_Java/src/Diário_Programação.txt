@@ -325,3 +325,6 @@ ao tempo e práticar esses projetos, mas por hora devo me concentrar em rever os
 82 - Octagésimo segundo dia, consegui manter uma certa constância hoje avançando mais aulas do Maratona Java, infelizmente não vou conseguir finalizar nos próximos dias devido ao conteúdo que é necessário a revisar, apesar
 da quantidade creio que na próxima semana chegando próximo do nonagésimo dia eu esteja sim próximo do fim, mas infelizmente não vou conseguir muita coisa caso queira iniciar algum outro curso ou algo similar, vou pensar se
 devo realizar estudos mais aprofundados do java antes de ir para o BackEnd em geral ou se devo aumentar o ritmo colocando mais pressão para estudar, que é algo que não me atrapalha em caso algum.
+
+83 - Octagésimo terceiro dia, hoje avancei nos estudos buscando realizar mais o bootcamp da DIO, vou buscando encerrar a maratona antes de chegar o dia 90, ao mesmo tempo que vou rever alguns conteúdos pelo DIO para práticar
+o BootCamp em si, vou focar para terminar tudo dentro das próximas semanas.

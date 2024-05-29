@@ -41,9 +41,6 @@ Em paralelo ao curso da Loiane no 45º dia de desafio eu abro também as aulas d
 Desta forma faço 2 cursos em 1, economizando o tempo do desafio e buscando aprender ainda mais sobre os conteúdos que preciso ir reforçando nesta caminhada.
 
 
-### ?. Cursos_Oracle (futuramente)
-Uma das próximas pastas que eu crierei no desafio. Em breve novidades
-
 ---
 
 ## 🖖 **Regras do Desafio #100DaysCode**

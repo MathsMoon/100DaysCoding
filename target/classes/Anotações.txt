@@ -50,6 +50,8 @@ Tópicos:
 - Pesquisar sobre Lambda.
 - Pesquisar sobre o Optional.
 - Pesquisar sobre Programação Funcional.
+- Pesquisar sobre Method References.
+- Pesquisar sobre Streams.
 - Reforçar  conceito de Classe Abstrata.
 - Revisar os conceitos de Coleção.
 
