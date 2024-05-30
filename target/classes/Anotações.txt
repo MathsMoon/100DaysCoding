@@ -51,7 +51,8 @@ Tópicos:
 - Pesquisar sobre o Optional.
 - Pesquisar sobre Programação Funcional.
 - Pesquisar sobre Method References.
-- Pesquisar sobre Streams.
+- Pesquisar sobre Streams e suas funções.
+- Pesquisar sobre ThreadLocalRandom.
 - Reforçar  conceito de Classe Abstrata.
 - Revisar os conceitos de Coleção.
 

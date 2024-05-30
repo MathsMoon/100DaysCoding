@@ -20,7 +20,6 @@ public class TestsCalc {
 
         //Passando valores a uma função pelo Varargs:
         int[] a = {1, 2, 3, 4};
-         calc.SomaArrays(a); //Retorna 10
-
+         calc.SomaArrays(a); //Retorna 10++--
     }
 }
