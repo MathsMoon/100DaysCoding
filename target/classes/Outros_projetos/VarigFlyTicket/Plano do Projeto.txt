@@ -10,3 +10,12 @@ Resumo do Projeto:
     interação entre as informações e como elas irão aparacer para o Administrador da página (e se possível posso depois
     contruir um ambiente web para hospedar esta aplicação, que por hora será feita inteiramente para funcionar ou no Option
     pane ou via terminal).
+
+ERROS:
+
+
+MELHORIAS:
+
+
+
+PARA ESTUDO:

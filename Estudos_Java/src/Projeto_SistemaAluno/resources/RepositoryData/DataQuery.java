@@ -1,18 +1,11 @@
 package Projeto_SistemaAluno.resources.RepositoryData;
 
-import java.util.Optional;
-
 public class DataQuery {
     /*
-        Para o arquivo de Dados:
-
-
-
-    private
-
-    private Optional<Student> studendsQueryList(Student ){
-
-    }
-
+        Este arquivo vai ser usado para acessa o DATARepo
+        que está sendo usado como o banco de dados provisório do
+        projeto.
      */
+
+
 }

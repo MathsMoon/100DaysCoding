@@ -331,3 +331,6 @@ o BootCamp em si, vou focar para terminar tudo dentro das próximas semanas.
 
 84 - Octagésimo quarto dia, Dando continuidade a maratona java assisti mais aulas sobre Stream destacando também as possíveis revisões e funcionalidades para ver por fora, ainda tem mais 4 aulas de Stream depois indo para Threads
 portanto irei buscar também avançar no DIO e estudar alguns conceitos a mais por lá.
+
+85 - Octagésimo quinto dia, hoje não tive muitos avanços nas aulas e acabei organizando algumas coisas do Projeto e anotei mais algumas coisas para realizar durante os últimos dias do desafio, preciso me concetrar para terminar
+bem, vou aproveitar os dias que tenho para buscar finalizar a maratona logo.

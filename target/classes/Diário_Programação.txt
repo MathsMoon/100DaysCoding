@@ -329,4 +329,5 @@ devo realizar estudos mais aprofundados do java antes de ir para o BackEnd em ge
 83 - Octagésimo terceiro dia, hoje avancei nos estudos buscando realizar mais o bootcamp da DIO, vou buscando encerrar a maratona antes de chegar o dia 90, ao mesmo tempo que vou rever alguns conteúdos pelo DIO para práticar
 o BootCamp em si, vou focar para terminar tudo dentro das próximas semanas.
 
-84 - Octagésimo quarto dia,
+84 - Octagésimo quarto dia, Dando continuidade a maratona java assisti mais aulas sobre Stream destacando também as possíveis revisões e funcionalidades para ver por fora, ainda tem mais 4 aulas de Stream depois indo para Threads
+portanto irei buscar também avançar no DIO e estudar alguns conceitos a mais por lá.

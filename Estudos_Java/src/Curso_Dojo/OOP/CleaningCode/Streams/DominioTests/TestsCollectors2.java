@@ -8,7 +8,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-
 public class TestsCollectors2 {
     private static List<LightNovel> lightNovelList = new ArrayList<>(List.of(
             new LightNovel("그녀가 공작저로 가야 했던 사정", 4.22, Category.FANTASY),
