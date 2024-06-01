@@ -3,10 +3,10 @@ package Curso_Dojo.OOP.CleaningCode.Streams.DominioTests;
 import Curso_Dojo.OOP.CleaningCode.Streams.Dominio.Category;
 import Curso_Dojo.OOP.CleaningCode.Streams.Dominio.LightNovel;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
+
+import static java.util.stream.Collectors.groupingBy;
 
 public class TestsCollectors4 {
     private static List<LightNovel> lightNovelList = new ArrayList<>(List.of(
@@ -25,11 +25,27 @@ public class TestsCollectors4 {
             desta forma é organizada a uma contagem junto com o Collect que agrupa por Categoria e Countagem,
             retornando então um Map de Long que passa a quantidade de cada Categoria mapeada da Stream.
         */
-        Map<Category, Long> collect = lightNovelList.stream().collect(Collectors.groupingBy(LightNovel::getCategory, Collectors.counting()));
+        Map<Category, Long> collect = lightNovelList.stream().collect(groupingBy(LightNovel::getCategory, Collectors.counting()));
         System.out.println(collect);
 
         //Agrupando por categoria e maior preço:
-//        lightNovelList.stream().collect(Collectors)
+        Map<Category, Optional<LightNovel>> MaxPrice = lightNovelList.stream().
+                collect(groupingBy
+                        (LightNovel::getCategory, Collectors.maxBy //Collector de grupo recebe mais de 1 parâmetro.
+                                (Comparator.comparing //Caso a classe não tenha um comparator próprio, usa o padrão para ver o maior preço.
+                                        (LightNovel::getPrice))));
+
+        System.out.println(MaxPrice);
+
+
+        //Formatando o código acima para retornar uma Stream e não um Optional:
+        Map<Category, LightNovel> RetirandoOpt = lightNovelList.stream().
+                collect(groupingBy
+                        (LightNovel::getCategory,
+                                Collectors.collectingAndThen
+                                        (Collectors.maxBy(Comparator.comparing(LightNovel::getPrice)), Optional::get)));
+
+        System.out.println(RetirandoOpt);
 
     }
 }

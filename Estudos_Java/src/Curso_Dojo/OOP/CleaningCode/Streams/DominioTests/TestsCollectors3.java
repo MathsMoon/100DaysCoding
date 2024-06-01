@@ -24,7 +24,7 @@ public class TestsCollectors3 {
         //Buscando Lns para promoção:
         Map<Promotion, List<LightNovel>> promotionListMap = lightNovelList.stream().
                 collect(Collectors.groupingBy(ln ->
-                        ln.getPrice() < 6 ? Promotion.UNDERPROMOTION : Promotion.PROMOTION
+                        ln.getPrice() < 6 ? Promotion.UNDERPROMOTION : Promotion.NORMAL_PRICE
                 ));
 
         //Mostrando a Lista com as Novels menores
@@ -32,7 +32,7 @@ public class TestsCollectors3 {
 
         //Realizando um Mapping de um outro Mapping para organizar o preço e a categoria.
         Map<Category, Map<Promotion, List<LightNovel>>> collect = lightNovelList.stream().collect(Collectors.groupingBy(LightNovel::getCategory, Collectors.groupingBy(ln ->
-                ln.getPrice() < 6 ? Promotion.UNDERPROMOTION : Promotion.PROMOTION
+                ln.getPrice() < 6 ? Promotion.UNDERPROMOTION : Promotion.NORMAL_PRICE
         )));
 
         //Mostrando o resultado dos Mappings:

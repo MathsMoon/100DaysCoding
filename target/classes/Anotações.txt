@@ -53,6 +53,7 @@ Tópicos:
 - Pesquisar sobre Method References.
 - Pesquisar sobre Streams e suas funções.
 - Pesquisar sobre ThreadLocalRandom.
+- Pesquisar sobre Collections para Streams.
 - Reforçar  conceito de Classe Abstrata.
 - Revisar os conceitos de Coleção.
 

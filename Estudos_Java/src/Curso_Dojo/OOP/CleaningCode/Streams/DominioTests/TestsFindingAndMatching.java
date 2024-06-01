@@ -5,7 +5,6 @@ import Curso_Dojo.OOP.CleaningCode.Streams.Dominio.LightNovel;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
-import java.util.Optional;
 
 public class TestsFindingAndMatching {
     private static List<LightNovel> lightNovelList = new ArrayList<>(List.of(
