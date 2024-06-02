@@ -54,6 +54,8 @@ Tópicos:
 - Pesquisar sobre Streams e suas funções.
 - Pesquisar sobre ThreadLocalRandom.
 - Pesquisar sobre Collections para Streams.
+- Pesquisar sobre Parallel Streams.
+- Pesquisar sobre Threads.
 - Reforçar  conceito de Classe Abstrata.
 - Revisar os conceitos de Coleção.
 

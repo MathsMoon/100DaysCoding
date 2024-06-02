@@ -335,4 +335,10 @@ portanto irei buscar também avançar no DIO e estudar alguns conceitos a mais p
 85 - Octagésimo quinto dia, hoje não tive muitos avanços nas aulas e acabei organizando algumas coisas do Projeto e anotei mais algumas coisas para realizar durante os últimos dias do desafio, preciso me concetrar para terminar
 bem, vou aproveitar os dias que tenho para buscar finalizar a maratona logo.
 
-86 - Octagésimo sexto dia, mais um dia bem abaixo, não fiz progressos significativos e acabei deixando ir o dia sem avançar, ainda faltam 66/68 aulas para acabar o maratona e menos de 2 semanas, é necessário foco.
+86 - Octagésimo sexto dia, mais um dia bem abaixo não fiz progressos significativos e acabei deixando ir o dia sem avançar, ainda faltam 66/68 aulas para acabar o maratona e menos de 2 semanas, é necessário foco.
+
+87 - Octagésimo sétimo dia, hoje foi um dia mais produtivo na qual consegui avançar quase 10 aulas, parei na 9 devido a sua importância que eu devo realmente ter atenção, e como está perto do horário de acabar o dia preferir então
+deixar para amanhã, faltam 12 dias para o fim do desafio e com isso tenho mais 56 aulas que eu posso condensar buscando 10 aulas por dia, e esta é minha prioridade para manter um bom ritmo e não perder tempo como tenho feito,
+este desafio me deixou marcas nas quais ficam fáceis de visualizar meus erros, e através deste diário posso contemplar tudo que fui de ruim nos últimos meses, apesar de não ter alcançado longe como quis sempre destacar que chegaria
+ainda pude ir longe e isso me motiva para melhor me organizar para o próximo desafio, ainda preciso rever se busco aprofundar o java com projetos ou devo seguir para estudo focado no BackEnd revisando por fora os conteúdos mais avançados
+que for vendo estar necessitado, ainda preciso visualizar onde devo pisar. Quanto mais é esta minha situação de hoje, vou procurar revisar um pouco e ver se consigo terminar o dia com pé direito para amanhã ter mais força ainda.
