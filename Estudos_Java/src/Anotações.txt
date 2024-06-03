@@ -39,7 +39,7 @@ Tópicos:
 - Pesquisar sobre Checked e Unchecked exceptions.
 - Pesquisar sobre Unboxing e Autoboxing.
 - Pesquisar String constant Pools e String Interning.
-- Pesquisar sobre JavaOptionPane.
+- Pesquisar sobre Java Swing.
 - Pesquisar sobre a ChronoField das classes de Tempo.
 - Pesquisar sobre as classes de tempo e suas formatações.
 - Pesquisar sobre o controle de Arquivos e Diretórios pelos Paths e Files.

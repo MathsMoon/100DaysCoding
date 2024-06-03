@@ -342,3 +342,5 @@ deixar para amanhã, faltam 12 dias para o fim do desafio e com isso tenho mais 
 este desafio me deixou marcas nas quais ficam fáceis de visualizar meus erros, e através deste diário posso contemplar tudo que fui de ruim nos últimos meses, apesar de não ter alcançado longe como quis sempre destacar que chegaria
 ainda pude ir longe e isso me motiva para melhor me organizar para o próximo desafio, ainda preciso rever se busco aprofundar o java com projetos ou devo seguir para estudo focado no BackEnd revisando por fora os conteúdos mais avançados
 que for vendo estar necessitado, ainda preciso visualizar onde devo pisar. Quanto mais é esta minha situação de hoje, vou procurar revisar um pouco e ver se consigo terminar o dia com pé direito para amanhã ter mais força ainda.
+
+88 - Octagésimo oitavo dia, não foi um dia protudivo, consegui finalizar a aula da 229 mas não avancei mais, preciso fechar 240 pelo menos até amanhã para não ficar pesado esses últimos 10 dias.

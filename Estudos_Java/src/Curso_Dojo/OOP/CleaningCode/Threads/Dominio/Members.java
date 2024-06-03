@@ -2,7 +2,6 @@ package Curso_Dojo.OOP.CleaningCode.Threads.Dominio;
 
 import java.util.Queue;
 import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.BlockingQueue;
 
 public class Members {
    private final Queue<String> emails = new ArrayBlockingQueue<>(10);
@@ -23,14 +22,36 @@ public class Members {
             String threadName = Thread.currentThread().getName();
             System.out.println(threadName + " Adicionou um e-mail na lista");
             this.emails.add(email);
+            //Voltando todas as Threads do descanso
+            this.emails.notifyAll();
+        }
+    }
 
-            //TODO voltar quando a Thread estiver esperando
+    /*
+        A função abaixo ele recebe da lista de emails e confere caso esteja
+        pendente ou não algum email, caso esteja ele retorna que não tem mais emails
+        e usa o wait para colocar em modo de decanso a Thread utilizada, desta forma
+        não é necessário ficar recriando Threads a cada processo, elas são reutilizadas
+        através da ação do wait que espera uma ação. Caso contrário ele retorna o email
+     */
+
+    public String retrieveEmail() throws InterruptedException{
+        System.out.println(Thread.currentThread().getName() + " Checking if there are e-mails");
+        synchronized (this.emails){
+            while (this.emails.isEmpty()){
+                if(!open) return null;
+                System.out.println(Thread.currentThread().getName() + " Não tem e-mail disponível na lista, entrando em mode de espera");
+                 this.emails.wait();
+            }
+            return this.emails.poll();
         }
     }
 
 
-    public void retrieveEmail(){
-        System.out.println(Thread.currentThread().getName() + " Checking if there are emails");
-
+    public void close(){
+        open = false;
+        synchronized (this.emails) {
+            System.out.println(Thread.currentThread().getName() + " Finalizando a coleta de e-mails");
+        }
     }
 }
