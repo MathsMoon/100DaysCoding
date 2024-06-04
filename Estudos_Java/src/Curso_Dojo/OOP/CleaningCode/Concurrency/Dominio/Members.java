@@ -1,10 +1,16 @@
-package Curso_Dojo.OOP.CleaningCode.Threads.Dominio;
+package Curso_Dojo.OOP.CleaningCode.Concurrency.Dominio;
+
+//Alterando a função Synchronized para Lock:
 
 import java.util.Queue;
 import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class Members {
    private final Queue<String> emails = new ArrayBlockingQueue<>(10);
+   private final ReentrantLock lock = new ReentrantLock();
+   private final Condition condition = lock.newCondition();
    private boolean open = true;
 
     public boolean isOpen(){
@@ -12,47 +18,57 @@ public class Members {
     }
 
     public int pendingEmail(){
-        synchronized (emails){
+        lock.lock();
+        try {
             return emails.size();
-        }
-    }
-
-    public void addMemberEmail(String email){
-        synchronized (this.emails){
-            String threadName = Thread.currentThread().getName();
-            System.out.println(threadName + " Adicionou um e-mail na lista");
-            this.emails.add(email);
-            //Voltando todas as Threads do descanso
-            this.emails.notifyAll();
+        }finally {
+            lock.unlock();
         }
     }
 
     /*
-        A função abaixo ele recebe da lista de emails e confere caso esteja
-        pendente ou não algum email, caso esteja ele retorna que não tem mais emails
-        e usa o wait para colocar em modo de decanso a Thread utilizada, desta forma
-        não é necessário ficar recriando Threads a cada processo, elas são reutilizadas
-        através da ação do wait que espera uma ação. Caso contrário ele retorna o email
+        Diferente do PendingEmail, essa classe trabalha notificando as Threads
+        Para trabalhar com este tipo em específico de sistema temos que usar
+        dentro da classe Concurrency o Conditions, ele é responsável por
+        responder as condições existentes dentro do Lock.
      */
 
-    public String retrieveEmail() throws InterruptedException{
-        System.out.println(Thread.currentThread().getName() + " Checking if there are e-mails");
-        synchronized (this.emails){
-            while (this.emails.isEmpty()){
-                if(!open) return null;
-                System.out.println(Thread.currentThread().getName() + " Não tem e-mail disponível na lista, entrando em mode de espera");
-                 this.emails.wait();
-            }
-            return this.emails.poll();
+    public void addMemberEmail(String email){
+        lock.lock();
+        try {
+            String threadName = Thread.currentThread().getName();
+            System.out.println(threadName + " Adicionou um e-mail na lista");
+            this.emails.add(email);
+            //Voltando todas as Threads do descanso
+            condition.signalAll();
+        }finally {
+            lock.unlock();
         }
     }
 
+    public String retrieveEmail() throws InterruptedException{
+        System.out.println(Thread.currentThread().getName() + " Checking if there are e-mails");
+        lock.lock();
+        try {
+            while (this.emails.isEmpty()){
+                if(!open) return null;
+                System.out.println(Thread.currentThread().getName() + " Não tem e-mail disponível na lista, entrando em mode de espera");
+                 condition.await();
+            }
+            return this.emails.poll();
+        }finally {
+            lock.unlock();
+        }
+    }
 
     public void close(){
         open = false;
-        synchronized (this.emails) {
+        lock.lock();
+        try {
             System.out.println(Thread.currentThread().getName() + " Finalizando a coleta de e-mails");
-            this.emails.notifyAll();
+            condition.signalAll();
+        }finally {
+            lock.unlock();
         }
     }
 }

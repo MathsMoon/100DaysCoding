@@ -56,6 +56,9 @@ Tópicos:
 - Pesquisar sobre Collections para Streams.
 - Pesquisar sobre Parallel Streams.
 - Pesquisar sobre Threads.
+- Pesquisar sobre Concorrência.
+- Pesquisar sobre Imutabilidade no Java (visando Thread em específico).
+- Pesquisar sobre Executors.
 - Reforçar  conceito de Classe Abstrata.
 - Revisar os conceitos de Coleção.
 
@@ -70,6 +73,7 @@ Coisas para fazer:
 - Terminar o código do FileManagement para praticar IO de arquivos.
 - Colocar nos projetos a possibilidade de trocar o idioma da interface pelo ResourceBundle.
 - Refazer o código do BankAccount da Aula da faculdade.
+- Refazer o código do ReentrantReadWriteLock.
 - Revisar a pasta IO e NIO para saber se preciso revisar alguma questão.
 
 
