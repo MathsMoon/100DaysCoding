@@ -349,3 +349,8 @@ que for vendo estar necessitado, ainda preciso visualizar onde devo pisar. Quant
 entrarei nos tópicos de JDBC e eu preciso arrumar o Docker para ser mais ágil no trabalho, já que um controle de versão de aplicações como o docker vai me ajudar muito a ser mais rápido no trabalho, além de que eu preciso reformar
 meus códigos e aprender mais conceitos, então preciso repensar o que devo estudar para o próximo desafio, se continuo BackEnd direto ou faço mais cursos do Java para consolidar o POO, acredito que vendo os cursos que já possuo sejam
 uma boa medida para comparar meus conhecimentos.
+
+90 - Nonagésimo dia, tendo finalizado mais um dia consegui avançar um pouco mais na Maratona apesar de não alcançar as 10 aulas, ainda faltam 45 aulas e eu tenho 9 dias para fazer isso, então assistindo no mínimo 5 aulas por dia consigo
+terminar a maratona no último dia do desafio. Pena que não consegui passar o tempo desenvolvendo projetos, preciso mexer mais neles para saber o que fazer e o que estudar, mas por hora estou pensando em quais passos devo tomar para
+os próximos dias, como se aproxima do fim preciso me organizar para finalizar logo todas as aulas que tenho disponíveis como também procurar me organizar para os próximos desafios, talvez uso os primeiros 2/3 dias do próximo desafio para
+organizar meus próximos passos.
