@@ -60,6 +60,8 @@ Tópicos:
 - Pesquisar sobre Imutabilidade no Java (visando Thread em específico).
 - Pesquisar sobre Executors.
 - Pesquisar sobre Processamento Síncrono e Assíncrono.
+- Pesquisar sobre Documentação no Java.
+- Pesquisar sobre RegEx.
 - Reforçar  conceito de Classe Abstrata.
 - Revisar os conceitos de Coleção.
 

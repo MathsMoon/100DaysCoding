@@ -60,6 +60,8 @@ Tópicos:
 - Pesquisar sobre Imutabilidade no Java (visando Thread em específico).
 - Pesquisar sobre Executors.
 - Pesquisar sobre Processamento Síncrono e Assíncrono.
+- Pesquisar sobre Documentação no Java.
+- Pesquisar sobre RegEx.
 - Reforçar  conceito de Classe Abstrata.
 - Revisar os conceitos de Coleção.
 
@@ -75,6 +77,7 @@ Coisas para fazer:
 - Colocar nos projetos a possibilidade de trocar o idioma da interface pelo ResourceBundle.
 - Refazer o código do BankAccount da Aula da faculdade.
 - Refazer o código do ReentrantReadWriteLock.
+- Refazer o código da aula de CompletableFutureCalls.
 - Revisar a pasta IO e NIO para saber se preciso revisar alguma questão.
 
 
