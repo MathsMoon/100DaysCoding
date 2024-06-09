@@ -63,6 +63,7 @@ Tópicos:
 - Pesquisar sobre Documentação no Java.
 - Pesquisar sobre RegEx.
 - Pesquisar sobre Design Patterns.
+- Pesquisar sobre DTO.
 - Reforçar  conceito de Classe Abstrata.
 - Revisar os conceitos de Coleção.
 
