@@ -365,3 +365,5 @@ problemas futuros com isso.
 93 - Nonagésimo terceiro dia, consegui ver mais algumas aulas e tive uma boa companhia hoje para estudar e me incentivar a continuar. Para os próximos dias será mais produtivo para terminar com um bom pace o desafio dos 100 dias. ily M&Ms
 
 94 - Nonagésimo quarto dia, mais avanços para o desafio que se encerra em 5 dias, o problema agora é passar pelo JDBC Que vai me consumir bastante devido as necessidades do plugin e também de conectar o banco, vou tentar resolver o docker.
+
+95 - Nonagésimo quinto dia, não fiz nada e perdi oq tinha feito. amanhã recobro.
