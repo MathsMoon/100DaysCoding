@@ -1,14 +1,13 @@
 package Curso_Dojo.JDBC.Introduction.DominioTest;
 
 import Curso_Dojo.JDBC.Introduction.Dominio.Mangaka;
-import Curso_Dojo.JDBC.Introduction.Repository.MangakaRepo;
+import Curso_Dojo.JDBC.Introduction.Service.MangakaService;
+
+import java.util.List;
 
 public class TestConnectionJDBC {
     public static void main(String[] args) {
-        Mangaka mangaka = Mangaka.MangakaBuilder.
-                builder().
-                Name("Arthemis").
-                build();
-        MangakaRepo.save(mangaka);
+        List<Mangaka> mangakas = MangakaService.findByNameAndUpdateToUpperCase("Au");
+        System.out.println(mangakas);
     }
 }
