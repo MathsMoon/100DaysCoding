@@ -7,7 +7,7 @@ import java.util.List;
 
 public class TestConnectionJDBC {
     public static void main(String[] args) {
-        List<Mangaka> mangakas = MangakaService.findByNameAndUpdateToUpperCase("Au");
+        List<Mangaka> mangakas = MangakaService.findByNameAndInsertWhenNotFound("ma");
         System.out.println(mangakas);
     }
 }

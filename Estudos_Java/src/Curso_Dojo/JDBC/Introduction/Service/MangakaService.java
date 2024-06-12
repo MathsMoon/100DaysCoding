@@ -44,6 +44,10 @@ public class MangakaService {
         return MangakaRepo.findByNameAndUpdateToUpperCase(name);
     }
 
+    public static List<Mangaka> findByNameAndInsertWhenNotFound(String name){
+        return MangakaRepo.findByNameAndInsertWhenNotFound(name);
+    }
+
     private static void requireValidID(Integer ID){
         if(ID == null || ID <= 0){
             throw new IllegalArgumentException("Invalid value for ID");

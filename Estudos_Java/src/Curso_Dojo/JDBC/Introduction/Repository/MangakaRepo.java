@@ -223,14 +223,24 @@ public class MangakaRepo {
         try(Connection con = ConnectionFactory.getConnection();
             Statement stmt = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_UPDATABLE);
             ResultSet rs = stmt.executeQuery(sql)) {
-            if(!rs.next()){
-                rs.moveToInsertRow();
-                rs.updateString("mangakaName", name);
-                rs.insertRow();
-            }
+            if(rs.next()) {return mangakaList;}
+            InsertNewProducer(name, rs);
+            mangakaList.add(getMangaka(rs));
         } catch (SQLException e) {
             log.error("Error Trying to get the Mangaka list", e);
         }
         return mangakaList;
+    }
+
+    private static void InsertNewProducer(String name, ResultSet rs) throws SQLException {
+        rs.moveToInsertRow();
+        rs.updateString("mangakaName", name);
+        rs.insertRow();
+    }
+
+    private static Mangaka getMangaka(ResultSet rs) throws SQLException {
+        rs.beforeFirst();
+        rs.next();
+        return Mangaka.builder().Name(rs.getString("mangakaName")).id(rs.getInt("idmangaka")).build();
     }
 }
