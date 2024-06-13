@@ -65,6 +65,8 @@ Tópicos:
 - Pesquisar sobre Design Patterns.
 - Pesquisar sobre DTO.
 - Pesquisar sobre JDBC.
+- Pesquisar sobre Callable Statement.
+- Pesquisar sobre RowSet.
 - Reforçar os conceito de Classe Abstrata.
 - Revisar os conceitos de Coleção.
 

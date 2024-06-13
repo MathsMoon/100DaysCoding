@@ -1,4 +1,4 @@
-package Curso_Dojo.JDBC.Introduction.Dominio;
+package Curso_Dojo.JDBC.Dominio;
 
 import lombok.Builder;
 import lombok.Value;

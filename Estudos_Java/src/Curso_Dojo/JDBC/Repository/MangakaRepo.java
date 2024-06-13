@@ -1,7 +1,7 @@
-package Curso_Dojo.JDBC.Introduction.Repository;
+package Curso_Dojo.JDBC.Repository;
 
-import Curso_Dojo.JDBC.Introduction.Dominio.Mangaka;
-import Curso_Dojo.JDBC.Introduction.Service.ConnectionFactory;
+import Curso_Dojo.JDBC.Dominio.Mangaka;
+import Curso_Dojo.JDBC.Service.ConnectionFactory;
 import lombok.extern.log4j.Log4j2;
 
 import java.sql.*;
@@ -52,6 +52,24 @@ public class MangakaRepo {
         }
     }
 
+    public static void updateWithPreparedStatement(Mangaka mangaka){
+        try(Connection con = ConnectionFactory.getConnection();
+            PreparedStatement ps = updatePreparedeStatement(con, mangaka)) {
+            int rowsAffected = ps.executeUpdate();
+            log.info("Database rows updated with PreparedStatement '{}'", rowsAffected);
+        } catch (SQLException e) {
+            log.error("Error while trying to update mangaka '{}'", mangaka.getId(), e);
+        }
+    }
+
+    private static PreparedStatement updatePreparedeStatement(Connection con, Mangaka mangaka) throws SQLException {
+        String sql = "UPDATE `loja_manga`.`mangaka` SET `mangakaName` = ? WHERE (`idmangaka` = ?)";
+        PreparedStatement ps = con.prepareStatement(sql);
+        ps.setString(1, mangaka.getName());
+        ps.setInt(2, mangaka.getId());
+        return ps;
+    }
+
     /*
         Devido a proximidade dos códigos entre o FindByName e o Find All.
         poderíamos simplesmente substituir o Findall pelo
@@ -67,12 +85,7 @@ public class MangakaRepo {
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery(sql)) {
             while (rs.next()){
-                Mangaka mangaka = Mangaka.
-                        builder().
-                        Name(rs.getString("mangakaName")).
-                        id(rs.getInt("idmangaka")).
-                        build();
-                mangakaList.add(mangaka);
+                extracted(rs, mangakaList);
             }
         } catch (SQLException e) {
             log.error("Error Trying to get the Mangaka list", e);
@@ -89,18 +102,60 @@ public class MangakaRepo {
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery(sql)) {
             while (rs.next()){
-                Mangaka mangaka = Mangaka.
-                        builder().
-                        Name(rs.getString("mangakaName")).
-                        id(rs.getInt("idmangaka")).
-                        build();
-                mangakaList.add(mangaka);
+                extracted(rs, mangakaList);
             }
         } catch (SQLException e) {
             log.error("Error Trying to get the Mangaka list", e);
         }
         return mangakaList;
     }
+
+    public static List<Mangaka> findByNamePrepareStatement(String name){
+        List<Mangaka> mangakaList = new ArrayList<>();
+        log.info("Fiding Mangaka by Name with Prepare Statement");
+
+        try(Connection con = ConnectionFactory.getConnection();
+            PreparedStatement ps = createdPreparedStatement(con, name);
+            ResultSet rs = ps.executeQuery()) {
+            while (rs.next()){
+                extracted(rs, mangakaList);
+            }
+        } catch (SQLException e) {
+            log.error("Error Trying to get the Mangaka list", e);
+        }
+        return mangakaList;
+    }
+
+    private static PreparedStatement createdPreparedStatement(Connection con,String name) throws SQLException {
+        String sql = "SELECT * FROM loja_manga.mangaka where mangakaName like ?;";
+        PreparedStatement ps = con.prepareStatement(sql);
+        ps.setString(1, name);
+        return ps;
+    }
+
+    public static List<Mangaka> findByNameCallableStatement(String name){
+        List<Mangaka> mangakaList = new ArrayList<>();
+        log.info("Fiding Mangaka by Name with Callable Statement");
+
+        try(Connection con = ConnectionFactory.getConnection();
+            PreparedStatement ps = createdCallableStatement(con, name);
+            ResultSet rs = ps.executeQuery()) {
+            while (rs.next()){
+                extracted(rs, mangakaList);
+            }
+        } catch (SQLException e) {
+            log.error("Error Trying to get the Mangaka list", e);
+        }
+        return mangakaList;
+    }
+
+    private static CallableStatement createdCallableStatement(Connection con,String name) throws SQLException {
+        String sql = "CALL 'loja_manga'.'sp_get_by_name'(?);";
+        CallableStatement cs = con.prepareCall(sql);
+        cs.setString(1, name);
+        return cs;
+    }
+
 
     public static void getMangakaMetaData(){
         String sql = "SELECT * FROM loja_manga.mangaka;";
@@ -202,12 +257,7 @@ public class MangakaRepo {
             while (rs.next()){
                 rs.updateString("mangakaName", rs.getString("mangakaName").toUpperCase());
                 rs.updateRow();
-                Mangaka mangaka = Mangaka.
-                        builder().
-                        Name(rs.getString("mangakaName")).
-                        id(rs.getInt("idmangaka")).
-                        build();
-                mangakaList.add(mangaka);
+                extracted(rs, mangakaList);
             }
         } catch (SQLException e) {
             log.error("Error Trying to get the Mangaka list", e);
@@ -223,13 +273,38 @@ public class MangakaRepo {
         try(Connection con = ConnectionFactory.getConnection();
             Statement stmt = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_UPDATABLE);
             ResultSet rs = stmt.executeQuery(sql)) {
-            if(rs.next()) {return mangakaList;}
+            if(rs.next()) {
+                extracted(rs, mangakaList);
+                return mangakaList;}
             InsertNewProducer(name, rs);
             mangakaList.add(getMangaka(rs));
         } catch (SQLException e) {
             log.error("Error Trying to get the Mangaka list", e);
         }
         return mangakaList;
+    }
+
+    private static void extracted(ResultSet rs, List<Mangaka> mangakaList) throws SQLException {
+        Mangaka mangaka = Mangaka.builder().
+                Name(rs.getString("mangakaName")).
+                id(rs.getInt("idmangaka")).
+                build();
+        mangakaList.add(mangaka);
+    }
+
+    public static void findByNameAndDelete(String name){
+        String sql = "SELECT * FROM loja_manga.mangaka where mangakaName like '%%%s%%';".formatted(name);
+        log.info("Fiding Mangaka to delete");
+        try(Connection con = ConnectionFactory.getConnection();
+            Statement stmt = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_UPDATABLE);
+            ResultSet rs = stmt.executeQuery(sql)) {
+            while (rs.next()){
+                log.info("Mangaka '{}' deleted", rs.getString("mangakaName"));
+                rs.deleteRow();
+            }
+        } catch (SQLException e) {
+            log.error("Error Trying to get the Mangaka list", e);
+        }
     }
 
     private static void InsertNewProducer(String name, ResultSet rs) throws SQLException {

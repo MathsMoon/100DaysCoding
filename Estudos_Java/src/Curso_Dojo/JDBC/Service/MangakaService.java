@@ -1,7 +1,7 @@
-package Curso_Dojo.JDBC.Introduction.Service;
+package Curso_Dojo.JDBC.Service;
 
-import Curso_Dojo.JDBC.Introduction.Dominio.Mangaka;
-import Curso_Dojo.JDBC.Introduction.Repository.MangakaRepo;
+import Curso_Dojo.JDBC.Dominio.Mangaka;
+import Curso_Dojo.JDBC.Repository.MangakaRepo;
 
 import java.util.List;
 
@@ -20,12 +20,25 @@ public class MangakaService {
         MangakaRepo.update(mangaka);
     }
 
+    public static void updateWithPreparedStatement(Mangaka mangaka){
+        requireValidID(mangaka.getId());
+        MangakaRepo.updateWithPreparedStatement(mangaka);
+    }
+
     public static List<Mangaka> findAll(){
         return MangakaRepo.findAll();
     }
 
     public static List<Mangaka> findByName(String name){
         return MangakaRepo.findByName(name);
+    }
+
+    public static List<Mangaka> findByNamePrepareStatement(String name){
+        return MangakaRepo.findByNamePrepareStatement(name);
+    }
+
+    public static List<Mangaka> findByNameCallableStatement(String name){
+        return MangakaRepo.findByNameCallableStatement(name);
     }
 
     public static void showingMetaData(){
@@ -47,6 +60,11 @@ public class MangakaService {
     public static List<Mangaka> findByNameAndInsertWhenNotFound(String name){
         return MangakaRepo.findByNameAndInsertWhenNotFound(name);
     }
+
+    public static void findByNameAndDelete(String name){
+         MangakaRepo.findByNameAndDelete(name);
+    }
+
 
     private static void requireValidID(Integer ID){
         if(ID == null || ID <= 0){
