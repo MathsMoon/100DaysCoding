@@ -1,8 +1,10 @@
 package Curso_Dojo.JDBC.Repository;
 
 import Curso_Dojo.JDBC.Dominio.Mangaka;
+import Curso_Dojo.JDBC.Listener.CustomRowSetListener;
 import Curso_Dojo.JDBC.Service.ConnectionFactory;
 
+import javax.sql.rowset.CachedRowSet;
 import javax.sql.rowset.JdbcRowSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -13,6 +15,7 @@ public class MangakaRepoRowSet {
         String sql = "SELECT * FROM loja_manga.mangaka where mangakaName like ?;";
         List<Mangaka> mangakaList = new ArrayList<>();
         try(JdbcRowSet jrs = ConnectionFactory.getJdbcRowSet()){
+            jrs.addRowSetListener(new CustomRowSetListener());
             jrs.setCommand(sql);
             jrs.setString(1, String.format("%%%s%%",name));
             jrs.execute();
@@ -40,14 +43,29 @@ public class MangakaRepoRowSet {
 
     public static void updateRowSet(Mangaka mangaka){
         String sql = "SELECT * FROM loja_manga.mangaka WHERE (`idmangaka` = ?)";
-        List<Mangaka> mangakaList = new ArrayList<>();
         try(JdbcRowSet jrs = ConnectionFactory.getJdbcRowSet()){
+            jrs.addRowSetListener(new CustomRowSetListener());
             jrs.setCommand(sql);
             jrs.setInt(1, mangaka.getId());
             jrs.execute();
             if(!jrs.next()) return;
             jrs.updateString("mangakaName", mangaka.getName());
             jrs.updateRow();
+        }catch (SQLException e){
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static void updateCachedRowSet(Mangaka mangaka){
+        String sql = "SELECT * FROM loja_manga.mangaka WHERE (`idmangaka` = ?)";
+        try(CachedRowSet crs = ConnectionFactory.getCachedRowSet()){
+            crs.addRowSetListener(new CustomRowSetListener());
+            crs.setCommand(sql);
+            crs.setInt(1, mangaka.getId());
+            crs.execute();
+            if(!crs.next()) return;
+            crs.updateString("mangakaName", mangaka.getName());
+            crs.updateRow();
         }catch (SQLException e){
             throw new RuntimeException(e);
         }

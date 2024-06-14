@@ -1,6 +1,6 @@
 package Curso_Dojo.JDBC.Service;
 
-import javax.sql.RowSet;
+import javax.sql.rowset.CachedRowSet;
 import javax.sql.rowset.JdbcRowSet;
 import javax.sql.rowset.RowSetProvider;
 import java.sql.Connection;
@@ -25,5 +25,16 @@ public class ConnectionFactory {
         rowSet.setUsername(username);
         rowSet.setPassword(password);
         return rowSet;
+    }
+
+    public static CachedRowSet getCachedRowSet() throws SQLException {
+        String url = "jdbc:mysql://localhost:3305/loja_manga";
+        String username = "root";
+        String password = "root";
+        CachedRowSet CachedrowSet = RowSetProvider.newFactory().createCachedRowSet();
+        CachedrowSet.setUrl(url);
+        CachedrowSet.setUsername(username);
+        CachedrowSet.setPassword(password);
+        return CachedrowSet;
     }
 }

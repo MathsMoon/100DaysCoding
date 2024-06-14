@@ -67,6 +67,7 @@ Tópicos:
 - Pesquisar sobre JDBC.
 - Pesquisar sobre Callable Statement.
 - Pesquisar sobre RowSet.
+- Pesquisar sobre RowSetListener.
 - Reforçar os conceito de Classe Abstrata.
 - Revisar os conceitos de Coleção.
 
