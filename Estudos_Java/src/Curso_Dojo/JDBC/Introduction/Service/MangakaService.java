@@ -1,13 +1,17 @@
-package Curso_Dojo.JDBC.Service;
+package Curso_Dojo.JDBC.Introduction.Service;
 
-import Curso_Dojo.JDBC.Dominio.Mangaka;
-import Curso_Dojo.JDBC.Repository.MangakaRepo;
+import Curso_Dojo.JDBC.Introduction.Dominio.Mangaka;
+import Curso_Dojo.JDBC.Introduction.Repository.MangakaRepo;
 
 import java.util.List;
 
 public class MangakaService {
     public static void save(Mangaka mangaka){
         MangakaRepo.save(mangaka);
+    }
+
+    public static void saveTransaction(List<Mangaka> mangakas){
+        MangakaRepo.saveTransaction(mangakas);
     }
 
     public static void delete(Integer id){

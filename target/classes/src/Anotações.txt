@@ -48,7 +48,7 @@ Tópicos:
 - Pesquisar sobre Serialization.
 - Pesquisar sobre Comparable e Comparator.
 - Pesquisar sobre Lambda.
-- Pesquisar sobre o Optional.
+- Pesquisar sobre Optional.
 - Pesquisar sobre Programação Funcional.
 - Pesquisar sobre Method References.
 - Pesquisar sobre Streams e suas funções.
@@ -67,6 +67,10 @@ Tópicos:
 - Pesquisar sobre JDBC.
 - Pesquisar sobre Callable Statement.
 - Pesquisar sobre RowSet.
+- Pesquisar sobre RowSetProvider.
+- Pesquisar sobre RowSetListener.
+- Pesquisar sobre Switch with arrow function.
+- Pesquisar sobre JUnit.
 - Reforçar os conceito de Classe Abstrata.
 - Revisar os conceitos de Coleção.
 
@@ -79,6 +83,7 @@ Coisas para fazer:
 - Terminar o exercício da Empresa arrumando o bônus do salário.
 - Terminar o exercício da Aula 127 sobre TemporalAdjusters.
 - Terminar o código do FileManagement para praticar IO de arquivos.
+- Terminar o código do Crud para a Disciplina. (Disciplina Service e Interface no Teste).
 - Colocar nos projetos a possibilidade de trocar o idioma da interface pelo ResourceBundle.
 - Refazer o código do BankAccount da Aula da faculdade.
 - Refazer o código do ReentrantReadWriteLock.

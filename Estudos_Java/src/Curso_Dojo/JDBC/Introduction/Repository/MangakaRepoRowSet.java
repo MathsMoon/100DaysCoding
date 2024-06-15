@@ -1,11 +1,12 @@
-package Curso_Dojo.JDBC.Repository;
+package Curso_Dojo.JDBC.Introduction.Repository;
 
-import Curso_Dojo.JDBC.Dominio.Mangaka;
-import Curso_Dojo.JDBC.Listener.CustomRowSetListener;
-import Curso_Dojo.JDBC.Service.ConnectionFactory;
+import Curso_Dojo.JDBC.Introduction.Dominio.Mangaka;
+import Curso_Dojo.JDBC.Introduction.Listener.CustomRowSetListener;
+import Curso_Dojo.JDBC.Introduction.Service.ConnectionFactory;
 
 import javax.sql.rowset.CachedRowSet;
 import javax.sql.rowset.JdbcRowSet;
+import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
@@ -57,15 +58,18 @@ public class MangakaRepoRowSet {
     }
 
     public static void updateCachedRowSet(Mangaka mangaka){
-        String sql = "SELECT * FROM loja_manga.mangaka WHERE (`idmangaka` = ?)";
-        try(CachedRowSet crs = ConnectionFactory.getCachedRowSet()){
-            crs.addRowSetListener(new CustomRowSetListener());
+        String sql = "SELECT * FROM mangaka WHERE (`idmangaka` = ?)";
+        try(CachedRowSet crs = ConnectionFactory.getCachedRowSet();
+            Connection con = ConnectionFactory.getConnection()){
+            con.setAutoCommit(false);
             crs.setCommand(sql);
             crs.setInt(1, mangaka.getId());
-            crs.execute();
+            crs.execute(con);
             if(!crs.next()) return;
             crs.updateString("mangakaName", mangaka.getName());
             crs.updateRow();
+
+            crs.acceptChanges();
         }catch (SQLException e){
             throw new RuntimeException(e);
         }

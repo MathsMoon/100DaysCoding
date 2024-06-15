@@ -374,4 +374,13 @@ comecei e escalei muito e agora posso ver ainda mais longe onde posso chegar e e
 
 97 - Nonagésimo sétimo dia, Amanhã termino.
 
-98 - Nonagésimo oitavo dia,
+98 - Nonagésimo oitavo dia, não terminei.
+
+99 - Nonagésimo nono, não terminei denovo.
+
+100 - Centésimo dia, Meu maior erro de tudo que cometi foi baseado em como deixei sempre as coisas escaparem por minhas mãos, apesar de tantos avanços e momentos que eu tive, ainda me mantive preso por minha própria culpa a mais avanços que poderiam
+ter tido no dia de hoje, são 4:27 da manhã do centésimo dia e hoje vou relatar mais detalhadamente a cada hora que for escrevendo algo para terminar o meu primeiro desafio dos 100 dias, portanto, espero que eu possa de forma clara conversar comigo
+mesmo no dia de hoje para descrever um bom dia pelo menos. 12:40 eu reinicio a busca de ver as últimas 10 aulas, espero conseguir terminar antes da aula de 19:00 ou pelo menos estar próximo de acabar, após as aulas vou organizar minhas últimas anotações
+e já ir preparando o esqueleto do próximo Desafio dos 100 dias, como também vou escrever um Texto contando todos os meus relatos para conseguir melhorar como pessoa. Faltam 12 minutos para acabar e ainda tenho mais 4 aulas para assistir, hoje foi bem mais
+puxado e sinceramente divertido apesar do trabalho que é realizar um CRUD, levando em conta que eu ainda preciso refatorar o professor e a classe Disciplina, mas consegui tirar um bom proveito e vou continuar buscando para terminar hoje de forma eficiente
+e finalmente já iniciar minhas revisões para o próximo desafio.

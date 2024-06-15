@@ -1,7 +1,7 @@
-package Curso_Dojo.JDBC.Repository;
+package Curso_Dojo.JDBC.Introduction.Repository;
 
-import Curso_Dojo.JDBC.Dominio.Mangaka;
-import Curso_Dojo.JDBC.Service.ConnectionFactory;
+import Curso_Dojo.JDBC.Introduction.Dominio.Mangaka;
+import Curso_Dojo.JDBC.Introduction.Service.ConnectionFactory;
 import lombok.extern.log4j.Log4j2;
 
 import java.sql.*;
@@ -29,6 +29,33 @@ public class MangakaRepo {
             log.error("Error while trying to insert mangaka '{}'", mangaka.getName(), e);
         }
     }
+
+    public static void saveTransaction(List<Mangaka> mangakas){
+        try(Connection con = ConnectionFactory.getConnection()) {
+            con.setAutoCommit(false);
+            preparedeStatementSaveTransaction(con, mangakas);
+            con.commit();
+        } catch (SQLException e) {
+            log.error("Error while trying to save mangakas '{}'", mangakas, e);
+        }
+    }
+
+    private static void preparedeStatementSaveTransaction(Connection con,List<Mangaka> mangakas) throws SQLException {
+        String sql = "INSERT INTO `loja_manga`.`mangaka` (`mangakaname`) VALUES (?)";
+        boolean shouldRollBack = false;
+        for(Mangaka mg: mangakas){
+            try (PreparedStatement ps = con.prepareStatement(sql)){
+                log.info("Saving Mangakas '{}'", mg.getName());
+                ps.setString(1, mg.getName());
+                ps.execute();
+            } catch (SQLException e){
+                shouldRollBack = true;
+                throw new RuntimeException(e);
+            }
+        }
+        if (shouldRollBack) con.rollback();
+    }
+
 
     public static void delete(int ID){
         String sql = "DELETE FROM `loja_manga`.`mangaka` WHERE (`idmangaka` = '%d')".formatted(ID);
